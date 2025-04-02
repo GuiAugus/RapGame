@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fPSBZbgUiaM=",
+  "dgSpecHash": "mYGSfZQyQPA=",
   "success": true,
   "projectFilePath": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame\\RapGame\\RapGame.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,11 @@
     "C:\\Users\\Gui\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\9.0.3\\microsoft.aspnetcore.components.webassembly.9.0.3.nupkg.sha512",
     "C:\\Users\\Gui\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.server\\9.0.3\\microsoft.aspnetcore.components.webassembly.server.9.0.3.nupkg.sha512",
     "C:\\Users\\Gui\\.nuget\\packages\\microsoft.aspnetcore.metadata\\9.0.3\\microsoft.aspnetcore.metadata.9.0.3.nupkg.sha512",
+    "C:\\Users\\Gui\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.3\\microsoft.entityframeworkcore.9.0.3.nupkg.sha512",
+    "C:\\Users\\Gui\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.3\\microsoft.entityframeworkcore.abstractions.9.0.3.nupkg.sha512",
+    "C:\\Users\\Gui\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\9.0.3\\microsoft.entityframeworkcore.analyzers.9.0.3.nupkg.sha512",
+    "C:\\Users\\Gui\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\9.0.3\\microsoft.extensions.caching.abstractions.9.0.3.nupkg.sha512",
+    "C:\\Users\\Gui\\.nuget\\packages\\microsoft.extensions.caching.memory\\9.0.3\\microsoft.extensions.caching.memory.9.0.3.nupkg.sha512",
     "C:\\Users\\Gui\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.3\\microsoft.extensions.configuration.9.0.3.nupkg.sha512",
     "C:\\Users\\Gui\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.3\\microsoft.extensions.configuration.abstractions.9.0.3.nupkg.sha512",
     "C:\\Users\\Gui\\.nuget\\packages\\microsoft.extensions.configuration.binder\\9.0.3\\microsoft.extensions.configuration.binder.9.0.3.nupkg.sha512",

@@ -1,0 +1,2 @@
+C:\Users\Gui\Desktop\Projects\RapGame\RapGame\RapGame.Client\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Gui\Desktop\Projects\RapGame\RapGame\RapGame.Client\obj\Debug\net9.0\staticwebassets.build.json
