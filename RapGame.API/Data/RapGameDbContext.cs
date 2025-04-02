@@ -1,7 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using RapGame.Models;
-using System.Collections.Generic;
-using System.Reflection.Emit;
 
 namespace RapGame.Data
 {
@@ -30,6 +28,19 @@ namespace RapGame.Data
                 .HasOne(aa => aa.Artista)
                 .WithMany(a => a.AlbumArtistas)
                 .HasForeignKey(aa => aa.ArtistId);
+
+            modelBuilder.Entity<AlbumParticipacao>()
+                .HasKey(ap => new { ap.AlbumId, ap.ArtistaId }); // Chave composta
+
+            modelBuilder.Entity<AlbumParticipacao>()
+                .HasOne(ap => ap.Album)
+                .WithMany(a => a.Participacoes)
+                .HasForeignKey(ap => ap.AlbumId);
+
+            modelBuilder.Entity<AlbumParticipacao>()
+                .HasOne(ap => ap.Artista)
+                .WithMany(a => a.Participacoes)
+                .HasForeignKey(ap => ap.ArtistaId);
         }
     }
 }

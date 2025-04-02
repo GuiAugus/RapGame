@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35828.75 d17.13
+VisualStudioVersion = 17.13.35828.75
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RapGame", "RapGame\RapGame\RapGame.csproj", "{801B5055-16EA-4C4D-BE2E-1673E334C4AF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RapGame.Client", "RapGame\RapGame.Client\RapGame.Client.csproj", "{C17FB0EC-6EF5-414C-B5B5-E1D076231C31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RapGame.API", "RapGame.API\RapGame.API.csproj", "{7ABEF6CF-53DF-4277-B821-CA3F18429052}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RapGame.Shared", "RapGame.Shared\RapGame.Shared.csproj", "{7E293E6C-1D91-4AB7-A8F1-E55728CD5FCF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{C17FB0EC-6EF5-414C-B5B5-E1D076231C31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C17FB0EC-6EF5-414C-B5B5-E1D076231C31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C17FB0EC-6EF5-414C-B5B5-E1D076231C31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ABEF6CF-53DF-4277-B821-CA3F18429052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ABEF6CF-53DF-4277-B821-CA3F18429052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ABEF6CF-53DF-4277-B821-CA3F18429052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ABEF6CF-53DF-4277-B821-CA3F18429052}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E293E6C-1D91-4AB7-A8F1-E55728CD5FCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E293E6C-1D91-4AB7-A8F1-E55728CD5FCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E293E6C-1D91-4AB7-A8F1-E55728CD5FCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E293E6C-1D91-4AB7-A8F1-E55728CD5FCF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

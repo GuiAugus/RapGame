@@ -1,0 +1,12 @@
+C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Shared\bin\Debug\net9.0\RapGame.Shared.deps.json
+C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Shared\bin\Debug\net9.0\RapGame.Shared.dll
+C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Shared\bin\Debug\net9.0\RapGame.Shared.pdb
+C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Shared\obj\Debug\net9.0\RapGame.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Shared\obj\Debug\net9.0\RapGame.Shared.AssemblyInfoInputs.cache
+C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Shared\obj\Debug\net9.0\RapGame.Shared.AssemblyInfo.cs
+C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Shared\obj\Debug\net9.0\RapGame.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Shared\obj\Debug\net9.0\RapGame.Shared.sourcelink.json
+C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Shared\obj\Debug\net9.0\RapGame.Shared.dll
+C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Shared\obj\Debug\net9.0\refint\RapGame.Shared.dll
+C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Shared\obj\Debug\net9.0\RapGame.Shared.pdb
+C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Shared\obj\Debug\net9.0\ref\RapGame.Shared.dll

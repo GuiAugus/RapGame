@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "MKTbwjElNQlYq6PVG1OZDltTrXKEvwpqAcFvGppzx7w=",
+  "Source": "RapGame.API",
+  "BasePath": "_content/RapGame.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

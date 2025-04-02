@@ -21,7 +21,7 @@ namespace RapGame.Models
 
         public List<AlbumArtista> AlbumArtistas { get; set; } = new();
 
-        public List<AlbumParticipacao> AlbumParticipacoes { get; set; } = new();
+        public List<AlbumParticipacao> Participacoes { get; set; } = new();
 
     }
 }

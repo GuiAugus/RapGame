@@ -1,12 +1,8 @@
 using RapGame.Client.Pages;
 using RapGame.Components;
-using RapGame.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
-
-builder.Services.AddDbContext<RapGameDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
