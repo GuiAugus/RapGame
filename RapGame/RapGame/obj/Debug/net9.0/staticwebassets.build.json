@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8j7JZwCUb3BNKqhyhZbBrLSiCSs7cwhHeZGN/Yfixq4=",
+  "Hash": "fNZhVHD3X8+D5bNgqF/d4KWsLmWRsaKn59FKlwZqkfc=",
   "Source": "RapGame",
   "BasePath": "_content/RapGame",
   "Mode": "Default",
@@ -35,6 +35,48 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\Gui\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\9.0.0\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css",
+      "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Gui\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\9.0.0\\staticwebassets\\",
+      "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
+      "RelativePath": "Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "25o87uqmvr",
+      "Integrity": "Nuu0BHvGBlwN6c5FSVjV9yxX0YPfwg3ufdOucRJCOz0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Gui\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\9.0.0\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Gui\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\9.0.0\\staticwebassets\\QuickGrid.razor.js",
+      "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Gui\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\9.0.0\\staticwebassets\\",
+      "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
+      "RelativePath": "QuickGrid.razor.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eu7w3d5g1a",
+      "Integrity": "tnamWuQ2F5I2J8hbtBt4/9i8Mb2y2o+9Tepj5tUrSdU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Gui\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\9.0.0\\staticwebassets\\QuickGrid.razor.js"
+    },
     {
       "Identity": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame\\RapGame.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json",
       "SourceId": "RapGame.Client",
@@ -8793,6 +8835,27 @@
       "OriginalItemSpec": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame\\RapGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
+      "Identity": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame\\RapGame\\obj\\Debug\\net9.0\\compressed\\3gin1ph7ub-25o87uqmvr.gz",
+      "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame\\RapGame\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
+      "RelativePath": "Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Gui\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\9.0.0\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "5tqo44gyv3",
+      "Integrity": "R868nQYiRJmInncB4hqIN+LGaLDkdWBhE2rlxj8Iuco=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Gui\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\9.0.0\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css"
+    },
+    {
       "Identity": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame\\RapGame\\obj\\Debug\\net9.0\\compressed\\4diyl1pgvn-khy4lop6wu.gz",
       "SourceId": "RapGame",
       "SourceType": "Discovered",
@@ -9234,12 +9297,12 @@
       "OriginalItemSpec": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame\\RapGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame\\RapGame\\obj\\Debug\\net9.0\\compressed\\ip9h6tfhob-64otl8z7bv.gz",
+      "Identity": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame\\RapGame\\obj\\Debug\\net9.0\\compressed\\ip9h6tfhob-zygmzas69g.gz",
       "SourceId": "RapGame",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame\\RapGame\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/RapGame",
-      "RelativePath": "RapGame#[.{fingerprint=64otl8z7bv}]?.styles.css.gz",
+      "RelativePath": "RapGame#[.{fingerprint=zygmzas69g}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -9248,8 +9311,8 @@
       "RelatedAsset": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame\\RapGame\\obj\\Debug\\net9.0\\scopedcss\\bundle\\RapGame.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "e1u78t58vj",
-      "Integrity": "0n8fMncQagod5g0KPBCIIZ/qXkGi/EuWfc9q6S/j9HE=",
+      "Fingerprint": "rjlzq7790z",
+      "Integrity": "191DC8DAf8sdRyJSggAo9pn6Pb5+o8fC/1rnGYJzhvk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame\\RapGame\\obj\\Debug\\net9.0\\scopedcss\\bundle\\RapGame.styles.css"
@@ -9549,6 +9612,27 @@
       "OriginalItemSpec": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame\\RapGame\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
+      "Identity": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame\\RapGame\\obj\\Debug\\net9.0\\compressed\\unlu0xluo6-eu7w3d5g1a.gz",
+      "SourceId": "Microsoft.AspNetCore.Components.QuickGrid",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame\\RapGame\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/Microsoft.AspNetCore.Components.QuickGrid",
+      "RelativePath": "QuickGrid.razor.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\Gui\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\9.0.0\\staticwebassets\\QuickGrid.razor.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "w35qr20jze",
+      "Integrity": "XJ/VwVGZppAEmCsH3lYr55tIOxGu//a/BTyrK3XCLB4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Gui\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\9.0.0\\staticwebassets\\QuickGrid.razor.js"
+    },
+    {
       "Identity": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame\\RapGame\\obj\\Debug\\net9.0\\compressed\\uontk3ot2f-j5mq2jizvt.gz",
       "SourceId": "RapGame",
       "SourceType": "Discovered",
@@ -9689,8 +9773,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "64otl8z7bv",
-      "Integrity": "qpvxF56Pl3ivPHjHYrn88hIlsC/bnxQVFzx6RgD2c7I=",
+      "Fingerprint": "zygmzas69g",
+      "Integrity": "lVVw4daRnKDNyY+ebv0r9OQnF9GH7r6jlfRhtKBlndA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame\\RapGame\\obj\\Debug\\net9.0\\scopedcss\\bundle\\RapGame.styles.css"
@@ -10684,6 +10768,333 @@
     }
   ],
   "Endpoints": [
+    {
+      "Route": "_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Gui\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\9.0.0\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8251"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Nuu0BHvGBlwN6c5FSVjV9yxX0YPfwg3ufdOucRJCOz0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Oct 2024 13:29:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "25o87uqmvr"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Nuu0BHvGBlwN6c5FSVjV9yxX0YPfwg3ufdOucRJCOz0="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame\\RapGame\\obj\\Debug\\net9.0\\compressed\\3gin1ph7ub-25o87uqmvr.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2464"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R868nQYiRJmInncB4hqIN+LGaLDkdWBhE2rlxj8Iuco=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Oct 2024 13:29:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-R868nQYiRJmInncB4hqIN+LGaLDkdWBhE2rlxj8Iuco="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Gui\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\9.0.0\\staticwebassets\\Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8251"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Nuu0BHvGBlwN6c5FSVjV9yxX0YPfwg3ufdOucRJCOz0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Oct 2024 13:29:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Nuu0BHvGBlwN6c5FSVjV9yxX0YPfwg3ufdOucRJCOz0="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame\\RapGame\\obj\\Debug\\net9.0\\compressed\\3gin1ph7ub-25o87uqmvr.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000405679513"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2464"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"R868nQYiRJmInncB4hqIN+LGaLDkdWBhE2rlxj8Iuco=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Oct 2024 13:29:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Nuu0BHvGBlwN6c5FSVjV9yxX0YPfwg3ufdOucRJCOz0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Nuu0BHvGBlwN6c5FSVjV9yxX0YPfwg3ufdOucRJCOz0="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Microsoft.AspNetCore.Components.QuickGrid/QuickGrid.razor.js",
+      "AssetFile": "C:\\Users\\Gui\\.nuget\\packages\\microsoft.aspnetcore.components.quickgrid\\9.0.0\\staticwebassets\\QuickGrid.razor.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2563"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tnamWuQ2F5I2J8hbtBt4/9i8Mb2y2o+9Tepj5tUrSdU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Oct 2024 13:06:47 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tnamWuQ2F5I2J8hbtBt4/9i8Mb2y2o+9Tepj5tUrSdU="
+        },
+        {
+          "Name": "script-type",
+          "Value": "module"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Microsoft.AspNetCore.Components.QuickGrid/QuickGrid.razor.js",
+      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame\\RapGame\\obj\\Debug\\net9.0\\compressed\\unlu0xluo6-eu7w3d5g1a.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001177856302"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "848"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XJ/VwVGZppAEmCsH3lYr55tIOxGu//a/BTyrK3XCLB4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Oct 2024 13:06:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"tnamWuQ2F5I2J8hbtBt4/9i8Mb2y2o+9Tepj5tUrSdU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tnamWuQ2F5I2J8hbtBt4/9i8Mb2y2o+9Tepj5tUrSdU="
+        },
+        {
+          "Name": "script-type",
+          "Value": "module"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Microsoft.AspNetCore.Components.QuickGrid/QuickGrid.razor.js.gz",
+      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame\\RapGame\\obj\\Debug\\net9.0\\compressed\\unlu0xluo6-eu7w3d5g1a.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XJ/VwVGZppAEmCsH3lYr55tIOxGu//a/BTyrK3XCLB4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Oct 2024 13:06:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XJ/VwVGZppAEmCsH3lYr55tIOxGu//a/BTyrK3XCLB4="
+        }
+      ]
+    },
     {
       "Route": "_framework/blazor.boot.json",
       "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame\\RapGame.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json",
@@ -85404,167 +85815,6 @@
       ]
     },
     {
-      "Route": "RapGame.64otl8z7bv.styles.css",
-      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame\\RapGame\\obj\\Debug\\net9.0\\compressed\\ip9h6tfhob-64otl8z7bv.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000566251416"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1765"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"0n8fMncQagod5g0KPBCIIZ/qXkGi/EuWfc9q6S/j9HE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 18:58:56 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"qpvxF56Pl3ivPHjHYrn88hIlsC/bnxQVFzx6RgD2c7I=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "64otl8z7bv"
-        },
-        {
-          "Name": "label",
-          "Value": "RapGame.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-qpvxF56Pl3ivPHjHYrn88hIlsC/bnxQVFzx6RgD2c7I="
-        }
-      ]
-    },
-    {
-      "Route": "RapGame.64otl8z7bv.styles.css",
-      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame\\RapGame\\obj\\Debug\\net9.0\\scopedcss\\bundle\\RapGame.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5961"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"qpvxF56Pl3ivPHjHYrn88hIlsC/bnxQVFzx6RgD2c7I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 18:58:56 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "64otl8z7bv"
-        },
-        {
-          "Name": "label",
-          "Value": "RapGame.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-qpvxF56Pl3ivPHjHYrn88hIlsC/bnxQVFzx6RgD2c7I="
-        }
-      ]
-    },
-    {
-      "Route": "RapGame.64otl8z7bv.styles.css.gz",
-      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame\\RapGame\\obj\\Debug\\net9.0\\compressed\\ip9h6tfhob-64otl8z7bv.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1765"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"0n8fMncQagod5g0KPBCIIZ/qXkGi/EuWfc9q6S/j9HE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 18:58:56 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "64otl8z7bv"
-        },
-        {
-          "Name": "label",
-          "Value": "RapGame.styles.css.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-0n8fMncQagod5g0KPBCIIZ/qXkGi/EuWfc9q6S/j9HE="
-        }
-      ]
-    },
-    {
       "Route": "RapGame.bundle.scp.css",
       "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame\\RapGame\\obj\\Debug\\net9.0\\compressed\\14bz0ctn5t-64otl8z7bv.gz",
       "Selectors": [
@@ -85703,12 +85953,12 @@
     },
     {
       "Route": "RapGame.styles.css",
-      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame\\RapGame\\obj\\Debug\\net9.0\\compressed\\ip9h6tfhob-64otl8z7bv.gz",
+      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame\\RapGame\\obj\\Debug\\net9.0\\compressed\\ip9h6tfhob-zygmzas69g.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000566251416"
+          "Quality": "0.000550055006"
         }
       ],
       "ResponseHeaders": [
@@ -85718,15 +85968,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1765"
+          "Value": "1817"
         },
         {
           "Name": "ETag",
-          "Value": "\"0n8fMncQagod5g0KPBCIIZ/qXkGi/EuWfc9q6S/j9HE=\""
+          "Value": "\"191DC8DAf8sdRyJSggAo9pn6Pb5+o8fC/1rnGYJzhvk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 18:58:56 GMT"
+          "Value": "Wed, 02 Apr 2025 19:31:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -85746,13 +85996,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"qpvxF56Pl3ivPHjHYrn88hIlsC/bnxQVFzx6RgD2c7I=\""
+          "Value": "W/\"lVVw4daRnKDNyY+ebv0r9OQnF9GH7r6jlfRhtKBlndA=\""
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css>; rel=\"preload\"; as=\"style\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-qpvxF56Pl3ivPHjHYrn88hIlsC/bnxQVFzx6RgD2c7I="
+          "Value": "sha256-lVVw4daRnKDNyY+ebv0r9OQnF9GH7r6jlfRhtKBlndA="
         }
       ]
     },
@@ -85766,8 +86020,12 @@
           "Value": "bytes"
         },
         {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
           "Name": "Content-Length",
-          "Value": "5961"
+          "Value": "6094"
         },
         {
           "Name": "Content-Type",
@@ -85775,27 +86033,27 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qpvxF56Pl3ivPHjHYrn88hIlsC/bnxQVFzx6RgD2c7I=\""
+          "Value": "\"lVVw4daRnKDNyY+ebv0r9OQnF9GH7r6jlfRhtKBlndA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 18:58:56 GMT"
+          "Value": "Wed, 02 Apr 2025 19:31:48 GMT"
         },
         {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Name": "Link",
+          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css>; rel=\"preload\"; as=\"style\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-qpvxF56Pl3ivPHjHYrn88hIlsC/bnxQVFzx6RgD2c7I="
+          "Value": "sha256-lVVw4daRnKDNyY+ebv0r9OQnF9GH7r6jlfRhtKBlndA="
         }
       ]
     },
     {
       "Route": "RapGame.styles.css.gz",
-      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame\\RapGame\\obj\\Debug\\net9.0\\compressed\\ip9h6tfhob-64otl8z7bv.gz",
+      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame\\RapGame\\obj\\Debug\\net9.0\\compressed\\ip9h6tfhob-zygmzas69g.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -85804,7 +86062,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1765"
+          "Value": "1817"
         },
         {
           "Name": "Content-Type",
@@ -85812,11 +86070,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0n8fMncQagod5g0KPBCIIZ/qXkGi/EuWfc9q6S/j9HE=\""
+          "Value": "\"191DC8DAf8sdRyJSggAo9pn6Pb5+o8fC/1rnGYJzhvk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 18:58:56 GMT"
+          "Value": "Wed, 02 Apr 2025 19:31:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -85834,7 +86092,176 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-0n8fMncQagod5g0KPBCIIZ/qXkGi/EuWfc9q6S/j9HE="
+          "Value": "sha256-191DC8DAf8sdRyJSggAo9pn6Pb5+o8fC/1rnGYJzhvk="
+        }
+      ]
+    },
+    {
+      "Route": "RapGame.zygmzas69g.styles.css",
+      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame\\RapGame\\obj\\Debug\\net9.0\\compressed\\ip9h6tfhob-zygmzas69g.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000550055006"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1817"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"191DC8DAf8sdRyJSggAo9pn6Pb5+o8fC/1rnGYJzhvk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 19:31:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"lVVw4daRnKDNyY+ebv0r9OQnF9GH7r6jlfRhtKBlndA=\""
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zygmzas69g"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lVVw4daRnKDNyY+ebv0r9OQnF9GH7r6jlfRhtKBlndA="
+        },
+        {
+          "Name": "label",
+          "Value": "RapGame.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "RapGame.zygmzas69g.styles.css",
+      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame\\RapGame\\obj\\Debug\\net9.0\\scopedcss\\bundle\\RapGame.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6094"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lVVw4daRnKDNyY+ebv0r9OQnF9GH7r6jlfRhtKBlndA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 19:31:48 GMT"
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/Microsoft.AspNetCore.Components.QuickGrid/Microsoft.AspNetCore.Components.QuickGrid.25o87uqmvr.bundle.scp.css>; rel=\"preload\"; as=\"style\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zygmzas69g"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lVVw4daRnKDNyY+ebv0r9OQnF9GH7r6jlfRhtKBlndA="
+        },
+        {
+          "Name": "label",
+          "Value": "RapGame.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "RapGame.zygmzas69g.styles.css.gz",
+      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame\\RapGame\\obj\\Debug\\net9.0\\compressed\\ip9h6tfhob-zygmzas69g.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1817"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"191DC8DAf8sdRyJSggAo9pn6Pb5+o8fC/1rnGYJzhvk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 19:31:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zygmzas69g"
+        },
+        {
+          "Name": "label",
+          "Value": "RapGame.styles.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-191DC8DAf8sdRyJSggAo9pn6Pb5+o8fC/1rnGYJzhvk="
         }
       ]
     }

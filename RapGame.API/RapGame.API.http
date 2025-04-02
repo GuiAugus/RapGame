@@ -1,0 +1,6 @@
+@RapGame.API_HostAddress = http://localhost:5165
+
+GET {{RapGame.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
