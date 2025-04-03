@@ -63,6 +63,7 @@ namespace RapGame.API.Controllers
         [HttpPost]
         public async Task<ActionResult<Album>> PostAlbum(AlbumDto albumDto)
         {
+#pragma warning disable CS8601 // Possível atribuição de referência nula.
             var album = new Album
             {
                 Nome = albumDto.Nome,
@@ -70,6 +71,7 @@ namespace RapGame.API.Controllers
                 AlbumDate = albumDto.AlbumDate,
                 FaixaMaisPopular = albumDto.FaixaMaisPopular
             };
+#pragma warning restore CS8601 // Possível atribuição de referência nula.
 
             var artistasExistentes = await _context.Artistas
                 .Where(a => albumDto.ArtistaIds.Contains(a.Id))
