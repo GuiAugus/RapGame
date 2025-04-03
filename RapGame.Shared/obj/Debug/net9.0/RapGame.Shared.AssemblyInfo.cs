@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RapGame.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+51013eea2b51c9c72e91283e21d8191317781e37")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f92d96d7041f4999b1513d133da613c81d0ca80")]
 [assembly: System.Reflection.AssemblyProductAttribute("RapGame.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RapGame.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

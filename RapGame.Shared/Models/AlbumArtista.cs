@@ -7,5 +7,7 @@
 
         public int ArtistId { get; set; }
         public required Artista Artista { get; set; }
+
+        public AlbumArtista() {}
     }
 }
