@@ -19,32 +19,45 @@ namespace RapGame.API.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Album>>> GetAlbuns()
+        public async Task<ActionResult<IEnumerable<AlbumDto>>> GetAlbuns()
         {
-            return await _context.Albuns.ToListAsync();
+            var albuns = await _context.Albuns
+                .Include(a => a.AlbumArtistas)
+                .Select(album => new AlbumDto
+                {
+                    Id = album.Id,
+                    Nome = album.Nome,
+                    QuantidadeFaixas = album.QuantidadeFaixas,
+                    AlbumDate = album.AlbumDate,
+                    FaixaMaisPopular = album.FaixaMaisPopular,
+                    ArtistaIds = album.AlbumArtistas.Select(aa => aa.ArtistId).ToList()
+                })
+                .ToListAsync();
+
+            return Ok(albuns);
         }
 
         [HttpGet("{id}")]
-        public IActionResult GetAlbum(int id)
+        public async Task<ActionResult<IEnumerable<AlbumDto>>> GetAlbum(int id)
         {
-            var album = _context.Albuns
+            var album = await _context.Albuns
                 .Include(a => a.AlbumArtistas)
-                .FirstOrDefault(a => a.Id == id);
+                .FirstOrDefaultAsync(a => a.Id == id);
 
-            if (album == null)
-                return NotFound();
+                if (album == null)
+                    return NotFound();
 
-            var albumDTO = new AlbumDto
-            {
-                Id = album.Id,
-                Nome = album.Nome,
-                QuantidadeFaixas = album.QuantidadeFaixas,
-                AlbumDate = album.AlbumDate,
-                FaixaMaisPopular = album.FaixaMaisPopular,
-                ArtistaIds = album.AlbumArtistas.Select(aa => aa.ArtistId).ToList()
-            };
+                var albumDto = new AlbumDto
+                {
+                    Id = album.Id,
+                    Nome = album.Nome,
+                    QuantidadeFaixas = album.QuantidadeFaixas,
+                    AlbumDate = album.AlbumDate,
+                    FaixaMaisPopular = album.FaixaMaisPopular,
+                    ArtistaIds = album.AlbumArtistas.Select(aa => aa.ArtistId).ToList()
+                };
 
-            return Ok(albumDTO);
+            return Ok(albumDto);
         }
 
         [HttpPost]
@@ -83,11 +96,12 @@ namespace RapGame.API.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteAlbum(int id)
         {
-            var album = await _context.Albuns.FindAsync(id);
+            var album = await _context.Albuns
+                .Include(a => a.AlbumArtistas)
+                .FirstOrDefaultAsync(a => a.Id == id);
+
             if (album == null)
-            {
                 return NotFound();
-            }
 
             _context.Albuns.Remove(album);
             await _context.SaveChangesAsync();
