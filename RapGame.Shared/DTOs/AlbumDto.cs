@@ -1,12 +1,26 @@
+using System.ComponentModel.DataAnnotations;
+
+
 namespace RapGame.Shared.DTOs
 {
     public class AlbumDto
     {
         public int Id { get; set; }
+        
+        [Required(ErrorMessage = "O nome e obrigatorio")]
+        [StringLength(60, MinimumLength = 2, ErrorMessage = "O nome deve ter entre 2 a 60 caracteres.")]
         public required string Nome { get; set; }
-        public required int QuantidadeFaixas { get; set; }
-        public required DateTime AlbumDate { get; set; } 
-        public required string FaixaMaisPopular { get; set; }
+
+        [Required(ErrorMessage = "A quantidade de faixas e obrigatorio")]
+        [Range(1, 100, ErrorMessage = "A quantidade de faixas deve estar entre 1 e 100")]
+        public  int QuantidadeFaixas { get; set; }
+        
+
+        [Required(ErrorMessage = "A data de lancamento e obrigatorio")]
+        public  DateTime AlbumDate { get; set; } 
+        
+        [StringLength(60, MinimumLength = 1, ErrorMessage = "A faixa deve ter entre 1 a 60 caracteres.")]
+        public string? FaixaMaisPopular { get; set; }
         public List<int> ArtistaIds { get; set; } = new();
         public List<int> ArtistaParticipacoesIds { get; set; } = new();
     }

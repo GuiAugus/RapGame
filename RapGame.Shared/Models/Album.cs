@@ -6,13 +6,11 @@ namespace RapGame.Models
     public class Album
     {
         public int Id {  get; set; }
-
-        [StringLength(60, MinimumLength = 2)]
+        
         public required string Nome { get; set; } = string.Empty;
 
         public required int QuantidadeFaixas { get; set; }
 
-        [DataType(DataType.Date)]
         [JsonConverter(typeof(DateOnlyJsonConverter))]
         public required DateTime AlbumDate { get; set; }
 
@@ -20,10 +18,9 @@ namespace RapGame.Models
         public string FaixaMaisPopular { get; set; } = "Indefinida";
 
         [JsonIgnore]
-        public virtual ICollection<AlbumArtista> AlbumArtistas {get; set;}
+        public virtual ICollection<AlbumArtista> AlbumArtistas {get; set;} = new List<AlbumArtista>();
         
         public List<AlbumParticipacao> Participacoes { get; set; } = new();
-
     }
 }
 
