@@ -1,4 +1,0 @@
-C:\Users\Gui\Desktop\Projects\RapGame\RapGame\RapGame.Client\wwwroot\appsettings.json
-C:\Users\Gui\Desktop\Projects\RapGame\RapGame\RapGame.Client\wwwroot\appsettings.Development.json
-wwwroot\appsettings.Development.json
-wwwroot\appsettings.json
