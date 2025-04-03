@@ -38,8 +38,6 @@ C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\bin\Debug\net9.0\wwwroot\_f
 C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\bin\Debug\net9.0\wwwroot\_framework\Microsoft.Win32.Registry.ozmyxl3pzt.wasm
 C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\bin\Debug\net9.0\wwwroot\_framework\mscorlib.vt9pwshhot.wasm
 C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\bin\Debug\net9.0\wwwroot\_framework\netstandard.or41gtprh3.wasm
-C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\bin\Debug\net9.0\wwwroot\_framework\RapGame.Client.9rgzubswnc.pdb
-C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\bin\Debug\net9.0\wwwroot\_framework\RapGame.Client.6tr90v9dw0.wasm
 C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\bin\Debug\net9.0\wwwroot\_framework\System.AppContext.69xw87cqtg.wasm
 C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\bin\Debug\net9.0\wwwroot\_framework\System.Buffers.m3enj6d62j.wasm
 C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\bin\Debug\net9.0\wwwroot\_framework\System.Collections.Concurrent.7xcnvnvfe7.wasm
@@ -202,7 +200,6 @@ C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\bin\Debug\net9.0\wwwroot\_f
 C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\bin\Debug\net9.0\wwwroot\_framework\System.Xml.XPath.6zhyzqh2n6.wasm
 C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\bin\Debug\net9.0\wwwroot\_framework\System.Xml.XPath.XDocument.7m1x4rd2b8.wasm
 C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\bin\Debug\net9.0\wwwroot\_framework\WindowsBase.ag32297siy.wasm
-C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\bin\Debug\net9.0\wwwroot\_framework\RapGame.Client.6tr90v9dw0.wasm.gz
 C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\bin\Debug\net9.0\wwwroot\_framework\System.Resources.Reader.6dewscbl2z.wasm.gz
 C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\bin\Debug\net9.0\wwwroot\_framework\System.Security.AccessControl.pe5x2sidyv.wasm.gz
 C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\bin\Debug\net9.0\wwwroot\_framework\System.ComponentModel.DataAnnotations.q4j9ve32z8.wasm.gz
@@ -238,7 +235,6 @@ C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\bin\Debug\net9.0\wwwroot\_f
 C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\bin\Debug\net9.0\wwwroot\_framework\System.Net.Http.Json.0slem1275q.wasm.gz
 C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\bin\Debug\net9.0\wwwroot\_framework\System.Text.Json.spqbvbiy0p.wasm.gz
 C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\bin\Debug\net9.0\wwwroot\_framework\dotnet.js.gz
-C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\bin\Debug\net9.0\wwwroot\_framework\RapGame.Client.9rgzubswnc.pdb.gz
 C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\bin\Debug\net9.0\wwwroot\_framework\System.IO.FileSystem.Primitives.uai8nn8fsl.wasm.gz
 C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\bin\Debug\net9.0\wwwroot\_framework\System.Threading.Timer.5bvshcz8rs.wasm.gz
 C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\bin\Debug\net9.0\wwwroot\_framework\System.Security.88p4kjqbas.wasm.gz
@@ -1065,9 +1061,6 @@ C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\obj\Debug\net9.0\compressed
 C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\obj\Debug\net9.0\compressed\dk5trflez7-tjcz0u77k5.gz
 C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\obj\Debug\net9.0\compressed\8cg5zr8ydn-tptq2av103.gz
 C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\obj\Debug\net9.0\compressed\610jrsfacz-lfu7j35m59.gz
-C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\obj\Debug\net9.0\compressed\0iycw5ss6b-6tr90v9dw0.gz
-C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\obj\Debug\net9.0\compressed\6ymyixulme-9rgzubswnc.gz
-C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\obj\Debug\net9.0\compressed\vaombj1jch-r30teu2mis.gz
 C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -1082,3 +1075,10 @@ C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\obj\Debug\net9.0\RapGame.Cl
 C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\obj\Debug\net9.0\refint\RapGame.Client.dll
 C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\obj\Debug\net9.0\RapGame.Client.pdb
 C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\obj\Debug\net9.0\ref\RapGame.Client.dll
+C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\bin\Debug\net9.0\wwwroot\_framework\RapGame.Client.z707u9cy7z.pdb
+C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\bin\Debug\net9.0\wwwroot\_framework\RapGame.Client.y8me85d0uw.wasm
+C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\bin\Debug\net9.0\wwwroot\_framework\RapGame.Client.y8me85d0uw.wasm.gz
+C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\bin\Debug\net9.0\wwwroot\_framework\RapGame.Client.z707u9cy7z.pdb.gz
+C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\obj\Debug\net9.0\compressed\0iycw5ss6b-y8me85d0uw.gz
+C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\obj\Debug\net9.0\compressed\6ymyixulme-z707u9cy7z.gz
+C:\Users\Gui\Desktop\Projects\RapGame\RapGame.Client\obj\Debug\net9.0\compressed\vaombj1jch-nqbc335quh.gz

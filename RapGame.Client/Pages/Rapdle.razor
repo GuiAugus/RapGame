@@ -1,0 +1,60 @@
+@page "/rapdle"
+
+<h3>Rapdle</h3>
+
+<p>Bem-vindo ao jogo de adivinhar álbuns!</p>
+
+<p><strong>Album Secreto: </strong>@AlbumSecreto</p>
+
+<InputText @bind-Value="Tentativa" placeholder="Digite o nome do album"/>
+<button @onclick="VerificarTentativa">Enviar</button>
+
+
+
+<ul>
+    @foreach (var tentativa in Tentativas)
+    {
+        <li>@tentativa</li>
+    }
+</ul>
+
+@if (Mensagem != null)
+{
+    <p>@Mensagem</p>
+}
+
+@code {
+    private string Tentativa { get; set;} = "";
+    private List<string> Tentativas { get; set; } = new();
+    private string? AlbumSecreto { get; set; }
+    private string? Mensagem { get; set; }
+
+    protected override void OnInitialized()
+    {
+        var albuns = new List<string> { "Sobrevivendo no Inferno", "Amarelo"};
+        AlbumSecreto = albuns[new Random().Next(albuns.Count)];
+    }
+
+    private async Task VerificarTentativa()
+    {
+        if (string.IsNullOrWhiteSpace(Tentativa))
+        {
+            Mensagem = "Digite um nome antes de enviar!!";
+            return;
+        }
+
+        Tentativas.Add(Tentativa);
+
+        if (Tentativa.Equals(AlbumSecreto, StringComparison.OrdinalIgnoreCase))
+        {
+            Mensagem = "Voce acertou";
+        }
+        else
+        {
+            Mensagem = $"Tente Novamente. Voce digitou {Tentativa}";
+        }
+
+        Tentativa = "";
+        await InvokeAsync(StateHasChanged);
+    }
+}
