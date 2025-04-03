@@ -79,5 +79,20 @@ namespace RapGame.API.Controllers
 
             return CreatedAtAction(nameof(GetAlbum), new { id = album.Id }, album);
         }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteAlbum(int id)
+        {
+            var album = await _context.Albuns.FindAsync(id);
+            if (album == null)
+            {
+                return NotFound();
+            }
+
+            _context.Albuns.Remove(album);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        }
     }
 }
