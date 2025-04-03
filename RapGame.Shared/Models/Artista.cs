@@ -6,7 +6,6 @@ namespace RapGame.Models
     {
         public int Id { get; set; }
 
-        [StringLength(60, MinimumLength = 2)]
         public required String Nome { get; set; }
 
         public List<AlbumArtista> AlbumArtistas { get; set; } = new();
