@@ -6,12 +6,10 @@ namespace RapGame.Data
     public class RapGameDbContext : DbContext
     {
         public RapGameDbContext(DbContextOptions<RapGameDbContext> options)
-            : base(options)
-        {
-        }
+            : base(options) {}
 
-        public DbSet<Album> Albuns { get; set; }
         public DbSet<Artista> Artistas { get; set; }
+        public DbSet<Album> Albuns { get; set; }
         public DbSet<AlbumArtista> AlbumArtistas { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -30,7 +28,7 @@ namespace RapGame.Data
                 .HasForeignKey(aa => aa.ArtistId);
 
             modelBuilder.Entity<AlbumParticipacao>()
-                .HasKey(ap => new { ap.AlbumId, ap.ArtistaId }); // Chave composta
+                .HasKey(ap => new { ap.AlbumId, ap.ArtistaId });
 
             modelBuilder.Entity<AlbumParticipacao>()
                 .HasOne(ap => ap.Album)

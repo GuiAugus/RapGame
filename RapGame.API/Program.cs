@@ -10,6 +10,7 @@ builder.Services.AddDbContext<RapGameDbContext>(options =>
 
 
 builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 
