@@ -2,6 +2,7 @@
 using RapGame.Data;
 using RapGame.Models;
 using Microsoft.EntityFrameworkCore;
+using RapGame.Shared.DTOs;
 
 [Route("api/[controller]")]
 [ApiController]
@@ -15,26 +16,49 @@ public class ArtistaController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<Artista>>> GetArtistas()
+    public async Task<ActionResult<IEnumerable<ArtistaDto>>> GetArtistas()
     {
-        return await _context.Artistas.ToListAsync();
+        var artistas = await _context.Artistas
+            .Include(a => a.AlbumArtistas) 
+            .Select(artista => new ArtistaDto
+            {
+                Id = artista.Id,
+                Nome = artista.Nome
+            })
+            .ToListAsync();
+
+        return Ok(artistas);
     }
 
     [HttpGet("{id}")]
-    public async Task<ActionResult<Artista>> GetArtista(int id)
+    public async Task<ActionResult<ArtistaDto>> GetArtista(int id)
     {
-        var artista = await _context.Artistas.FindAsync(id);
+        var artista = await _context.Artistas
+            .Include(a => a.AlbumArtistas)
+            .ThenInclude(aa => aa.Album) // Se precisar incluir os álbuns
+            .FirstOrDefaultAsync(a => a.Id == id);
+
         if (artista == null)
-        {
             return NotFound();
-        }
-        return artista;
+
+        var artistaDto = new ArtistaDto
+        {
+            Id = artista.Id,
+            Nome = artista.Nome
+        };
+
+        return Ok(artistaDto);
     }
 
     [HttpPost]
-    public async Task<ActionResult<Artista>> PostArtista(Artista artista)
+    public async Task<ActionResult<Artista>> PostArtista(ArtistaDto artistaDto)
     {
-        _context.Artistas.Add(artista);
+        var artista = new Artista
+        {
+            Nome = artistaDto.Nome
+        };
+
+        _context.Artistas.Add(artista);        
         await _context.SaveChangesAsync();
 
         return CreatedAtAction(nameof(GetArtista), new { id = artista.Id }, artista);
@@ -43,11 +67,12 @@ public class ArtistaController : ControllerBase
     [HttpDelete("{id}")]
     public async Task<IActionResult> DeleteArtista(int id)
     {
-        var artista = await _context.Artistas.FindAsync(id);
+        var artista = await _context.Artistas
+            .Include(a => a.AlbumArtistas)
+            .FirstOrDefaultAsync(a => a.Id == id);
+
         if (artista == null)
-        {
             return NotFound();
-        }
 
         _context.Artistas.Remove(artista);
         await _context.SaveChangesAsync();
