@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 
 namespace RapGame.Shared.DTOs
@@ -16,7 +17,11 @@ namespace RapGame.Shared.DTOs
         public  int QuantidadeFaixas { get; set; }
         
 
+        [JsonPropertyName("albumDate")]
+        public string AlbumDateFormatted => AlbumDate.ToString("dd/MM/yyyy");
+        
         [Required(ErrorMessage = "A data de lancamento e obrigatorio")]
+        [JsonIgnore]
         public  DateTime AlbumDate { get; set; } 
         
         [StringLength(60, MinimumLength = 1, ErrorMessage = "A faixa deve ter entre 1 a 60 caracteres.")]

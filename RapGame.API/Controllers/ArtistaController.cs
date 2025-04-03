@@ -35,7 +35,7 @@ public class ArtistaController : ControllerBase
     {
         var artista = await _context.Artistas
             .Include(a => a.AlbumArtistas)
-            .ThenInclude(aa => aa.Album) // Se precisar incluir os álbuns
+            .ThenInclude(aa => aa.Album) 
             .FirstOrDefaultAsync(a => a.Id == id);
 
         if (artista == null)
@@ -44,7 +44,15 @@ public class ArtistaController : ControllerBase
         var artistaDto = new ArtistaDto
         {
             Id = artista.Id,
-            Nome = artista.Nome
+            Nome = artista.Nome,
+            Albuns = artista.AlbumArtistas.Select(aa => new AlbumDto
+            {
+                Id = aa.Album.Id,
+                Nome = aa.Album.Nome,
+                QuantidadeFaixas = aa.Album.QuantidadeFaixas,
+                AlbumDate = aa.Album.AlbumDate,
+                FaixaMaisPopular = aa.Album.FaixaMaisPopular 
+            }).ToList()
         };
 
         return Ok(artistaDto);

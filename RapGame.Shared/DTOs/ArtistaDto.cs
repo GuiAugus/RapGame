@@ -13,6 +13,8 @@ namespace RapGame.Shared.DTOs
         
         public List<int> ArtistaIds { get; set; } = new();
         public List<int> ArtistaParticipacoesIds { get; set; } = new();
+
+        public List<AlbumDto> Albuns { get; set; } = new();
         
     }
 }

@@ -11,13 +11,10 @@ namespace RapGame.Models
 
         public required int QuantidadeFaixas { get; set; }
 
-        [JsonConverter(typeof(DateOnlyJsonConverter))]
         public required DateTime AlbumDate { get; set; }
 
-        [StringLength(60, MinimumLength = 2)]
         public string FaixaMaisPopular { get; set; } = "Indefinida";
 
-        [JsonIgnore]
         public virtual ICollection<AlbumArtista> AlbumArtistas {get; set;} = new List<AlbumArtista>();
         
         public List<AlbumParticipacao> Participacoes { get; set; } = new();
