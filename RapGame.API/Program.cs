@@ -4,6 +4,19 @@ using RapGame.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
+var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: MyAllowSpecificOrigins,
+                      policy =>
+                      {
+                          policy.WithOrigins("http://localhost:5041")
+                                .AllowAnyHeader()
+                                .AllowAnyMethod();
+                      });
+});
+
 // Add services to the container.
 
 builder.Services.AddDbContext<RapGameDbContext>(options =>
@@ -18,9 +31,7 @@ builder.Services.AddControllers()
     });
 
 builder.Services.AddEndpointsApiExplorer();
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -30,6 +41,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors(MyAllowSpecificOrigins);
 
 app.UseAuthorization();
 
