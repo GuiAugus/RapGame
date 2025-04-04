@@ -6,7 +6,7 @@
 
 <p>Bem-vindo ao jogo de adivinhar álbuns!</p>
 
-<p><strong>Album Secreto: </strong>@AlbumSecreto</p>
+<p><strong>Album Secreto: </strong>@(albumSelecionado?.Nome ?? "Carregando ...")</p>
 
 <InputText @bind-Value="Tentativa" placeholder="Digite o nome do album"/>
 <button @onclick="VerificarTentativa">Enviar</button>
@@ -34,12 +34,26 @@ else
     <ul>
         @foreach (var album in albuns)
         {
-            <li>@album.Nome - @album.Nome (@album.AlbumDate.ToShortDateString())</li>
+            <li>@album.ArtistaPrincipais[0] - @album.Nome - (@album.AlbumDate.ToShortDateString())</li>
         }
     </ul>
 }
 
-<p>GET id</p>
+<p>GET ID</p>
+
+
+@if (albumSelecionado != null)
+{
+    <div class="mt-3">
+        <p>Artista: @string.Join(", ", albumSelecionado.ArtistaPrincipais)</p>
+        <p>Album: @albumSelecionado.Nome</p>
+        <p>Data de Lançamento: @albumSelecionado.AlbumDateFormatted</p>
+        <p>Quantidade de Faixas: @albumSelecionado.QuantidadeFaixas</p>
+        <p>Faixas mais Popular: @albumSelecionado.FaixaMaisPopular</p>
+        <p>Participacoes: @string.Join(", ", albumSelecionado.ArtistaParticipacoes)</p>
+    </div>
+}
+
 
 @code {
     private string Tentativa { get; set;} = "";
@@ -76,17 +90,12 @@ else
         try
         {
             albuns = await Http.GetFromJsonAsync<List<AlbumDto>>("api/Album") ?? new List<AlbumDto>();
+            await BuscarAlbumPorId(12);
         }
         catch (Exception ex)
         {
             Console.WriteLine($"Erro ao buscar álbuns: {ex.Message}");
         }
-    }
-
-    protected override void OnInitialized()
-    {
-        var albuns = new List<string> { "Sobrevivendo no Inferno", "Amarelo"};
-        AlbumSecreto = albuns[new Random().Next(albuns.Count)];
     }
 
     private async Task VerificarTentativa()
@@ -99,7 +108,7 @@ else
 
         Tentativas.Add(Tentativa);
 
-        if (Tentativa.Equals(AlbumSecreto, StringComparison.OrdinalIgnoreCase))
+        if (albumSelecionado != null && Tentativa.Equals(albumSelecionado.Nome, StringComparison.OrdinalIgnoreCase))
         {
             Mensagem = "Voce acertou";
         }

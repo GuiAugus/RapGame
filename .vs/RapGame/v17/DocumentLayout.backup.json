@@ -1,0 +1,157 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Gui\\AppData\\Local\\Temp\\o1kjhalj..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ABEF6CF-53DF-4277-B821-CA3F18429052}|RapGame.API\\RapGame.API.csproj|c:\\users\\gui\\desktop\\projects\\rapgame\\rapgame.api\\controllers\\artistacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ABEF6CF-53DF-4277-B821-CA3F18429052}|RapGame.API\\RapGame.API.csproj|solutionrelative:rapgame.api\\controllers\\artistacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E293E6C-1D91-4AB7-A8F1-E55728CD5FCF}|RapGame.Shared\\RapGame.Shared.csproj|c:\\users\\gui\\desktop\\projects\\rapgame\\rapgame.shared\\models\\artista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E293E6C-1D91-4AB7-A8F1-E55728CD5FCF}|RapGame.Shared\\RapGame.Shared.csproj|solutionrelative:rapgame.shared\\models\\artista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ABEF6CF-53DF-4277-B821-CA3F18429052}|RapGame.API\\RapGame.API.csproj|c:\\users\\gui\\desktop\\projects\\rapgame\\rapgame.api\\controllers\\albumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ABEF6CF-53DF-4277-B821-CA3F18429052}|RapGame.API\\RapGame.API.csproj|solutionrelative:rapgame.api\\controllers\\albumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E293E6C-1D91-4AB7-A8F1-E55728CD5FCF}|RapGame.Shared\\RapGame.Shared.csproj|c:\\users\\gui\\desktop\\projects\\rapgame\\rapgame.shared\\models\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E293E6C-1D91-4AB7-A8F1-E55728CD5FCF}|RapGame.Shared\\RapGame.Shared.csproj|solutionrelative:rapgame.shared\\models\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E293E6C-1D91-4AB7-A8F1-E55728CD5FCF}|RapGame.Shared\\RapGame.Shared.csproj|c:\\users\\gui\\desktop\\projects\\rapgame\\rapgame.shared\\models\\albumparticipacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E293E6C-1D91-4AB7-A8F1-E55728CD5FCF}|RapGame.Shared\\RapGame.Shared.csproj|solutionrelative:rapgame.shared\\models\\albumparticipacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ABEF6CF-53DF-4277-B821-CA3F18429052}|RapGame.API\\RapGame.API.csproj|c:\\users\\gui\\desktop\\projects\\rapgame\\rapgame.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ABEF6CF-53DF-4277-B821-CA3F18429052}|RapGame.API\\RapGame.API.csproj|solutionrelative:rapgame.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ABEF6CF-53DF-4277-B821-CA3F18429052}|RapGame.API\\RapGame.API.csproj|c:\\users\\gui\\desktop\\projects\\rapgame\\rapgame.api\\data\\rapgamedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ABEF6CF-53DF-4277-B821-CA3F18429052}|RapGame.API\\RapGame.API.csproj|solutionrelative:rapgame.api\\data\\rapgamedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Gui\\AppData\\Local\\Temp\\o1kjhalj..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Gui\\AppData\\Local\\Temp\\o1kjhalj..sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SQLQuery3.sql ",
+              "DocumentMoniker": "C:\\Users\\Gui\\AppData\\Local\\Temp\\o1kjhalj..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\o1kjhalj..sql",
+              "ToolTip": "SQLQuery3.sql *",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-04-04T00:23:42.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ArtistaController.cs",
+              "DocumentMoniker": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\Controllers\\ArtistaController.cs",
+              "RelativeDocumentMoniker": "RapGame.API\\Controllers\\ArtistaController.cs",
+              "ToolTip": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\Controllers\\ArtistaController.cs",
+              "RelativeToolTip": "RapGame.API\\Controllers\\ArtistaController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T01:07:48.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Album.cs",
+              "DocumentMoniker": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Shared\\Models\\Album.cs",
+              "RelativeDocumentMoniker": "RapGame.Shared\\Models\\Album.cs",
+              "ToolTip": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Shared\\Models\\Album.cs",
+              "RelativeToolTip": "RapGame.Shared\\Models\\Album.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBcAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T20:39:46.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RapGameDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\Data\\RapGameDbContext.cs",
+              "RelativeDocumentMoniker": "RapGame.API\\Data\\RapGameDbContext.cs",
+              "ToolTip": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\Data\\RapGameDbContext.cs",
+              "RelativeToolTip": "RapGame.API\\Data\\RapGameDbContext.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAmwCgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T20:37:58.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AlbumParticipacao.cs",
+              "DocumentMoniker": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Shared\\Models\\AlbumParticipacao.cs",
+              "RelativeDocumentMoniker": "RapGame.Shared\\Models\\AlbumParticipacao.cs",
+              "ToolTip": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Shared\\Models\\AlbumParticipacao.cs",
+              "RelativeToolTip": "RapGame.Shared\\Models\\AlbumParticipacao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T20:37:48.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\Program.cs",
+              "RelativeDocumentMoniker": "RapGame.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\Program.cs",
+              "RelativeToolTip": "RapGame.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T20:35:26.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AlbumController.cs",
+              "DocumentMoniker": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\Controllers\\AlbumController.cs",
+              "RelativeDocumentMoniker": "RapGame.API\\Controllers\\AlbumController.cs",
+              "ToolTip": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\Controllers\\AlbumController.cs",
+              "RelativeToolTip": "RapGame.API\\Controllers\\AlbumController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T20:33:24.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Artista.cs",
+              "DocumentMoniker": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Shared\\Models\\Artista.cs",
+              "RelativeDocumentMoniker": "RapGame.Shared\\Models\\Artista.cs",
+              "ToolTip": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Shared\\Models\\Artista.cs",
+              "RelativeToolTip": "RapGame.Shared\\Models\\Artista.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T20:40:03.632Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

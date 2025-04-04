@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "b6mQFYLtbWxWTFT4dpEFwL5231Xr3LCj+uRZW29PvBs=",
+  "Hash": "S8G+lKwW8dPizhaCyDj3PAWqctuFvfsJUpYViY4EyoQ=",
   "Source": "RapGame.Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "266ni7uvfu",
-      "Integrity": "+uwMHus1pq0g5NN/rxoBCqMOHF9pLofFcv1BjveSIec=",
+      "Fingerprint": "cb3y1qc4j9",
+      "Integrity": "uLEE0xMx/Iv9tAZ+SdexCnxJrBikxjT7d1Qlk+BdNuY=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\blazor.boot.json"
@@ -871,8 +871,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "2k464e1259",
-      "Integrity": "bperBwZnRFby5yGQFTT2fUs6ndYX3bvHiePTbXNC3dw=",
+      "Fingerprint": "85in1k981u",
+      "Integrity": "ZEPOmKzZD1TqNUWcnxG/5mZCqqs448LH+fFo5DxFbfU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\RapGame.Client.pdb"
@@ -892,8 +892,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "5totknmjod",
-      "Integrity": "J22v0visUTSq5od042/OPzYMV6p8f0XUiDHeU8DuioM=",
+      "Fingerprint": "mj0jsuarn5",
+      "Integrity": "fkJTVqAqM9CT3lPqIEbFFYn7rOYCj6YjAg+cI/olBN0=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\webcil\\RapGame.Client.wasm"
@@ -913,8 +913,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "3f984c6cux",
-      "Integrity": "r3UjAd6Cq8QhZJy75vMfVBTWOIr75NMYJGSwSWLnH5s=",
+      "Fingerprint": "fe5e8tqg1j",
+      "Integrity": "KbE7oc1SQ3m3saxBP3joAqXbg9UNim1jFT3yyW8hpXs=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Shared\\bin\\Debug\\net9.0\\RapGame.Shared.pdb"
@@ -934,8 +934,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "509pqnc4zi",
-      "Integrity": "KzDmHC+cFZGFKO0p6QKGh2fY9TwxKQbkzToOLd34dYk=",
+      "Fingerprint": "8bgnb0bxar",
+      "Integrity": "rHKjzH1D8I+dEtE1sUG6KocBRNIEWDecJhll1V4uFWI=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\webcil\\RapGame.Shared.wasm"
@@ -4364,12 +4364,12 @@
       "OriginalItemSpec": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\0iycw5ss6b-5totknmjod.gz",
+      "Identity": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\0iycw5ss6b-mj0jsuarn5.gz",
       "SourceId": "RapGame.Client",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/RapGame.Client#[.{fingerprint=5totknmjod}]!.wasm.gz",
+      "RelativePath": "_framework/RapGame.Client#[.{fingerprint=mj0jsuarn5}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -4378,8 +4378,8 @@
       "RelatedAsset": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\RapGame.Client.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "h5u938hpri",
-      "Integrity": "5VNAEfhKesUbqjO6WdLjW9TT6IfnRvoseDSKs4HqezM=",
+      "Fingerprint": "hilurr9psa",
+      "Integrity": "ad94poDbfScp2CtVfIWBRwlWfq2+r5yXmZPUFiv4EaA=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\RapGame.Client.wasm"
@@ -5435,12 +5435,12 @@
       "OriginalItemSpec": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\dotnet.js"
     },
     {
-      "Identity": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\6ymyixulme-2k464e1259.gz",
+      "Identity": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\6ymyixulme-85in1k981u.gz",
       "SourceId": "RapGame.Client",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/RapGame.Client#[.{fingerprint=2k464e1259}]!.pdb.gz",
+      "RelativePath": "_framework/RapGame.Client#[.{fingerprint=85in1k981u}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -5449,8 +5449,8 @@
       "RelatedAsset": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\RapGame.Client.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "o2qd3s13jm",
-      "Integrity": "QGjl26F29QFfY0hztgw3qpuLKbJmQvA3KlaOxEtll10=",
+      "Fingerprint": "sp8kawq2ku",
+      "Integrity": "IFNTFH2X/1Q1zSDKXFFTLHfHvzuCebsoz/5/a/hNOk0=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\RapGame.Client.pdb"
@@ -5750,12 +5750,12 @@
       "OriginalItemSpec": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Xml.XmlDocument.wasm"
     },
     {
-      "Identity": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\8oz60kblm4-3f984c6cux.gz",
+      "Identity": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\8oz60kblm4-fe5e8tqg1j.gz",
       "SourceId": "RapGame.Client",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/RapGame.Shared#[.{fingerprint=3f984c6cux}]!.pdb.gz",
+      "RelativePath": "_framework/RapGame.Shared#[.{fingerprint=fe5e8tqg1j}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -5764,8 +5764,8 @@
       "RelatedAsset": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\RapGame.Shared.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "lk048vr77j",
-      "Integrity": "5S8HuRqsruQtZo9+VakM+V34QGnq62i/Z7BMSFSGVZM=",
+      "Fingerprint": "n3msk1b1c4",
+      "Integrity": "HXlA9QjWjrDIjJH1JHrHGHrPZwqR4zM5hvICCQrqSsM=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\RapGame.Shared.pdb"
@@ -7703,12 +7703,12 @@
       "OriginalItemSpec": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Diagnostics.TextWriterTraceListener.wasm"
     },
     {
-      "Identity": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\mer2pojhk8-509pqnc4zi.gz",
+      "Identity": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\mer2pojhk8-8bgnb0bxar.gz",
       "SourceId": "RapGame.Client",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/RapGame.Shared#[.{fingerprint=509pqnc4zi}]!.wasm.gz",
+      "RelativePath": "_framework/RapGame.Shared#[.{fingerprint=8bgnb0bxar}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -7717,8 +7717,8 @@
       "RelatedAsset": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\RapGame.Shared.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "6sm6zp62ga",
-      "Integrity": "KmCRxzyJ+CrrM3vj4NM2gUwo5ScUbtGAEkqg6m+/Hko=",
+      "Fingerprint": "dj9yqcjla3",
+      "Integrity": "yd6REMV7glE1UnHuiiE/kJrRGbrzK6DjL5yxM8fR/AE=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\RapGame.Shared.wasm"
@@ -8984,7 +8984,7 @@
       "OriginalItemSpec": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Net.Quic.wasm"
     },
     {
-      "Identity": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\vaombj1jch-266ni7uvfu.gz",
+      "Identity": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\vaombj1jch-cb3y1qc4j9.gz",
       "SourceId": "RapGame.Client",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\",
@@ -8998,8 +8998,8 @@
       "RelatedAsset": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "1qmzmvxp0q",
-      "Integrity": "N6A7iu27tmmeRGzGIwJfSDhwrYvwYOBbk6MZN4vMI+M=",
+      "Fingerprint": "8w80txt72g",
+      "Integrity": "+OGemAgPDmut5GhbnVxD7CawHFzZd3etWIAWH+RFSeo=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -10789,11 +10789,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+uwMHus1pq0g5NN/rxoBCqMOHF9pLofFcv1BjveSIec=\""
+          "Value": "\"uLEE0xMx/Iv9tAZ+SdexCnxJrBikxjT7d1Qlk+BdNuY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Apr 2025 21:48:33 GMT"
+          "Value": "Fri, 04 Apr 2025 22:42:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10803,18 +10803,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-+uwMHus1pq0g5NN/rxoBCqMOHF9pLofFcv1BjveSIec="
+          "Value": "sha256-uLEE0xMx/Iv9tAZ+SdexCnxJrBikxjT7d1Qlk+BdNuY="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\vaombj1jch-266ni7uvfu.gz",
+      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\vaombj1jch-cb3y1qc4j9.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000080463470"
+          "Quality": "0.000080456996"
         }
       ],
       "ResponseHeaders": [
@@ -10824,15 +10824,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12427"
+          "Value": "12428"
         },
         {
           "Name": "ETag",
-          "Value": "\"N6A7iu27tmmeRGzGIwJfSDhwrYvwYOBbk6MZN4vMI+M=\""
+          "Value": "\"+OGemAgPDmut5GhbnVxD7CawHFzZd3etWIAWH+RFSeo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Apr 2025 21:35:35 GMT"
+          "Value": "Fri, 04 Apr 2025 22:41:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10852,19 +10852,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"+uwMHus1pq0g5NN/rxoBCqMOHF9pLofFcv1BjveSIec=\""
+          "Value": "W/\"uLEE0xMx/Iv9tAZ+SdexCnxJrBikxjT7d1Qlk+BdNuY=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-+uwMHus1pq0g5NN/rxoBCqMOHF9pLofFcv1BjveSIec="
+          "Value": "sha256-uLEE0xMx/Iv9tAZ+SdexCnxJrBikxjT7d1Qlk+BdNuY="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\vaombj1jch-266ni7uvfu.gz",
+      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\vaombj1jch-cb3y1qc4j9.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10873,7 +10873,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12427"
+          "Value": "12428"
         },
         {
           "Name": "Content-Type",
@@ -10881,11 +10881,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"N6A7iu27tmmeRGzGIwJfSDhwrYvwYOBbk6MZN4vMI+M=\""
+          "Value": "\"+OGemAgPDmut5GhbnVxD7CawHFzZd3etWIAWH+RFSeo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Apr 2025 21:35:35 GMT"
+          "Value": "Fri, 04 Apr 2025 22:41:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10903,7 +10903,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-N6A7iu27tmmeRGzGIwJfSDhwrYvwYOBbk6MZN4vMI+M="
+          "Value": "sha256-+OGemAgPDmut5GhbnVxD7CawHFzZd3etWIAWH+RFSeo="
         }
       ]
     },
@@ -22369,7 +22369,7 @@
       ]
     },
     {
-      "Route": "_framework/RapGame.Client.2k464e1259.pdb",
+      "Route": "_framework/RapGame.Client.85in1k981u.pdb",
       "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\RapGame.Client.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -22379,7 +22379,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "27752"
+          "Value": "28140"
         },
         {
           "Name": "Content-Type",
@@ -22387,11 +22387,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bperBwZnRFby5yGQFTT2fUs6ndYX3bvHiePTbXNC3dw=\""
+          "Value": "\"ZEPOmKzZD1TqNUWcnxG/5mZCqqs448LH+fFo5DxFbfU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Apr 2025 21:48:33 GMT"
+          "Value": "Fri, 04 Apr 2025 22:42:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22401,7 +22401,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "2k464e1259"
+          "Value": "85in1k981u"
         },
         {
           "Name": "label",
@@ -22409,18 +22409,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-bperBwZnRFby5yGQFTT2fUs6ndYX3bvHiePTbXNC3dw="
+          "Value": "sha256-ZEPOmKzZD1TqNUWcnxG/5mZCqqs448LH+fFo5DxFbfU="
         }
       ]
     },
     {
-      "Route": "_framework/RapGame.Client.2k464e1259.pdb",
-      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\6ymyixulme-2k464e1259.gz",
+      "Route": "_framework/RapGame.Client.85in1k981u.pdb",
+      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\6ymyixulme-85in1k981u.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000048678382"
+          "Quality": "0.000047934043"
         }
       ],
       "ResponseHeaders": [
@@ -22430,15 +22430,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "20542"
+          "Value": "20861"
         },
         {
           "Name": "ETag",
-          "Value": "\"QGjl26F29QFfY0hztgw3qpuLKbJmQvA3KlaOxEtll10=\""
+          "Value": "\"IFNTFH2X/1Q1zSDKXFFTLHfHvzuCebsoz/5/a/hNOk0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Apr 2025 21:48:33 GMT"
+          "Value": "Fri, 04 Apr 2025 22:42:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22458,13 +22458,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"bperBwZnRFby5yGQFTT2fUs6ndYX3bvHiePTbXNC3dw=\""
+          "Value": "W/\"ZEPOmKzZD1TqNUWcnxG/5mZCqqs448LH+fFo5DxFbfU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "2k464e1259"
+          "Value": "85in1k981u"
         },
         {
           "Name": "label",
@@ -22472,13 +22472,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-bperBwZnRFby5yGQFTT2fUs6ndYX3bvHiePTbXNC3dw="
+          "Value": "sha256-ZEPOmKzZD1TqNUWcnxG/5mZCqqs448LH+fFo5DxFbfU="
         }
       ]
     },
     {
-      "Route": "_framework/RapGame.Client.2k464e1259.pdb.gz",
-      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\6ymyixulme-2k464e1259.gz",
+      "Route": "_framework/RapGame.Client.85in1k981u.pdb.gz",
+      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\6ymyixulme-85in1k981u.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22487,7 +22487,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "20542"
+          "Value": "20861"
         },
         {
           "Name": "Content-Type",
@@ -22495,11 +22495,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"QGjl26F29QFfY0hztgw3qpuLKbJmQvA3KlaOxEtll10=\""
+          "Value": "\"IFNTFH2X/1Q1zSDKXFFTLHfHvzuCebsoz/5/a/hNOk0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Apr 2025 21:48:33 GMT"
+          "Value": "Fri, 04 Apr 2025 22:42:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22517,7 +22517,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "2k464e1259"
+          "Value": "85in1k981u"
         },
         {
           "Name": "label",
@@ -22525,12 +22525,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-QGjl26F29QFfY0hztgw3qpuLKbJmQvA3KlaOxEtll10="
+          "Value": "sha256-IFNTFH2X/1Q1zSDKXFFTLHfHvzuCebsoz/5/a/hNOk0="
         }
       ]
     },
     {
-      "Route": "_framework/RapGame.Client.5totknmjod.wasm",
+      "Route": "_framework/RapGame.Client.mj0jsuarn5.wasm",
       "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\RapGame.Client.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -22540,7 +22540,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "25365"
+          "Value": "26389"
         },
         {
           "Name": "Content-Type",
@@ -22548,11 +22548,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"J22v0visUTSq5od042/OPzYMV6p8f0XUiDHeU8DuioM=\""
+          "Value": "\"fkJTVqAqM9CT3lPqIEbFFYn7rOYCj6YjAg+cI/olBN0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Apr 2025 21:48:33 GMT"
+          "Value": "Fri, 04 Apr 2025 22:42:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22562,7 +22562,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5totknmjod"
+          "Value": "mj0jsuarn5"
         },
         {
           "Name": "label",
@@ -22570,18 +22570,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-J22v0visUTSq5od042/OPzYMV6p8f0XUiDHeU8DuioM="
+          "Value": "sha256-fkJTVqAqM9CT3lPqIEbFFYn7rOYCj6YjAg+cI/olBN0="
         }
       ]
     },
     {
-      "Route": "_framework/RapGame.Client.5totknmjod.wasm",
-      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\0iycw5ss6b-5totknmjod.gz",
+      "Route": "_framework/RapGame.Client.mj0jsuarn5.wasm",
+      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\0iycw5ss6b-mj0jsuarn5.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000088323618"
+          "Quality": "0.000085925417"
         }
       ],
       "ResponseHeaders": [
@@ -22591,15 +22591,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11321"
+          "Value": "11637"
         },
         {
           "Name": "ETag",
-          "Value": "\"5VNAEfhKesUbqjO6WdLjW9TT6IfnRvoseDSKs4HqezM=\""
+          "Value": "\"ad94poDbfScp2CtVfIWBRwlWfq2+r5yXmZPUFiv4EaA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Apr 2025 21:48:33 GMT"
+          "Value": "Fri, 04 Apr 2025 22:42:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22619,13 +22619,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"J22v0visUTSq5od042/OPzYMV6p8f0XUiDHeU8DuioM=\""
+          "Value": "W/\"fkJTVqAqM9CT3lPqIEbFFYn7rOYCj6YjAg+cI/olBN0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5totknmjod"
+          "Value": "mj0jsuarn5"
         },
         {
           "Name": "label",
@@ -22633,13 +22633,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-J22v0visUTSq5od042/OPzYMV6p8f0XUiDHeU8DuioM="
+          "Value": "sha256-fkJTVqAqM9CT3lPqIEbFFYn7rOYCj6YjAg+cI/olBN0="
         }
       ]
     },
     {
-      "Route": "_framework/RapGame.Client.5totknmjod.wasm.gz",
-      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\0iycw5ss6b-5totknmjod.gz",
+      "Route": "_framework/RapGame.Client.mj0jsuarn5.wasm.gz",
+      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\0iycw5ss6b-mj0jsuarn5.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22648,7 +22648,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11321"
+          "Value": "11637"
         },
         {
           "Name": "Content-Type",
@@ -22656,11 +22656,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"5VNAEfhKesUbqjO6WdLjW9TT6IfnRvoseDSKs4HqezM=\""
+          "Value": "\"ad94poDbfScp2CtVfIWBRwlWfq2+r5yXmZPUFiv4EaA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Apr 2025 21:48:33 GMT"
+          "Value": "Fri, 04 Apr 2025 22:42:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22678,7 +22678,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5totknmjod"
+          "Value": "mj0jsuarn5"
         },
         {
           "Name": "label",
@@ -22686,7 +22686,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-5VNAEfhKesUbqjO6WdLjW9TT6IfnRvoseDSKs4HqezM="
+          "Value": "sha256-ad94poDbfScp2CtVfIWBRwlWfq2+r5yXmZPUFiv4EaA="
         }
       ]
     },
@@ -22701,7 +22701,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "27752"
+          "Value": "28140"
         },
         {
           "Name": "Content-Type",
@@ -22709,11 +22709,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bperBwZnRFby5yGQFTT2fUs6ndYX3bvHiePTbXNC3dw=\""
+          "Value": "\"ZEPOmKzZD1TqNUWcnxG/5mZCqqs448LH+fFo5DxFbfU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Apr 2025 21:48:33 GMT"
+          "Value": "Fri, 04 Apr 2025 22:42:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22723,18 +22723,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-bperBwZnRFby5yGQFTT2fUs6ndYX3bvHiePTbXNC3dw="
+          "Value": "sha256-ZEPOmKzZD1TqNUWcnxG/5mZCqqs448LH+fFo5DxFbfU="
         }
       ]
     },
     {
       "Route": "_framework/RapGame.Client.pdb",
-      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\6ymyixulme-2k464e1259.gz",
+      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\6ymyixulme-85in1k981u.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000048678382"
+          "Quality": "0.000047934043"
         }
       ],
       "ResponseHeaders": [
@@ -22744,15 +22744,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "20542"
+          "Value": "20861"
         },
         {
           "Name": "ETag",
-          "Value": "\"QGjl26F29QFfY0hztgw3qpuLKbJmQvA3KlaOxEtll10=\""
+          "Value": "\"IFNTFH2X/1Q1zSDKXFFTLHfHvzuCebsoz/5/a/hNOk0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Apr 2025 21:48:33 GMT"
+          "Value": "Fri, 04 Apr 2025 22:42:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22772,19 +22772,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"bperBwZnRFby5yGQFTT2fUs6ndYX3bvHiePTbXNC3dw=\""
+          "Value": "W/\"ZEPOmKzZD1TqNUWcnxG/5mZCqqs448LH+fFo5DxFbfU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-bperBwZnRFby5yGQFTT2fUs6ndYX3bvHiePTbXNC3dw="
+          "Value": "sha256-ZEPOmKzZD1TqNUWcnxG/5mZCqqs448LH+fFo5DxFbfU="
         }
       ]
     },
     {
       "Route": "_framework/RapGame.Client.pdb.gz",
-      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\6ymyixulme-2k464e1259.gz",
+      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\6ymyixulme-85in1k981u.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22793,7 +22793,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "20542"
+          "Value": "20861"
         },
         {
           "Name": "Content-Type",
@@ -22801,11 +22801,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"QGjl26F29QFfY0hztgw3qpuLKbJmQvA3KlaOxEtll10=\""
+          "Value": "\"IFNTFH2X/1Q1zSDKXFFTLHfHvzuCebsoz/5/a/hNOk0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Apr 2025 21:48:33 GMT"
+          "Value": "Fri, 04 Apr 2025 22:42:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22823,7 +22823,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-QGjl26F29QFfY0hztgw3qpuLKbJmQvA3KlaOxEtll10="
+          "Value": "sha256-IFNTFH2X/1Q1zSDKXFFTLHfHvzuCebsoz/5/a/hNOk0="
         }
       ]
     },
@@ -22838,7 +22838,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "25365"
+          "Value": "26389"
         },
         {
           "Name": "Content-Type",
@@ -22846,11 +22846,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"J22v0visUTSq5od042/OPzYMV6p8f0XUiDHeU8DuioM=\""
+          "Value": "\"fkJTVqAqM9CT3lPqIEbFFYn7rOYCj6YjAg+cI/olBN0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Apr 2025 21:48:33 GMT"
+          "Value": "Fri, 04 Apr 2025 22:42:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22860,18 +22860,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-J22v0visUTSq5od042/OPzYMV6p8f0XUiDHeU8DuioM="
+          "Value": "sha256-fkJTVqAqM9CT3lPqIEbFFYn7rOYCj6YjAg+cI/olBN0="
         }
       ]
     },
     {
       "Route": "_framework/RapGame.Client.wasm",
-      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\0iycw5ss6b-5totknmjod.gz",
+      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\0iycw5ss6b-mj0jsuarn5.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000088323618"
+          "Quality": "0.000085925417"
         }
       ],
       "ResponseHeaders": [
@@ -22881,15 +22881,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11321"
+          "Value": "11637"
         },
         {
           "Name": "ETag",
-          "Value": "\"5VNAEfhKesUbqjO6WdLjW9TT6IfnRvoseDSKs4HqezM=\""
+          "Value": "\"ad94poDbfScp2CtVfIWBRwlWfq2+r5yXmZPUFiv4EaA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Apr 2025 21:48:33 GMT"
+          "Value": "Fri, 04 Apr 2025 22:42:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22909,19 +22909,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"J22v0visUTSq5od042/OPzYMV6p8f0XUiDHeU8DuioM=\""
+          "Value": "W/\"fkJTVqAqM9CT3lPqIEbFFYn7rOYCj6YjAg+cI/olBN0=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-J22v0visUTSq5od042/OPzYMV6p8f0XUiDHeU8DuioM="
+          "Value": "sha256-fkJTVqAqM9CT3lPqIEbFFYn7rOYCj6YjAg+cI/olBN0="
         }
       ]
     },
     {
       "Route": "_framework/RapGame.Client.wasm.gz",
-      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\0iycw5ss6b-5totknmjod.gz",
+      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\0iycw5ss6b-mj0jsuarn5.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22930,7 +22930,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11321"
+          "Value": "11637"
         },
         {
           "Name": "Content-Type",
@@ -22938,11 +22938,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"5VNAEfhKesUbqjO6WdLjW9TT6IfnRvoseDSKs4HqezM=\""
+          "Value": "\"ad94poDbfScp2CtVfIWBRwlWfq2+r5yXmZPUFiv4EaA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Apr 2025 21:48:33 GMT"
+          "Value": "Fri, 04 Apr 2025 22:42:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22960,173 +22960,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-5VNAEfhKesUbqjO6WdLjW9TT6IfnRvoseDSKs4HqezM="
+          "Value": "sha256-ad94poDbfScp2CtVfIWBRwlWfq2+r5yXmZPUFiv4EaA="
         }
       ]
     },
     {
-      "Route": "_framework/RapGame.Shared.3f984c6cux.pdb",
-      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\RapGame.Shared.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "13472"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"r3UjAd6Cq8QhZJy75vMfVBTWOIr75NMYJGSwSWLnH5s=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 04 Apr 2025 21:27:34 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "3f984c6cux"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/RapGame.Shared.pdb"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-r3UjAd6Cq8QhZJy75vMfVBTWOIr75NMYJGSwSWLnH5s="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/RapGame.Shared.3f984c6cux.pdb",
-      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\8oz60kblm4-3f984c6cux.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000132222663"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "7562"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"5S8HuRqsruQtZo9+VakM+V34QGnq62i/Z7BMSFSGVZM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 04 Apr 2025 21:27:35 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"r3UjAd6Cq8QhZJy75vMfVBTWOIr75NMYJGSwSWLnH5s=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "3f984c6cux"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/RapGame.Shared.pdb"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-r3UjAd6Cq8QhZJy75vMfVBTWOIr75NMYJGSwSWLnH5s="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/RapGame.Shared.3f984c6cux.pdb.gz",
-      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\8oz60kblm4-3f984c6cux.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "7562"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"5S8HuRqsruQtZo9+VakM+V34QGnq62i/Z7BMSFSGVZM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 04 Apr 2025 21:27:35 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "3f984c6cux"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/RapGame.Shared.pdb.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-5S8HuRqsruQtZo9+VakM+V34QGnq62i/Z7BMSFSGVZM="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/RapGame.Shared.509pqnc4zi.wasm",
+      "Route": "_framework/RapGame.Shared.8bgnb0bxar.wasm",
       "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\RapGame.Shared.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -23136,7 +22975,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11029"
+          "Value": "11541"
         },
         {
           "Name": "Content-Type",
@@ -23144,11 +22983,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KzDmHC+cFZGFKO0p6QKGh2fY9TwxKQbkzToOLd34dYk=\""
+          "Value": "\"rHKjzH1D8I+dEtE1sUG6KocBRNIEWDecJhll1V4uFWI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Apr 2025 20:53:50 GMT"
+          "Value": "Fri, 04 Apr 2025 22:02:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23158,7 +22997,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "509pqnc4zi"
+          "Value": "8bgnb0bxar"
         },
         {
           "Name": "label",
@@ -23166,18 +23005,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-KzDmHC+cFZGFKO0p6QKGh2fY9TwxKQbkzToOLd34dYk="
+          "Value": "sha256-rHKjzH1D8I+dEtE1sUG6KocBRNIEWDecJhll1V4uFWI="
         }
       ]
     },
     {
-      "Route": "_framework/RapGame.Shared.509pqnc4zi.wasm",
-      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\mer2pojhk8-509pqnc4zi.gz",
+      "Route": "_framework/RapGame.Shared.8bgnb0bxar.wasm",
+      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\mer2pojhk8-8bgnb0bxar.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000209424084"
+          "Quality": "0.000207210941"
         }
       ],
       "ResponseHeaders": [
@@ -23187,15 +23026,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4774"
+          "Value": "4825"
         },
         {
           "Name": "ETag",
-          "Value": "\"KmCRxzyJ+CrrM3vj4NM2gUwo5ScUbtGAEkqg6m+/Hko=\""
+          "Value": "\"yd6REMV7glE1UnHuiiE/kJrRGbrzK6DjL5yxM8fR/AE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Apr 2025 20:53:50 GMT"
+          "Value": "Fri, 04 Apr 2025 22:02:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23215,13 +23054,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"KzDmHC+cFZGFKO0p6QKGh2fY9TwxKQbkzToOLd34dYk=\""
+          "Value": "W/\"rHKjzH1D8I+dEtE1sUG6KocBRNIEWDecJhll1V4uFWI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "509pqnc4zi"
+          "Value": "8bgnb0bxar"
         },
         {
           "Name": "label",
@@ -23229,13 +23068,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-KzDmHC+cFZGFKO0p6QKGh2fY9TwxKQbkzToOLd34dYk="
+          "Value": "sha256-rHKjzH1D8I+dEtE1sUG6KocBRNIEWDecJhll1V4uFWI="
         }
       ]
     },
     {
-      "Route": "_framework/RapGame.Shared.509pqnc4zi.wasm.gz",
-      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\mer2pojhk8-509pqnc4zi.gz",
+      "Route": "_framework/RapGame.Shared.8bgnb0bxar.wasm.gz",
+      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\mer2pojhk8-8bgnb0bxar.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -23244,7 +23083,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4774"
+          "Value": "4825"
         },
         {
           "Name": "Content-Type",
@@ -23252,11 +23091,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KmCRxzyJ+CrrM3vj4NM2gUwo5ScUbtGAEkqg6m+/Hko=\""
+          "Value": "\"yd6REMV7glE1UnHuiiE/kJrRGbrzK6DjL5yxM8fR/AE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Apr 2025 20:53:50 GMT"
+          "Value": "Fri, 04 Apr 2025 22:02:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23274,7 +23113,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "509pqnc4zi"
+          "Value": "8bgnb0bxar"
         },
         {
           "Name": "label",
@@ -23282,7 +23121,168 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-KmCRxzyJ+CrrM3vj4NM2gUwo5ScUbtGAEkqg6m+/Hko="
+          "Value": "sha256-yd6REMV7glE1UnHuiiE/kJrRGbrzK6DjL5yxM8fR/AE="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/RapGame.Shared.fe5e8tqg1j.pdb",
+      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\bin\\Debug\\net9.0\\wwwroot\\_framework\\RapGame.Shared.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13528"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KbE7oc1SQ3m3saxBP3joAqXbg9UNim1jFT3yyW8hpXs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 22:11:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fe5e8tqg1j"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/RapGame.Shared.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KbE7oc1SQ3m3saxBP3joAqXbg9UNim1jFT3yyW8hpXs="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/RapGame.Shared.fe5e8tqg1j.pdb",
+      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\8oz60kblm4-fe5e8tqg1j.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000131839156"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7584"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HXlA9QjWjrDIjJH1JHrHGHrPZwqR4zM5hvICCQrqSsM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 22:12:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"KbE7oc1SQ3m3saxBP3joAqXbg9UNim1jFT3yyW8hpXs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fe5e8tqg1j"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/RapGame.Shared.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KbE7oc1SQ3m3saxBP3joAqXbg9UNim1jFT3yyW8hpXs="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/RapGame.Shared.fe5e8tqg1j.pdb.gz",
+      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\8oz60kblm4-fe5e8tqg1j.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7584"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HXlA9QjWjrDIjJH1JHrHGHrPZwqR4zM5hvICCQrqSsM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 04 Apr 2025 22:12:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fe5e8tqg1j"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/RapGame.Shared.pdb.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HXlA9QjWjrDIjJH1JHrHGHrPZwqR4zM5hvICCQrqSsM="
         }
       ]
     },
@@ -23297,7 +23297,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13472"
+          "Value": "13528"
         },
         {
           "Name": "Content-Type",
@@ -23305,11 +23305,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"r3UjAd6Cq8QhZJy75vMfVBTWOIr75NMYJGSwSWLnH5s=\""
+          "Value": "\"KbE7oc1SQ3m3saxBP3joAqXbg9UNim1jFT3yyW8hpXs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Apr 2025 21:27:34 GMT"
+          "Value": "Fri, 04 Apr 2025 22:11:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23319,18 +23319,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-r3UjAd6Cq8QhZJy75vMfVBTWOIr75NMYJGSwSWLnH5s="
+          "Value": "sha256-KbE7oc1SQ3m3saxBP3joAqXbg9UNim1jFT3yyW8hpXs="
         }
       ]
     },
     {
       "Route": "_framework/RapGame.Shared.pdb",
-      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\8oz60kblm4-3f984c6cux.gz",
+      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\8oz60kblm4-fe5e8tqg1j.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000132222663"
+          "Quality": "0.000131839156"
         }
       ],
       "ResponseHeaders": [
@@ -23340,15 +23340,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7562"
+          "Value": "7584"
         },
         {
           "Name": "ETag",
-          "Value": "\"5S8HuRqsruQtZo9+VakM+V34QGnq62i/Z7BMSFSGVZM=\""
+          "Value": "\"HXlA9QjWjrDIjJH1JHrHGHrPZwqR4zM5hvICCQrqSsM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Apr 2025 21:27:35 GMT"
+          "Value": "Fri, 04 Apr 2025 22:12:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23368,19 +23368,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"r3UjAd6Cq8QhZJy75vMfVBTWOIr75NMYJGSwSWLnH5s=\""
+          "Value": "W/\"KbE7oc1SQ3m3saxBP3joAqXbg9UNim1jFT3yyW8hpXs=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-r3UjAd6Cq8QhZJy75vMfVBTWOIr75NMYJGSwSWLnH5s="
+          "Value": "sha256-KbE7oc1SQ3m3saxBP3joAqXbg9UNim1jFT3yyW8hpXs="
         }
       ]
     },
     {
       "Route": "_framework/RapGame.Shared.pdb.gz",
-      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\8oz60kblm4-3f984c6cux.gz",
+      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\8oz60kblm4-fe5e8tqg1j.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -23389,7 +23389,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7562"
+          "Value": "7584"
         },
         {
           "Name": "Content-Type",
@@ -23397,11 +23397,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"5S8HuRqsruQtZo9+VakM+V34QGnq62i/Z7BMSFSGVZM=\""
+          "Value": "\"HXlA9QjWjrDIjJH1JHrHGHrPZwqR4zM5hvICCQrqSsM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Apr 2025 21:27:35 GMT"
+          "Value": "Fri, 04 Apr 2025 22:12:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23419,7 +23419,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-5S8HuRqsruQtZo9+VakM+V34QGnq62i/Z7BMSFSGVZM="
+          "Value": "sha256-HXlA9QjWjrDIjJH1JHrHGHrPZwqR4zM5hvICCQrqSsM="
         }
       ]
     },
@@ -23434,7 +23434,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11029"
+          "Value": "11541"
         },
         {
           "Name": "Content-Type",
@@ -23442,11 +23442,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KzDmHC+cFZGFKO0p6QKGh2fY9TwxKQbkzToOLd34dYk=\""
+          "Value": "\"rHKjzH1D8I+dEtE1sUG6KocBRNIEWDecJhll1V4uFWI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Apr 2025 20:53:50 GMT"
+          "Value": "Fri, 04 Apr 2025 22:02:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23456,18 +23456,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-KzDmHC+cFZGFKO0p6QKGh2fY9TwxKQbkzToOLd34dYk="
+          "Value": "sha256-rHKjzH1D8I+dEtE1sUG6KocBRNIEWDecJhll1V4uFWI="
         }
       ]
     },
     {
       "Route": "_framework/RapGame.Shared.wasm",
-      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\mer2pojhk8-509pqnc4zi.gz",
+      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\mer2pojhk8-8bgnb0bxar.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000209424084"
+          "Quality": "0.000207210941"
         }
       ],
       "ResponseHeaders": [
@@ -23477,15 +23477,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4774"
+          "Value": "4825"
         },
         {
           "Name": "ETag",
-          "Value": "\"KmCRxzyJ+CrrM3vj4NM2gUwo5ScUbtGAEkqg6m+/Hko=\""
+          "Value": "\"yd6REMV7glE1UnHuiiE/kJrRGbrzK6DjL5yxM8fR/AE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Apr 2025 20:53:50 GMT"
+          "Value": "Fri, 04 Apr 2025 22:02:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23505,19 +23505,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"KzDmHC+cFZGFKO0p6QKGh2fY9TwxKQbkzToOLd34dYk=\""
+          "Value": "W/\"rHKjzH1D8I+dEtE1sUG6KocBRNIEWDecJhll1V4uFWI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-KzDmHC+cFZGFKO0p6QKGh2fY9TwxKQbkzToOLd34dYk="
+          "Value": "sha256-rHKjzH1D8I+dEtE1sUG6KocBRNIEWDecJhll1V4uFWI="
         }
       ]
     },
     {
       "Route": "_framework/RapGame.Shared.wasm.gz",
-      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\mer2pojhk8-509pqnc4zi.gz",
+      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\obj\\Debug\\net9.0\\compressed\\mer2pojhk8-8bgnb0bxar.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -23526,7 +23526,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4774"
+          "Value": "4825"
         },
         {
           "Name": "Content-Type",
@@ -23534,11 +23534,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"KmCRxzyJ+CrrM3vj4NM2gUwo5ScUbtGAEkqg6m+/Hko=\""
+          "Value": "\"yd6REMV7glE1UnHuiiE/kJrRGbrzK6DjL5yxM8fR/AE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 04 Apr 2025 20:53:50 GMT"
+          "Value": "Fri, 04 Apr 2025 22:02:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23556,7 +23556,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-KmCRxzyJ+CrrM3vj4NM2gUwo5ScUbtGAEkqg6m+/Hko="
+          "Value": "sha256-yd6REMV7glE1UnHuiiE/kJrRGbrzK6DjL5yxM8fR/AE="
         }
       ]
     },
