@@ -33,7 +33,8 @@ namespace RapGame.API.Controllers
                     QuantidadeFaixas = album.QuantidadeFaixas,
                     AlbumDate = album.AlbumDate,
                     FaixaMaisPopular = album.FaixaMaisPopular,
-                    ArtistaIds = album.AlbumArtistas.Select(aa => aa.ArtistId).ToList()
+                    ArtistaIds = album.AlbumArtistas.Select(aa => aa.ArtistId).ToList(),
+                    ArtistaPrincipais = album.AlbumArtistas.Select(aa => aa.Artista.Nome).ToList()
                 }).ToList();
 
             return Ok(albunsDto);
@@ -60,6 +61,8 @@ namespace RapGame.API.Controllers
                 AlbumDate = album.AlbumDate,
                 FaixaMaisPopular = album.FaixaMaisPopular,
                 ArtistaIds = album.AlbumArtistas.Select(aa => aa.ArtistId).ToList(),
+                ArtistaPrincipais = album.AlbumArtistas.Select(aa => aa.Artista.Nome).ToList(),
+                ArtistaParticipacoesIds = album.Participacoes.Select(p => p.ArtistaId).ToList(),
                 ArtistaParticipacoes = album.Participacoes.Select(ap => ap.Artista.Nome).ToList()
             };
 

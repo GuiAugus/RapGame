@@ -31,6 +31,7 @@ namespace RapGame.Shared.DTOs
         [StringLength(60, MinimumLength = 1, ErrorMessage = "A faixa deve ter entre 1 a 60 caracteres.")]
         public string? FaixaMaisPopular { get; set; }
         public List<int> ArtistaIds { get; set; } = new();
+        public List<string> ArtistaPrincipais { get; set;} = new();
         public List<int> ArtistaParticipacoesIds { get; set; } = new();
         public List<string> ArtistaParticipacoes { get; set;} = new();
     }
