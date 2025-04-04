@@ -18,11 +18,15 @@ namespace RapGame.Shared.DTOs
         
 
         [JsonPropertyName("albumDate")]
-        public string AlbumDateFormatted => AlbumDate.ToString("dd/MM/yyyy");
-        
-        [Required(ErrorMessage = "A data de lancamento e obrigatorio")]
+        public string AlbumDateFormatted 
+        {
+            get => AlbumDate.ToString("dd/MM/yyyy");
+            set => AlbumDate = DateTime.TryParse(value, out var date) ? date : default;
+        }
+
+        [Required(ErrorMessage = "A data de lançamento é obrigatória")]
         [JsonIgnore]
-        public  DateTime AlbumDate { get; set; } 
+        public DateTime AlbumDate { get; set; }
         
         [StringLength(60, MinimumLength = 1, ErrorMessage = "A faixa deve ter entre 1 a 60 caracteres.")]
         public string? FaixaMaisPopular { get; set; }

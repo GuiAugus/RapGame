@@ -12,8 +12,8 @@ using RapGame.Data;
 namespace RapGame.API.Migrations
 {
     [DbContext(typeof(RapGameDbContext))]
-    [Migration("20250402213826_AddAlbumParticipacoes")]
-    partial class AddAlbumParticipacoes
+    [Migration("20250404003235_Inicial")]
+    partial class Inicial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -27,29 +27,27 @@ namespace RapGame.API.Migrations
 
             modelBuilder.Entity("RapGame.Models.Album", b =>
                 {
-                    b.Property<int>("id")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("id"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<DateTime>("AlbumDate")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("FaixaMaisPopular")
                         .IsRequired()
-                        .HasMaxLength(60)
-                        .HasColumnType("nvarchar(60)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Nome")
                         .IsRequired()
-                        .HasMaxLength(60)
-                        .HasColumnType("nvarchar(60)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("QuantidadeFaixas")
                         .HasColumnType("int");
 
-                    b.HasKey("id");
+                    b.HasKey("Id");
 
                     b.ToTable("Albuns");
                 });
@@ -94,8 +92,7 @@ namespace RapGame.API.Migrations
 
                     b.Property<string>("Nome")
                         .IsRequired()
-                        .HasMaxLength(60)
-                        .HasColumnType("nvarchar(60)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 

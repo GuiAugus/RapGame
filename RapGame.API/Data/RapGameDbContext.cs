@@ -11,6 +11,7 @@ namespace RapGame.Data
         public DbSet<Artista> Artistas { get; set; }
         public DbSet<Album> Albuns { get; set; }
         public DbSet<AlbumArtista> AlbumArtistas { get; set; }
+        public DbSet<AlbumParticipacoes> AlbumParticipacoes { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -27,15 +28,15 @@ namespace RapGame.Data
                 .WithMany(a => a.AlbumArtistas)
                 .HasForeignKey(aa => aa.ArtistId);
 
-            modelBuilder.Entity<AlbumParticipacao>()
+            modelBuilder.Entity<AlbumParticipacoes>()
                 .HasKey(ap => new { ap.AlbumId, ap.ArtistaId });
 
-            modelBuilder.Entity<AlbumParticipacao>()
+            modelBuilder.Entity<AlbumParticipacoes>()
                 .HasOne(ap => ap.Album)
                 .WithMany(a => a.Participacoes)
                 .HasForeignKey(ap => ap.AlbumId);
 
-            modelBuilder.Entity<AlbumParticipacao>()
+            modelBuilder.Entity<AlbumParticipacoes>()
                 .HasOne(ap => ap.Artista)
                 .WithMany(a => a.Participacoes)
                 .HasForeignKey(ap => ap.ArtistaId);

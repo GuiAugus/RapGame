@@ -1,6 +1,8 @@
-﻿namespace RapGame.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace RapGame.Models
 {
-    public class AlbumParticipacao
+    public class AlbumParticipacoes
     {
         public int AlbumId { get; set; }
         public required Album Album { get; set; }

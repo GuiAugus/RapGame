@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace RapGame.API.Migrations
 {
     /// <inheritdoc />
-    public partial class AddAlbumParticipacoes : Migration
+    public partial class Inicial : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -15,16 +15,16 @@ namespace RapGame.API.Migrations
                 name: "Albuns",
                 columns: table => new
                 {
-                    id = table.Column<int>(type: "int", nullable: false)
+                    Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Nome = table.Column<string>(type: "nvarchar(60)", maxLength: 60, nullable: false),
+                    Nome = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     QuantidadeFaixas = table.Column<int>(type: "int", nullable: false),
                     AlbumDate = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    FaixaMaisPopular = table.Column<string>(type: "nvarchar(60)", maxLength: 60, nullable: false)
+                    FaixaMaisPopular = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Albuns", x => x.id);
+                    table.PrimaryKey("PK_Albuns", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -33,7 +33,7 @@ namespace RapGame.API.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Nome = table.Column<string>(type: "nvarchar(60)", maxLength: 60, nullable: false)
+                    Nome = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -54,7 +54,7 @@ namespace RapGame.API.Migrations
                         name: "FK_AlbumArtistas_Albuns_AlbumId",
                         column: x => x.AlbumId,
                         principalTable: "Albuns",
-                        principalColumn: "id",
+                        principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
                         name: "FK_AlbumArtistas_Artistas_ArtistId",
@@ -78,7 +78,7 @@ namespace RapGame.API.Migrations
                         name: "FK_AlbumParticipacao_Albuns_AlbumId",
                         column: x => x.AlbumId,
                         principalTable: "Albuns",
-                        principalColumn: "id",
+                        principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
                         name: "FK_AlbumParticipacao_Artistas_ArtistaId",

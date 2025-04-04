@@ -8,8 +8,8 @@ namespace RapGame.Models
 
         public required String Nome { get; set; }
 
-        public List<AlbumArtista> AlbumArtistas { get; set; } = new();
+        public virtual ICollection<AlbumArtista> AlbumArtistas { get; set; } = new List<AlbumArtista>();
 
-        public List<AlbumParticipacao> Participacoes { get; set; } = new();
+        public List<AlbumParticipacoes> Participacoes { get; set; } = new();
     }
 }

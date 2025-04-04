@@ -13,11 +13,11 @@ namespace RapGame.Models
 
         public required DateTime AlbumDate { get; set; }
 
-        public string FaixaMaisPopular { get; set; } = "Indefinida";
+        public string? FaixaMaisPopular { get; set; } = "Indefinida";
 
         public virtual ICollection<AlbumArtista> AlbumArtistas {get; set;} = new List<AlbumArtista>();
         
-        public List<AlbumParticipacao> Participacoes { get; set; } = new();
+        public List<AlbumParticipacoes> Participacoes { get; set; } = new();
     }
 }
 
