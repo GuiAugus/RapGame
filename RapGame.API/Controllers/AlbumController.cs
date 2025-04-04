@@ -21,52 +21,49 @@ namespace RapGame.API.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<AlbumDto>>> GetAlbuns()
         {
-            var AlbumDto = await _context.Albuns
-                .Include(a => a.AlbumArtistas)
-                    .ThenInclude(aa => aa.Artista)
-                .Select(album => new 
+            var albuns = await _context.Albuns
+            .Include(a => a.AlbumArtistas)
+                .ThenInclude(aa => aa.Artista)
+            .ToListAsync();
+
+            var albunsDto = albuns.Select(album => new AlbumDto
                  {
-                    IdAlbum = album.Id,
-                    NomeAlbum = album.Nome,
+                    Id = album.Id,
+                    Nome = album.Nome,
                     QuantidadeFaixas = album.QuantidadeFaixas,
                     AlbumDate = album.AlbumDate,
                     FaixaMaisPopular = album.FaixaMaisPopular,
-                    ArtistasPrincipais = album.AlbumArtistas.Select(aa => new 
-                    {
-                        IdArtista = aa.ArtistId,
-                        NomeArtista = aa.Artista.Nome
-                    }).ToList()
-                })
-                .ToListAsync();
+                    ArtistaIds = album.AlbumArtistas.Select(aa => aa.ArtistId).ToList()
+                }).ToList();
 
-            return Ok(AlbumDto);
+            return Ok(albunsDto);
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<IEnumerable<AlbumDto>>> GetAlbum(int id)
+        public async Task<ActionResult<AlbumDto>> GetAlbum(int id)
         {
-            var AlbumDto = await _context.Albuns
+            var album = await _context.Albuns
                 .Include(a => a.AlbumArtistas)
                     .ThenInclude(aa => aa.Artista)
                 .Include(a => a.Participacoes)
                     .ThenInclude(ap => ap.Artista)
-                .Select(album => new 
-                {
-                    IdAlbum = album.Id,
-                    NomeAlbum = album.Nome,
-                    QuantidadeFaixas = album.QuantidadeFaixas,
-                    AlbumDate = album.AlbumDate,
-                    FaixaMaisPopular = album.FaixaMaisPopular,
-                    ArtistasPrincipais = album.AlbumArtistas.Select(aa => new 
-                    {
-                        IdArtista = aa.ArtistId,
-                        NomeArtista = aa.Artista.Nome
-                    }).ToList(),
-                    Participacoes = album.Participacoes.Select(ap => ap.Artista.Nome).ToList()
-                })
-                .ToListAsync();
+                .FirstOrDefaultAsync(a => a.Id == id);
 
-            return Ok(AlbumDto);
+            if (album == null)
+                return NotFound();
+
+            var albumDto = new AlbumDto
+            {
+                Id = album.Id,
+                Nome = album.Nome,
+                QuantidadeFaixas = album.QuantidadeFaixas,
+                AlbumDate = album.AlbumDate,
+                FaixaMaisPopular = album.FaixaMaisPopular,
+                ArtistaIds = album.AlbumArtistas.Select(aa => aa.ArtistId).ToList(),
+                ArtistaParticipacoes = album.Participacoes.Select(ap => ap.Artista.Nome).ToList()
+            };
+
+            return Ok(albumDto);
         }
 
         [HttpPost]

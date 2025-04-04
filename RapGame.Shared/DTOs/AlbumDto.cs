@@ -32,5 +32,6 @@ namespace RapGame.Shared.DTOs
         public string? FaixaMaisPopular { get; set; }
         public List<int> ArtistaIds { get; set; } = new();
         public List<int> ArtistaParticipacoesIds { get; set; } = new();
+        public List<string> ArtistaParticipacoes { get; set;} = new();
     }
 }
