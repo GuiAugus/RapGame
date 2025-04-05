@@ -1,7 +1,5 @@
 @page "/rapdle"
-@inject HttpClient Http
-@using RapGame.Shared.DTOs
-
+@inherits RapGame.Client.SharedLogic.BasePage
 
 <div>
     <h3>Rapdle</h3>
@@ -83,94 +81,4 @@
 @if (!string.IsNullOrWhiteSpace(Mensagem))
 {
     <p class="alert alert-info">@Mensagem</p>
-}
-
-
-@code {
-    private string _tentativa = "";
-    private string Tentativa
-    {
-        get => _tentativa;
-        set
-        {
-            _tentativa = value;
-            BuscarAlbunsSugestao(value);
-        }
-    }
-
-    private string? Mensagem { get; set; }
-    private AlbumDto? albumSelecionado;
-    private List<AlbumDto> albuns = new();
-    private List<AlbumDto> sugestoes = new();
-    private List<AlbumDto> TentativasComInfo { get; set; } = new();
-
-    private void BuscarAlbunsSugestao(string texto)
-    {
-        if (!string.IsNullOrWhiteSpace(texto))
-        {
-            sugestoes = albuns
-                .Where(a => a.Nome.Contains(texto, StringComparison.OrdinalIgnoreCase))
-                .ToList();
-        }
-        else
-        {
-            sugestoes.Clear();
-        }
-    }
-
-    private async Task SelecionarSugestao(AlbumDto sugestao)
-    {
-        Tentativa = sugestao.Nome;
-        sugestoes.Clear();
-        TentativasComInfo.Insert(0, sugestao); // Nova tentativa no topo
-        await VerificarTentativa(sugestao);
-    }
-
-    private async Task VerificarTentativa(AlbumDto tentativa)
-    {
-        if (albumSelecionado != null && tentativa.Nome.Equals(albumSelecionado.Nome, StringComparison.OrdinalIgnoreCase))
-        {
-            Mensagem = "Você acertou!";
-        }
-        else
-        {
-            Mensagem = $"Tente novamente. Você digitou \"{tentativa.Nome}\"";
-        }
-
-        Tentativa = "";
-        await InvokeAsync(StateHasChanged);
-    }
-
-    private async Task BuscarAlbumPorId(int id)
-    {
-        try
-        {
-            var response = await Http.GetAsync($"api/album/{id}");
-            if (response.IsSuccessStatusCode)
-            {
-                albumSelecionado = await response.Content.ReadFromJsonAsync<AlbumDto>();
-            }
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"Erro ao buscar álbum: {ex.Message}");
-        }
-    }
-
-    protected override async Task OnInitializedAsync()
-    {
-        try
-        {
-            albuns = await Http.GetFromJsonAsync<List<AlbumDto>>("api/Album") ?? new();
-            await BuscarAlbumPorId(12); // Id do álbum secreto
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"Erro ao buscar álbuns: {ex.Message}");
-            albuns = new();
-        }
-    }
-
-    private string ObterClasseCor(bool condicao)
-        => condicao ? "bg-success text-white" : "bg-danger text-white";
 }
