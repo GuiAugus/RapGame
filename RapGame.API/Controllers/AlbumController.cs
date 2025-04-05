@@ -146,5 +146,21 @@ namespace RapGame.API.Controllers
 
             return NoContent();
         }
+
+        [HttpGet("search")]
+        public ActionResult<List<AlbumDto>> BuscarPorNome(string nome)
+        {
+            var resultado = _context.Albuns
+                .Where(a => a.Nome.Contains(nome, StringComparison.OrdinalIgnoreCase))
+                .Select(a => new AlbumDto
+                {
+                    Id = a.Id,
+                    Nome = a.Nome,
+                    // outros campos...
+                })
+                .ToList();
+
+            return Ok(resultado);
+        }
     }
 }
