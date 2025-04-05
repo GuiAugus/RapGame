@@ -20,9 +20,10 @@ namespace RapGame.Shared.DTOs
         [JsonPropertyName("albumDate")]
         public string AlbumDateFormatted 
         {
-            get => AlbumDate.ToString("dd/MM/yyyy");
+            get => AlbumDate.ToString("yyyy");
             set => AlbumDate = DateTime.TryParse(value, out var date) ? date : default;
         }
+
 
         [Required(ErrorMessage = "A data de lançamento é obrigatória")]
         [JsonIgnore]

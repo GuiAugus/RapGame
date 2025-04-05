@@ -2,69 +2,89 @@
 @inject HttpClient Http
 @using RapGame.Shared.DTOs
 
-<h3>Rapdle</h3>
 
-<p>Bem-vindo ao jogo de adivinhar álbuns!</p>
+<div>
+    <h3>Rapdle</h3>
 
-<p><strong>Álbum Secreto:</strong> @(albumSelecionado?.Nome ?? "Carregando...")</p>
+    <p>Bem-vindo ao jogo de adivinhar álbuns!</p>
 
-<div class="position-relative" style="max-width: 400px;">
-    <input class="form-control mb-2"
-               placeholder="Digite o nome do álbum"
-               @bind="Tentativa"
-               @bind:event="oninput" />
+    <div class="position-relative" style="max-width: 400px;">
+        <input class="form-control mb-2"
+            placeholder="Digite o nome do álbum"
+            @bind="Tentativa"
+            @bind:event="oninput" />
 
-    @if (!string.IsNullOrWhiteSpace(Tentativa) && sugestoes.Any())
+        @if (!string.IsNullOrWhiteSpace(Tentativa) && sugestoes.Any())
+        {
+            <ul class="list-group position-absolute w-100" style="z-index:1000; max-height: 200px; overflow-y: auto;">
+                @foreach (var sugestao in sugestoes)
+                {
+                    <li class="list-group-item list-group-item-action"
+                        @onclick="async () => await SelecionarSugestao(sugestao)">
+                        @sugestao.Nome
+                    </li>
+                }
+            </ul>
+        }
+    </div>
+
+    @if (TentativasComInfo.Any())
     {
-        <ul class="list-group position-absolute w-100" style="z-index:1000; max-height: 200px; overflow-y: auto;">
-            @foreach (var sugestao in sugestoes)
+        <table class="table table-bordered mt-4 text-center">
+        <thead class="table-dark">
+            <tr>
+                <th class="text-start">Álbum</th>
+                <th>Artista</th>
+                <th>Faixas</th>
+                <th>Ano</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var tentativa in TentativasComInfo)
             {
-                <li class="list-group-item list-group-item-action"
-                    @onclick="async () => await SelecionarSugestao(sugestao)">
-                    @sugestao.Nome
-                </li>
+                <tr>
+                    <!-- Nome do Álbum -->
+                    <td class="@ObterClasseCor(tentativa.Nome == albumSelecionado?.Nome)">
+                        @tentativa.Nome</td>
+
+                    <!-- Artista -->
+                    <td class="@ObterClasseCor(tentativa.ArtistaPrincipais[0] == albumSelecionado?.ArtistaPrincipais[0])">
+                        @tentativa.ArtistaPrincipais[0]
+                    </td>
+
+                    <!-- Quantidade de Faixas -->
+                    <td class="@ObterClasseCor(tentativa.QuantidadeFaixas == albumSelecionado?.QuantidadeFaixas)">
+                        @tentativa.QuantidadeFaixas
+                        @if (tentativa.QuantidadeFaixas != albumSelecionado?.QuantidadeFaixas)
+                        {
+                            <span>
+                                @(tentativa.QuantidadeFaixas > albumSelecionado?.QuantidadeFaixas ? "🔽" : "🔼")
+                            </span>
+                        }
+                    </td>
+
+                    <!-- Ano -->
+                    <td class="@ObterClasseCor(tentativa.AlbumDate.Year == albumSelecionado?.AlbumDate.Year)">
+                        @tentativa.AlbumDate.Year
+                        @if (tentativa.AlbumDate.Year != albumSelecionado?.AlbumDate.Year)
+                        {
+                            <span>
+                                @(tentativa.AlbumDate.Year > albumSelecionado?.AlbumDate.Year ? "🔽" : "🔼")
+                            </span>
+                        }
+                    </td>
+                </tr>
             }
-        </ul>
+        </tbody>
+    </table>
     }
 </div>
-
-<ul class="mt-3">
-    @foreach (var tentativa in Tentativas)
-    {
-        <li>@tentativa</li>
-    }
-</ul>
 
 @if (!string.IsNullOrWhiteSpace(Mensagem))
 {
     <p class="alert alert-info">@Mensagem</p>
 }
 
-@if (albuns == null)
-{
-    <p>Carregando álbuns...</p>
-}
-else
-{
-    <ul>
-        @foreach (var album in albuns)
-        {
-            <li>@album.ArtistaPrincipais[0] - @album.Nome - (@album.AlbumDate.ToShortDateString())</li>
-        }
-    </ul>
-}
-
-@if (albumSelecionado != null)
-{
-    <div class="mt-3">
-        <p><strong>Artista:</strong> @string.Join(", ", albumSelecionado.ArtistaPrincipais)</p>
-        <p><strong>Álbum:</strong> @albumSelecionado.Nome</p>
-        <p><strong>Data de Lançamento:</strong> @albumSelecionado.AlbumDateFormatted</p>
-        <p><strong>Quantidade de Faixas:</strong> @albumSelecionado.QuantidadeFaixas</p>
-        <p><strong>Faixa mais Popular:</strong> @albumSelecionado.FaixaMaisPopular</p>
-        <p><strong>Participações:</strong> @string.Join(", ", albumSelecionado.ArtistaParticipacoes)</p>
-    </div>
-}
 
 @code {
     private string _tentativa = "";
@@ -78,16 +98,14 @@ else
         }
     }
 
-    private List<string> Tentativas { get; set; } = new();
     private string? Mensagem { get; set; }
     private AlbumDto? albumSelecionado;
     private List<AlbumDto> albuns = new();
     private List<AlbumDto> sugestoes = new();
+    private List<AlbumDto> TentativasComInfo { get; set; } = new();
 
     private void BuscarAlbunsSugestao(string texto)
     {
-        if (albuns is null) return;
-
         if (!string.IsNullOrWhiteSpace(texto))
         {
             sugestoes = albuns
@@ -104,7 +122,23 @@ else
     {
         Tentativa = sugestao.Nome;
         sugestoes.Clear();
-        await VerificarTentativa(); // <-- aqui está o await correto
+        TentativasComInfo.Insert(0, sugestao); // Nova tentativa no topo
+        await VerificarTentativa(sugestao);
+    }
+
+    private async Task VerificarTentativa(AlbumDto tentativa)
+    {
+        if (albumSelecionado != null && tentativa.Nome.Equals(albumSelecionado.Nome, StringComparison.OrdinalIgnoreCase))
+        {
+            Mensagem = "Você acertou!";
+        }
+        else
+        {
+            Mensagem = $"Tente novamente. Você digitou \"{tentativa.Nome}\"";
+        }
+
+        Tentativa = "";
+        await InvokeAsync(StateHasChanged);
     }
 
     private async Task BuscarAlbumPorId(int id)
@@ -128,7 +162,7 @@ else
         try
         {
             albuns = await Http.GetFromJsonAsync<List<AlbumDto>>("api/Album") ?? new();
-            await BuscarAlbumPorId(12);
+            await BuscarAlbumPorId(12); // Id do álbum secreto
         }
         catch (Exception ex)
         {
@@ -137,26 +171,6 @@ else
         }
     }
 
-    private async Task VerificarTentativa()
-    {
-        if (string.IsNullOrWhiteSpace(Tentativa))
-        {
-            Mensagem = "Digite um nome antes de enviar!";
-            return;
-        }
-
-        Tentativas.Add(Tentativa);
-
-        if (albumSelecionado != null && Tentativa.Equals(albumSelecionado.Nome, StringComparison.OrdinalIgnoreCase))
-        {
-            Mensagem = "Você acertou!";
-        }
-        else
-        {
-            Mensagem = $"Tente novamente. Você digitou \"{Tentativa}\"";
-        }
-
-        Tentativa = "";
-        await InvokeAsync(StateHasChanged);
-    }
+    private string ObterClasseCor(bool condicao)
+        => condicao ? "bg-success text-white" : "bg-danger text-white";
 }

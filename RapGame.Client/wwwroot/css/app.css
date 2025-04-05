@@ -112,3 +112,18 @@ code {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
     text-align: start;
 }
+
+.table td.table-success, .table td.table-danger {
+    font-weight: bold;
+    color: white;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.table-success {
+    background-color: #28a745 !important; /* verde */
+}
+
+.table-danger {
+    background-color: #dc3545 !important; /* vermelho */
+}
