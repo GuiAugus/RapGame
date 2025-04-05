@@ -28,8 +28,8 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Gui/Desktop/Projects/RapGame/RapGame.Client/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+[C:/Users/Gui/Desktop/Projects/RapGame/RapGame.Client/Pages/About.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWJvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Gui/Desktop/Projects/RapGame/RapGame.Client/Pages/Home.razor]
@@ -38,10 +38,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Gui/Desktop/Projects/RapGame/RapGame.Client/Pages/Rapdle.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmFwZGxlLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Gui/Desktop/Projects/RapGame/RapGame.Client/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Gui/Desktop/Projects/RapGame/RapGame.Client/_Imports.razor]
