@@ -1,0 +1,17 @@
+@import url(reset.css);
+@import url(navbar.css);
+@import url(footer.css);
+@import url(rapdle.css);
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    font-family: "Press Start 2P", sans-serif;
+    font-style: normal;
+    background-color: #aaaaaa;
+    color: #000000;
+    line-height: 1.6;
+}
+
+.main-content {
+    justify-items: center;
+}

@@ -57,6 +57,16 @@ namespace RapGame.Client.Pages
             await InvokeAsync(StateHasChanged);
         }
 
+        protected int ObterAno(string? dataFormatada)
+        {
+            if (string.IsNullOrWhiteSpace(dataFormatada))
+                return 0;
+
+            return DateTime.TryParseExact(dataFormatada, "dd-MM-yyyy", null, System.Globalization.DateTimeStyles.None, out var data)
+                ? data.Year
+                : 0;        }
+
+
         private string ObterClasseCor(bool condicao)
             => condicao ? "bg-success text-white" : "bg-danger text-white";
     }

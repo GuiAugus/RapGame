@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
-
+using System.Globalization;
 
 namespace RapGame.Shared.DTOs
 {
@@ -18,12 +18,18 @@ namespace RapGame.Shared.DTOs
         
 
         [JsonPropertyName("albumDate")]
-        public string AlbumDateFormatted 
+        public string AlbumDateFormatted
         {
-            get => AlbumDate.ToString("yyyy");
-            set => AlbumDate = DateTime.TryParse(value, out var date) ? date : default;
+            get => AlbumDate.ToString("dd-MM-yyyy");
+            set => AlbumDate = DateTime.TryParseExact(
+                value,
+                "dd-MM-yyyy",
+                CultureInfo.InvariantCulture,
+                DateTimeStyles.None,
+                out var date)
+                ? date
+                : default;
         }
-
 
         [Required(ErrorMessage = "A data de lançamento é obrigatória")]
         [JsonIgnore]

@@ -41,20 +41,3 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-/* Fim do reset */
-
-.table td.table-success, .table td.table-danger {
-    font-weight: bold;
-    color: white;
-    border-radius: 8px;
-    padding: 12px;
-}
-
-.table-success {
-    background-color: #28a745 !important; /* verde */
-}
-
-.table-danger {
-    background-color: #dc3545 !important; /* vermelho */
-}

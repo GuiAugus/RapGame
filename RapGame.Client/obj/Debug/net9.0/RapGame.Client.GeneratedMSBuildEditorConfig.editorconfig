@@ -40,14 +40,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmFwZGxlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Gui/Desktop/Projects/RapGame/RapGame.Client/Pages/Shared/Footer.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEZvb3Rlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gui/Desktop/Projects/RapGame/RapGame.Client/Pages/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Gui/Desktop/Projects/RapGame/RapGame.Client/Pages/Shared/NavMenu.Razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXE5hdk1lbnUuUmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Gui/Desktop/Projects/RapGame/RapGame.Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Gui/Desktop/Projects/RapGame/RapGame.Client/Layout/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-uohw3gtykk
-
-[C:/Users/Gui/Desktop/Projects/RapGame/RapGame.Client/Layout/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-cvddi36ljt

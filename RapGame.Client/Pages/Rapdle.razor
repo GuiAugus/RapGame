@@ -1,20 +1,27 @@
 @page "/rapdle"
 @inherits RapGame.Client.SharedLogic.BasePage
 
-<div>
-    <h3>Rapdle</h3>
+<div class="div-rapdle-geral">
 
-    <p>Bem-vindo ao jogo de adivinhar álbuns!</p>
+    <h1 class="titulo">RAPDLE</h1>
 
-    <div class="position-relative" style="max-width: 400px;">
-        <input class="form-control mb-2"
+    <div>
+        <p>Bem-vindo ao jogo de adivinhar álbuns!</p>
+        @if (!string.IsNullOrWhiteSpace(Mensagem))
+        {
+            <p class="alert alert-info">@Mensagem</p>
+        }
+    </div>
+
+    <div class="rapdle">
+        <input class="input-rapdle"
             placeholder="Digite o nome do álbum"
             @bind="Tentativa"
             @bind:event="oninput" />
 
         @if (!string.IsNullOrWhiteSpace(Tentativa) && sugestoes.Any())
         {
-            <ul class="list-group position-absolute w-100" style="z-index:1000; max-height: 200px; overflow-y: auto;">
+            <ul class="input-sugestoes">
                 @foreach (var sugestao in sugestoes)
                 {
                     <li class="list-group-item list-group-item-action"
@@ -28,8 +35,8 @@
 
     @if (TentativasComInfo.Any())
     {
-        <table class="table table-bordered mt-4 text-center">
-        <thead class="table-dark">
+        <table class="table-tentativas">
+        <thead class="thead-tentativas">
             <tr>
                 <th class="text-start">Álbum</th>
                 <th>Artista</th>
@@ -37,7 +44,7 @@
                 <th>Ano</th>
             </tr>
         </thead>
-        <tbody>
+        <tbody class="tbody-tentativas">
             @foreach (var tentativa in TentativasComInfo)
             {
                 <tr>
@@ -55,9 +62,12 @@
                         @tentativa.QuantidadeFaixas
                         @if (tentativa.QuantidadeFaixas != albumSelecionado?.QuantidadeFaixas)
                         {
-                            <span>
-                                @(tentativa.QuantidadeFaixas > albumSelecionado?.QuantidadeFaixas ? "🔽" : "🔼")
-                            </span>
+                            <img 
+                                src="img/@(tentativa.QuantidadeFaixas > albumSelecionado?.QuantidadeFaixas ? "ArrowDown.svg" : "ArrowUp.svg")" 
+                                alt="Seta" 
+                                width="14" 
+                                height="14" 
+                                style="margin-left: 4px; vertical-align: middle;" />
                         }
                     </td>
 
@@ -66,9 +76,12 @@
                         @tentativa.AlbumDate.Year
                         @if (tentativa.AlbumDate.Year != albumSelecionado?.AlbumDate.Year)
                         {
-                            <span>
-                                @(tentativa.AlbumDate.Year > albumSelecionado?.AlbumDate.Year ? "🔽" : "🔼")
-                            </span>
+                            <img 
+                                src="img/@(tentativa.AlbumDate.Year > albumSelecionado?.AlbumDate.Year ? "ArrowDown.svg" : "ArrowUp.svg")" 
+                                alt="Seta" 
+                                width="14" 
+                                height="14"
+                                style="margin-left: 4px; vertical-align: middle;" />
                         }
                     </td>
                 </tr>
@@ -76,9 +89,6 @@
         </tbody>
     </table>
     }
+
 </div>
 
-@if (!string.IsNullOrWhiteSpace(Mensagem))
-{
-    <p class="alert alert-info">@Mensagem</p>
-}
