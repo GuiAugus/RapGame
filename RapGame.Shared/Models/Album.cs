@@ -15,6 +15,8 @@ namespace RapGame.Models
 
         public string? FaixaMaisPopular { get; set; } = "Indefinida";
 
+        public string? CapaUrl { get; set; }
+
         public virtual ICollection<AlbumArtista> AlbumArtistas {get; set;} = new List<AlbumArtista>();
         
         public List<AlbumParticipacoes> Participacoes { get; set; } = new();

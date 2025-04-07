@@ -35,6 +35,9 @@ namespace RapGame.Shared.DTOs
         [JsonIgnore]
         public DateTime AlbumDate { get; set; }
         
+        [Url(ErrorMessage = "Insira uma URL valida")]
+        public string? CapaUrl { get; set; }
+        
         [StringLength(60, MinimumLength = 1, ErrorMessage = "A faixa deve ter entre 1 a 60 caracteres.")]
         public string? FaixaMaisPopular { get; set; }
         public List<int> ArtistaIds { get; set; } = new();

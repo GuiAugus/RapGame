@@ -30,9 +30,10 @@ namespace RapGame.API.Controllers
                  {
                     Id = album.Id,
                     Nome = album.Nome,
-                    QuantidadeFaixas = album.QuantidadeFaixas,
                     AlbumDate = album.AlbumDate,
+                    QuantidadeFaixas = album.QuantidadeFaixas,
                     FaixaMaisPopular = album.FaixaMaisPopular,
+                    CapaUrl = album.CapaUrl,
                     ArtistaIds = album.AlbumArtistas.Select(aa => aa.ArtistId).ToList(),
                     ArtistaPrincipais = album.AlbumArtistas.Select(aa => aa.Artista.Nome).ToList()
                 }).ToList();
@@ -57,9 +58,10 @@ namespace RapGame.API.Controllers
             {
                 Id = album.Id,
                 Nome = album.Nome,
-                QuantidadeFaixas = album.QuantidadeFaixas,
                 AlbumDate = album.AlbumDate,
+                QuantidadeFaixas = album.QuantidadeFaixas,
                 FaixaMaisPopular = album.FaixaMaisPopular,
+                CapaUrl = album.CapaUrl,
                 ArtistaIds = album.AlbumArtistas.Select(aa => aa.ArtistId).ToList(),
                 ArtistaPrincipais = album.AlbumArtistas.Select(aa => aa.Artista.Nome).ToList(),
                 ArtistaParticipacoesIds = album.Participacoes.Select(p => p.ArtistaId).ToList(),
@@ -162,5 +164,82 @@ namespace RapGame.API.Controllers
 
             return Ok(resultado);
         }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutAlbum(int id, AlbumDto albumDto)
+        {
+            if (albumDto == null)
+            {
+                return BadRequest("O corpo da requisição não pode estar vazio.");
+            }
+
+            var albumExistente = await _context.Albuns
+                .Include(a => a.AlbumArtistas)
+                .Include(a => a.Participacoes)
+                .FirstOrDefaultAsync(a => a.Id == id);
+
+            if (albumExistente == null)
+            {
+                return NotFound();
+            }
+
+            // Atualiza campos básicos
+            albumExistente.Nome = albumDto.Nome;
+            albumExistente.QuantidadeFaixas = albumDto.QuantidadeFaixas;
+            albumExistente.AlbumDate = albumDto.AlbumDate;
+            albumExistente.FaixaMaisPopular = albumDto.FaixaMaisPopular;
+            albumExistente.CapaUrl = albumDto.CapaUrl;
+
+            // Atualiza relacionamentos com artistas
+
+            // Remove os antigos
+            _context.AlbumArtistas.RemoveRange(albumExistente.AlbumArtistas);
+            _context.AlbumParticipacoes.RemoveRange(albumExistente.Participacoes);
+
+            // Verifica se os novos artistas existem
+            var artistaIds = albumDto.ArtistaIds.Concat(albumDto.ArtistaParticipacoesIds).Distinct().ToList();
+
+            var artistas = await _context.Artistas
+                .Where(a => artistaIds.Contains(a.Id))
+                .ToListAsync();
+
+            var artistasExistentesIds = artistas.Select(a => a.Id).ToHashSet();
+
+            if (!albumDto.ArtistaIds.All(id => artistasExistentesIds.Contains(id)) ||
+                !albumDto.ArtistaParticipacoesIds.All(id => artistasExistentesIds.Contains(id)))
+            {
+                return BadRequest("Um ou mais artistas fornecidos não existem.");
+            }
+
+            // Recria os relacionamentos com os artistas
+            var novosAlbumArtistas = artistas
+            .Where(a => albumDto.ArtistaIds.Contains(a.Id))
+            .Select(artista => new AlbumArtista
+            {
+                AlbumId = albumExistente.Id,
+                Album = albumExistente,
+                ArtistId = artista.Id,
+                Artista = artista
+            }).ToList();
+
+        var novasParticipacoes = artistas
+            .Where(a => albumDto.ArtistaParticipacoesIds.Contains(a.Id))
+            .Select(artista => new AlbumParticipacoes
+            {
+                AlbumId = albumExistente.Id,
+                Album = albumExistente,
+                ArtistaId = artista.Id,
+                Artista = artista
+            }).ToList();
+
+            _context.AlbumArtistas.AddRange(novosAlbumArtistas);
+            _context.AlbumParticipacoes.AddRange(novasParticipacoes);
+
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        }
+
+
     }
 }
