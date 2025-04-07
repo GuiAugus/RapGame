@@ -8,16 +8,29 @@
     <div>
         <p>Bem-vindo ao jogo de adivinhar álbuns!</p>
         @if (!string.IsNullOrWhiteSpace(Mensagem))
+
         {
-            <p class="alert alert-info">@Mensagem</p>
+            <h3 class="alert alert-info">@Mensagem</h3>
         }
+
+        @if (!string.IsNullOrEmpty(DicaFeat))
+    {
+        <p class="diva">@DicaFeat</p>
+    }
+
+    @if (!string.IsNullOrEmpty(DicaFaixaFamosa))
+    {
+        <p class="diva">@DicaFaixaFamosa</p>
+    }
     </div>
 
     <div class="rapdle">
         <input class="input-rapdle"
-            placeholder="Digite o nome do álbum"
-            @bind="Tentativa"
-            @bind:event="oninput" />
+        placeholder="Digite o nome do álbum"
+        @bind="Tentativa"
+        @bind:event="oninput"
+        @onkeydown="HandleKeyDown"
+        disabled="@jogoEncerrado" />
 
         @if (!string.IsNullOrWhiteSpace(Tentativa) && sugestoes.Any())
         {

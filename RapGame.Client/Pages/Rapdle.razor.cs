@@ -6,20 +6,9 @@ namespace RapGame.Client.Pages
 {
     public partial class Rapdle : BasePage
     {
-        private string _tentativa = "";
-        private string Tentativa
-        {
-            get => _tentativa;
-            set
-            {
-                _tentativa = value;
-                BuscarAlbunsSugestao(value);
-            }
-        }
+        
 
-        private string? Mensagem { get; set; }
-        private List<AlbumDto> TentativasComInfo { get; set; } = new();
-
+        
         protected override async Task OnInitializedAsync()
         {
             try
@@ -34,28 +23,7 @@ namespace RapGame.Client.Pages
             }
         }
 
-        private async Task SelecionarSugestao(AlbumDto sugestao)
-        {
-            Tentativa = sugestao.Nome;
-            sugestoes.Clear();
-            TentativasComInfo.Insert(0, sugestao);
-            await VerificarTentativa(sugestao);
-        }
-
-        private async Task VerificarTentativa(AlbumDto tentativa)
-        {
-            if (albumSelecionado != null && tentativa.Nome.Equals(albumSelecionado.Nome, StringComparison.OrdinalIgnoreCase))
-            {
-                Mensagem = "Você acertou!";
-            }
-            else
-            {
-                Mensagem = $"Tente novamente. Você digitou \"{tentativa.Nome}\"";
-            }
-
-            Tentativa = "";
-            await InvokeAsync(StateHasChanged);
-        }
+        
 
         protected int ObterAno(string? dataFormatada)
         {
