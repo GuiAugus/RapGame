@@ -1,0 +1,145 @@
+/* ------------------------------
+   TÍTULOS E CONTAINERS GERAIS
+--------------------------------*/
+.h2 {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 1.8rem;
+    color: #333;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Container do formulário principal */
+.form-cadastro {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Container do formulário para novo artista */
+.form-novo-artista {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #eef2ff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* --------------------------------
+   CAMPOS INDIVIDUAIS DO FORMULÁRIO
+----------------------------------*/
+.div-cadastro {
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 1.2rem;
+    gap: 1rem;
+}
+
+.div-cadastro label {
+    flex: 1 0 150px;
+    font-weight: 600;
+    color: #444;
+    text-align: right;
+}
+
+.input-cadastro {
+    flex: 2 1 300px;
+    padding: 0.55rem 0.75rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 100%;
+    font-size: 1rem;
+    transition: box-shadow 0.2s;
+}
+
+.input-cadastro:focus {
+    outline: none;
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+}
+
+/* -------------------------------
+   AUTOCOMPLETE E ARTISTAS LISTADOS
+--------------------------------*/
+.autocomplete-list {
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    margin: 0.25rem 0;
+    padding: 0;
+    list-style: none;
+    border-radius: 6px;
+    background: white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    width: 100%;
+}
+
+.autocomplete-list li {
+    padding: 0.5rem 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.autocomplete-list li:hover {
+    background-color: #f3f4f6;
+}
+
+.selected-artista {
+    display: inline-block;
+    background-color: #e0e7ff;
+    color: #1e3a8a;
+    font-weight: 500;
+    padding: 0.3rem 0.6rem;
+    border-radius: 6px;
+    margin: 0.2rem 0.3rem 0 0;
+    font-size: 0.9rem;
+}
+
+/* ------------------------------
+   BOTÕES
+-------------------------------*/
+.btn-wrapper {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+/* Dois botões lado a lado */
+.btn-wrapper.btn-duplo {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.btn-cadastro,
+.btn-adicionar {
+    padding: 0.6rem 1.2rem;
+    background-color: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 0.95rem;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+}
+
+.btn-cadastro:hover,
+.btn-adicionar:hover {
+    background-color: #4338ca;
+    transform: translateY(-2px);
+}
+
+.btn-cadastro:active,
+.btn-adicionar:active {
+    background-color: #3730a3;
+    transform: scale(0.98);
+}

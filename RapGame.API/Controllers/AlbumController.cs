@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using System.Text.Json;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using RapGame.Data;
@@ -12,10 +13,12 @@ namespace RapGame.API.Controllers
     public class AlbumController : ControllerBase
     {
         private readonly RapGameDbContext _context;
+        private readonly IWebHostEnvironment _env;
 
-        public AlbumController(RapGameDbContext context)
+        public AlbumController(RapGameDbContext context, IWebHostEnvironment env)
         {
             _context = context;
+            _env = env;
         }
 
         [HttpGet]
@@ -72,11 +75,43 @@ namespace RapGame.API.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Album>> PostAlbum(AlbumDto albumDto)
+        public async Task<ActionResult<Album>> PostAlbum([FromForm] string albumJson, [FromForm] IFormFile file)
         {
-            if (albumDto == null)
+            if (string.IsNullOrWhiteSpace(albumJson))
             {
-                return BadRequest("O corpo da requisição não pode estar vazio.");
+                return BadRequest("Dados do album estao vazios");
+            }
+
+            AlbumDto? albumDto;
+            try
+            {
+                albumDto = JsonSerializer.Deserialize<AlbumDto>(albumJson);
+            }
+            catch
+            {
+                return BadRequest("Erro ao converter dados do album.");
+            }
+
+            if (albumDto == null)
+                return BadRequest("Dados do album invalido");
+
+            string CapaUrl = null!;
+            if (file != null && file.Length > 0)
+            {
+                var nomeArquivo = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
+                var caminhoCapas = Path.Combine(_env.WebRootPath, "capas");
+
+                if(!Directory.Exists(caminhoCapas))
+                    Directory.CreateDirectory(caminhoCapas);
+                
+                var caminhoCompleto = Path.Combine(caminhoCapas, nomeArquivo);
+
+                using (var stream = new FileStream(caminhoCompleto, FileMode.Create))
+                {
+                    await file.CopyToAsync(stream);
+                }
+
+                CapaUrl = $"capas/{nomeArquivo}";
             }
 
             var album = new Album
@@ -84,7 +119,8 @@ namespace RapGame.API.Controllers
                 Nome = albumDto.Nome,
                 QuantidadeFaixas = albumDto.QuantidadeFaixas,
                 AlbumDate = albumDto.AlbumDate,
-                FaixaMaisPopular = albumDto.FaixaMaisPopular
+                FaixaMaisPopular = albumDto.FaixaMaisPopular,
+                CapaUrl = CapaUrl
             };
 
             _context.Albuns.Add(album);
@@ -130,7 +166,19 @@ namespace RapGame.API.Controllers
 
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction(nameof(GetAlbum), new { id = album.Id }, album);
+            var albumCriadoDto = new AlbumDto
+            {
+                Id = album.Id,
+                Nome = album.Nome,
+                AlbumDate = album.AlbumDate,
+                QuantidadeFaixas = album.QuantidadeFaixas,
+                FaixaMaisPopular = album.FaixaMaisPopular,
+                CapaUrl = album.CapaUrl,
+                ArtistaIds = albumDto.ArtistaIds,
+                ArtistaParticipacoesIds = albumDto.ArtistaParticipacoesIds
+            };
+
+            return CreatedAtAction(nameof(GetAlbum), new { id = album.Id }, albumCriadoDto);
         }
 
         [HttpDelete("{id}")]
@@ -150,20 +198,26 @@ namespace RapGame.API.Controllers
         }
 
         [HttpGet("search")]
-        public ActionResult<List<AlbumDto>> BuscarPorNome(string nome)
+        public async Task<ActionResult<List<AlbumDto>>> BuscarPorNome([FromQuery] string nome)
         {
-            var resultado = _context.Albuns
+            var resultado = await _context.Albuns
                 .Where(a => a.Nome.Contains(nome, StringComparison.OrdinalIgnoreCase))
                 .Select(a => new AlbumDto
                 {
                     Id = a.Id,
                     Nome = a.Nome,
-                    // outros campos...
+                    QuantidadeFaixas = a.QuantidadeFaixas,
+                    AlbumDate = a.AlbumDate,
+                    FaixaMaisPopular = a.FaixaMaisPopular,
+                    ArtistaIds = a.AlbumArtistas.Select(aa => aa.ArtistId).ToList(),
+                    ArtistaParticipacoesIds = a.Participacoes.Select(ap => ap.ArtistaId).ToList(),
+                    CapaUrl = a.CapaUrl
                 })
-                .ToList();
+                .ToListAsync();
 
             return Ok(resultado);
         }
+
 
         [HttpPut("{id}")]
         public async Task<IActionResult> PutAlbum(int id, AlbumDto albumDto)
@@ -239,6 +293,30 @@ namespace RapGame.API.Controllers
 
             return NoContent();
         }
+
+        [HttpPost]
+        [Route("upload")]
+        public async Task<IActionResult> UploadImagem(IFormFile file)
+        {
+            if (file == null || file.Length == 0)
+                return BadRequest("Nenhum arquivo enviado.");
+
+            var nomeArquivo = Path.GetFileName(file.FileName);
+            var pastaDestino = Path.Combine(_env.WebRootPath, "img", "capas");
+
+            if (!Directory.Exists(pastaDestino))
+                Directory.CreateDirectory(pastaDestino);
+
+            var caminhoCompleto = Path.Combine(pastaDestino, nomeArquivo);
+
+            using (var stream = new FileStream(caminhoCompleto, FileMode.Create))
+            {
+                await file.CopyToAsync(stream);
+            }
+
+            var urlImagem = $"img/capas/{nomeArquivo}";
+            return Ok(urlImagem);
+        }          
 
 
     }

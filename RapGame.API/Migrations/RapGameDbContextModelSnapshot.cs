@@ -33,8 +33,10 @@ namespace RapGame.API.Migrations
                     b.Property<DateTime>("AlbumDate")
                         .HasColumnType("datetime2");
 
+                    b.Property<string>("CapaUrl")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("FaixaMaisPopular")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Nome")

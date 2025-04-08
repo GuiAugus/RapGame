@@ -5,16 +5,13 @@ using System.Net.Http.Json;
 namespace RapGame.Client.Pages
 {
     public partial class Rapdle : BasePage
-    {
-        
-
-        
+    {             
         protected override async Task OnInitializedAsync()
         {
             try
             {
                 albuns = await Http.GetFromJsonAsync<List<AlbumDto>>("api/Album") ?? new();
-                await BuscarAlbumPorId(12); // Ou aleatório depois
+                await BuscarAlbumPorId(19); // Ou aleatório depois
             }
             catch (Exception ex)
             {

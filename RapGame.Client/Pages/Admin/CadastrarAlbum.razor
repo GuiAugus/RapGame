@@ -1,0 +1,240 @@
+@page "/admin/cadastrar-album"
+@inject HttpClient Http
+@using RapGame.Shared.DTOs
+@using Microsoft.AspNetCore.Components.Forms
+@using System.Text.Json
+@using System.Net.Http.Headers
+@using System.Text
+
+<h2 class="h2-cadastro">Cadastrar Novo Álbum</h2>
+
+<div class="form-cadastro">
+    <EditForm Model="novoAlbum" OnValidSubmit="CadastrarAsync">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="div-cadastro">
+            <label>Nome do Álbum:</label>
+            <InputText class="input-cadastro" @bind-Value="novoAlbum.Nome" />
+        </div>
+
+        <div class="div-cadastro">
+            <label>Data de Lançamento:</label>
+            <InputDate class="input-cadastro" @bind-Value="novoAlbum.AlbumDate" format="dd/MM/yyyy" />
+        </div>
+
+        <div class="div-cadastro">
+            <label>Quantidade de Faixas:</label>
+            <InputNumber class="input-cadastro" @bind-Value="novoAlbum.QuantidadeFaixas" />
+        </div>
+
+        <div class="div-cadastro">
+            <label>Faixa Mais Popular:</label>
+            <InputText class="input-cadastro" @bind-Value="novoAlbum.FaixaMaisPopular" />
+        </div>
+
+        <div class="div-cadastro">
+            <label>Upload da Imagem:</label>
+            <InputFile OnChange="UploadImagem" accept=".jpg,.jpeg,.png,.webp,.jfif" />
+        </div>
+
+        <div class="div-cadastro">
+            <label>Artistas Principais:</label>
+            <InputText @bind-Value="buscaPrincipal" @oninput="@BuscarArtistasPrincipais" />
+            @if (sugestoesPrincipais.Any())
+            {
+                <ul class="autocomplete-list">
+                    @foreach (var artista in sugestoesPrincipais)
+                    {
+                        <li @onclick="@(() => SelecionarArtista(artista, novoAlbum.ArtistaIds))">@artista.Nome</li>
+                    }
+                </ul>
+            }
+            <p>Selecionados:</p>
+            <ul>
+                @foreach (var id in novoAlbum.ArtistaIds)
+                {
+                    var nome = artistasDisponiveis.FirstOrDefault(a => a.Id == id)?.Nome ?? $"ID: {id}";
+                    <li>@nome</li>
+                }
+            </ul>
+        </div>
+
+        <div class="div-cadastro">
+            <label>Participações:</label>
+            <InputText class="input-cadastro" @bind-Value="buscaParticipacoes" @oninput="BuscarParticipacoes" placeholder="Buscar participações..." />
+            @if (sugestoesParticipacoes.Any())
+            {
+                <ul class="autocomplete-list">
+                    @foreach (var artista in sugestoesParticipacoes)
+                    {
+                        <li @onclick="@(() => SelecionarArtista(artista, novoAlbum.ArtistaParticipacoesIds))">@artista.Nome</li>
+                    }
+                </ul>
+            }
+            <p>Selecionados:</p>
+            <ul>
+                @foreach (var id in novoAlbum.ArtistaParticipacoesIds)
+                {
+                    var nome = artistasDisponiveis.FirstOrDefault(a => a.Id == id)?.Nome ?? $"ID: {id}";
+                    <li>@nome</li>
+                }
+            </ul>
+        </div>
+
+        <button class="btn-cadastro" @onclick="CadastrarAsync">Cadastrar</button>
+
+                @if (imagemSelecionada != null)
+        {
+            <img src="@previewUrl" style="max-width: 200px; margin-top: 10px;" />
+        }
+
+    </EditForm>
+</div>
+
+<div class="form-novo-artista">
+    <label>Adicionar Novo Artista:</label>
+    <InputText class="input-cadastro" @bind-Value="novoArtista.Nome" placeholder="Nome do artista" />
+    <button type="button" class="btn-adicionar" @onclick="CadastrarArtista">Adicionar</button>
+    </div>
+
+@if (mensagem != null)
+{
+    <p class="mt-2 text-green-600">@mensagem</p>
+}
+
+@code {
+    private AlbumDto novoAlbum = CriarNovoAlbum();
+    private IBrowserFile? imagemSelecionada;
+    private ArtistaDto novoArtista = new() { Nome = string.Empty };
+    private List<ArtistaDto> artistasDisponiveis = new();
+    private List<ArtistaDto> sugestoesPrincipais = new();
+    private List<ArtistaDto> sugestoesParticipacoes = new();
+    private string buscaPrincipal = "";
+    private string buscaParticipacoes = "";
+    private string? mensagem;
+    private string? previewUrl;
+
+
+    private static AlbumDto CriarNovoAlbum() => new()
+    {
+        Nome = string.Empty,
+        FaixaMaisPopular = string.Empty,
+        CapaUrl = string.Empty,
+        AlbumDate = DateTime.Today,
+        QuantidadeFaixas = 0,
+        ArtistaIds = new(),
+        ArtistaParticipacoesIds = new()
+    };
+
+    protected override async Task OnInitializedAsync()
+    {
+        await CarregarArtistas();
+    }
+
+    private async Task CarregarArtistas()
+    {
+        try
+        {
+            var artistas = await Http.GetFromJsonAsync<List<ArtistaDto>>("http://localhost:5200/api/Artista");
+            artistasDisponiveis = artistas ?? new();
+        }
+        catch
+        {
+            mensagem = "Erro ao carregar artistas.";
+        }
+    }
+
+    private void BuscarArtistasPrincipais(ChangeEventArgs e)
+    {
+        buscaPrincipal = e.Value?.ToString() ?? "";
+        sugestoesPrincipais = artistasDisponiveis
+            .Where(a => a.Nome.Contains(buscaPrincipal, StringComparison.OrdinalIgnoreCase))
+            .ToList();
+    }
+
+    private void BuscarParticipacoes(ChangeEventArgs e)
+    {
+        buscaParticipacoes = e.Value?.ToString() ?? "";
+        sugestoesParticipacoes = artistasDisponiveis
+            .Where(a => a.Nome.Contains(buscaParticipacoes, StringComparison.OrdinalIgnoreCase))
+            .ToList();
+    }
+
+    private void SelecionarArtista(ArtistaDto artista, List<int> lista)
+    {
+        if (!lista.Contains(artista.Id))
+        {
+            lista.Add(artista.Id);
+        }
+    }
+
+    private async Task CadastrarArtista()
+    {
+        var resposta = await Http.PostAsJsonAsync("http://localhost:5200/api/Artista", novoArtista);
+        if (resposta.IsSuccessStatusCode)
+        {
+            mensagem = "Artista cadastrado!";
+            novoArtista = new() { Nome = string.Empty };
+            await CarregarArtistas();
+        }
+        else
+        {
+            mensagem = "Erro ao cadastrar artista.";
+        }
+    }
+
+    private async Task UploadImagem(InputFileChangeEventArgs e)
+    {
+        imagemSelecionada = e.File;
+
+        // Para preview
+        var buffer = new byte[imagemSelecionada.Size];
+        await imagemSelecionada.OpenReadStream().ReadAsync(buffer);
+        previewUrl = $"data:{imagemSelecionada.ContentType};base64,{Convert.ToBase64String(buffer)}";
+    }
+
+    private async Task CadastrarAsync()
+    {
+        try
+        {
+            var formContent = new MultipartFormDataContent();
+
+            // Serializa o DTO como JSON
+            var albumJson = JsonSerializer.Serialize(novoAlbum);
+            var jsonContent = new StringContent(albumJson, Encoding.UTF8);
+            jsonContent.Headers.ContentType = new MediaTypeHeaderValue("application/json");
+            formContent.Add(jsonContent, "albumJson");
+
+
+
+            // Adiciona a imagem, se houver
+            if (imagemSelecionada is not null)
+            {
+                var streamContent = new StreamContent(imagemSelecionada.OpenReadStream(10_000_000));
+                streamContent.Headers.ContentType = new MediaTypeHeaderValue(imagemSelecionada.ContentType);
+                formContent.Add(streamContent, "file", imagemSelecionada.Name);
+            }
+
+            // Envia tudo para o back-end
+            var resposta = await Http.PostAsync("http://localhost:5200/api/Album", formContent);
+
+            if (resposta.IsSuccessStatusCode)
+            {
+                mensagem = "Álbum cadastrado com sucesso!";
+                novoAlbum = CriarNovoAlbum();
+                imagemSelecionada = null;
+            }
+            else
+            {
+                mensagem = "Erro ao cadastrar álbum.";
+            }
+        }
+        catch (Exception ex)
+        {
+            mensagem = $"Erro inesperado: {ex.Message}";
+        }
+    }
+
+    
+}

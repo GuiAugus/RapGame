@@ -186,3 +186,4 @@ C:\Users\Gui\Desktop\Projects\RapGame\RapGame.API\obj\Debug\net9.0\refint\RapGam
 C:\Users\Gui\Desktop\Projects\RapGame\RapGame.API\obj\Debug\net9.0\RapGame.API.pdb
 C:\Users\Gui\Desktop\Projects\RapGame\RapGame.API\obj\Debug\net9.0\RapGame.API.genruntimeconfig.cache
 C:\Users\Gui\Desktop\Projects\RapGame\RapGame.API\obj\Debug\net9.0\ref\RapGame.API.dll
+C:\Users\Gui\Desktop\Projects\RapGame\RapGame.API\bin\Debug\net9.0\RapGame.API.staticwebassets.runtime.json

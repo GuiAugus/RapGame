@@ -44,6 +44,10 @@ app.UseHttpsRedirection();
 
 app.UseCors(MyAllowSpecificOrigins);
 
+app.UseRouting();
+
+app.UseStaticFiles();
+
 app.UseAuthorization();
 
 app.MapControllers();

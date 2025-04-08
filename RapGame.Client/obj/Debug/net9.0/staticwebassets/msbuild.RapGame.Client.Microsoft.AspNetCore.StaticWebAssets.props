@@ -1,5 +1,23 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\admin\CadastrarAlbum.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>RapGame.Client</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>/</BasePath>
+      <RelativePath>css/admin/CadastrarAlbum.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>9luhc8vbop</Fingerprint>
+      <Integrity>4+4+v6o1Iu6KJCGjfewVUd36CpPkrW24aMSfmBQxELU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\admin\CadastrarAlbum.css'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\footer.css'))">
       <SourceType>Package</SourceType>
       <SourceId>RapGame.Client</SourceId>
@@ -48,8 +66,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>lypv4ev7w1</Fingerprint>
-      <Integrity>LcFcDo2HTuIzPJ/djY+ImS7yw9+FR0DQ+mVApRbNBpI=</Integrity>
+      <Fingerprint>2ve4oneibs</Fingerprint>
+      <Integrity>wqfiVPkNk9e3fGaEOKhlKMvfGbPowvyljp/UYgxMcwQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\rapdle.css'))</OriginalItemSpec>
@@ -84,8 +102,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>5bky66052g</Fingerprint>
-      <Integrity>r4akEblLCBr3lCCVW5zxFtZYMUPLusZdJT80/IyM/bY=</Integrity>
+      <Fingerprint>5cu3v0y2s7</Fingerprint>
+      <Integrity>qyQOdwckS2jiy2COF6reDExwrko/xzJUOIgMiZPQtnE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\style.css'))</OriginalItemSpec>
@@ -138,8 +156,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>586meqx4x7</Fingerprint>
-      <Integrity>BU/SS/SQakgA83IdmNVR+iWl0PDVKT7YwWpbWpa4S2g=</Integrity>
+      <Fingerprint>o0dscy6wir</Fingerprint>
+      <Integrity>GBtOMQ13EKTwxcqHUKj6LqlHGCk3AfwOOSux+ijwgLk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\ArrowDown.svg'))</OriginalItemSpec>
@@ -156,8 +174,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>zipv4w8udu</Fingerprint>
-      <Integrity>+5Za2b/WPnFAOQMW46RC75cbsCSqTVBaGtPpl8PecXg=</Integrity>
+      <Fingerprint>vgrwoe3khk</Fingerprint>
+      <Integrity>8WyBNelcZ9rFWr+gbMkdSfK9nVPySu9D5O+3/CvtZXI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\ArrowUp.svg'))</OriginalItemSpec>
