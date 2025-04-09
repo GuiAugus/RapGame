@@ -1,6 +1,14 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\capas\\995b9aef-8699-41e8-8fb9-4db2cf53f092.jfif",
+      "PackagePath": "staticwebassets\\capas\\995b9aef-8699-41e8-8fb9-4db2cf53f092.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\img\\capas\\ab67616d0000b273f8ba6944fc091041493bb00f.jfif",
+      "PackagePath": "staticwebassets\\img\\capas\\ab67616d0000b273f8ba6944fc091041493bb00f.jfif"
+    },
+    {
       "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\img\\capas\\nill-LogosCapa.jfif",
       "PackagePath": "staticwebassets\\img\\capas\\nill-LogosCapa.jfif"
     },

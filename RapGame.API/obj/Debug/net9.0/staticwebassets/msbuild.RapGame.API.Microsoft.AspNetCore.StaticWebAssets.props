@@ -1,5 +1,41 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\995b9aef-8699-41e8-8fb9-4db2cf53f092.jfif'))">
+      <SourceType>Package</SourceType>
+      <SourceId>RapGame.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RapGame.API</BasePath>
+      <RelativePath>capas/995b9aef-8699-41e8-8fb9-4db2cf53f092.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>zxfo75co6x</Fingerprint>
+      <Integrity>t8He+JwSqc8QHmNT9JaaduIqT5wc9y+oQCAvSTs/Ow8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\995b9aef-8699-41e8-8fb9-4db2cf53f092.jfif'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\capas\ab67616d0000b273f8ba6944fc091041493bb00f.jfif'))">
+      <SourceType>Package</SourceType>
+      <SourceId>RapGame.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RapGame.API</BasePath>
+      <RelativePath>img/capas/ab67616d0000b273f8ba6944fc091041493bb00f.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>7u7h3cqfvy</Fingerprint>
+      <Integrity>EcsSsPvjeqzjbJ9y9uUboK8nii1masvPXFF1wKmV4LU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\capas\ab67616d0000b273f8ba6944fc091041493bb00f.jfif'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\capas\nill-LogosCapa.jfif'))">
       <SourceType>Package</SourceType>
       <SourceId>RapGame.API</SourceId>

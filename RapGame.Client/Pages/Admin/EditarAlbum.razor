@@ -1,0 +1,141 @@
+@page "/admin/editaralbum/{id:int}"
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+@using RapGame.Shared.DTOs
+@using Microsoft.AspNetCore.Components.Forms
+@using System.Net.Http.Headers
+@using System.Text
+@using System.Text.Json
+
+<div class="form-cadastro">
+    <EditForm Model="album" OnValidSubmit="Salvar">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="div-cadastro">
+            <label>Nome do Álbum:</label>
+            <InputText @bind-Value="album.Nome" class="input-cadastro" />
+        </div>
+        <div class="div-cadastro">
+            <label>Data de Lançamento:</label>
+            <InputText @bind-Value="album.AlbumDateFormatted" class="input-cadastro" />
+        </div>
+        <div class="div-cadastro">
+            <label>Quantidade de Faixas:</label>
+            <InputNumber @bind-Value="album.QuantidadeFaixas" class="input-cadastro" />
+        </div>
+        <div class="div-cadastro">
+            <label>Faixa Mais Popular:</label>
+            <InputText @bind-Value="album.FaixaMaisPopular" class="input-cadastro" />
+        </div>
+        <div class="div-cadastro">
+            <label>Upload da Imagem:</label>
+            <InputFile OnChange="UploadImagem" accept=".jpg,.jpeg,.png,.webp,.jfif" />
+        </div>
+        <div class="div-cadastro">
+            <label>Artistas Principais:</label>
+            <p>@string.Join(", ", album.ArtistaPrincipais)</p>
+        </div>
+        <div class="div-cadastro">
+            <label>Participações:</label>
+            <p>@string.Join(", ", album.ArtistaParticipacoes)</p>
+        </div>
+
+        @if (!string.IsNullOrEmpty(previewUrl))
+        {
+            <div style="margin-top:10px;">
+                <img src="@previewUrl" alt="Preview da imagem" style="max-width: 200px;" />
+            </div>
+        }
+        else if (!string.IsNullOrEmpty(album.CapaUrl))
+        {
+            <div style="margin-top:10px;">
+                <img src="@album.CapaUrl" alt="Capa do álbum" style="max-width: 200px;" />
+            </div>
+        }
+
+        <button type="submit" class="btn btn-primary">Salvar</button>
+    </EditForm>
+</div>
+
+@if (!string.IsNullOrEmpty(mensagem))
+{
+    <p class="text-danger">@mensagem</p>
+}
+
+@code {
+    [Parameter] public int id { get; set; }
+    private string? previewUrl;
+
+    private AlbumDto album = new()
+    {
+        Nome = string.Empty,
+    };
+
+    private bool carregando = true;
+    private string mensagem = "";
+    private IBrowserFile? imagemSelecionada;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            album = await Http.GetFromJsonAsync<AlbumDto>($"api/album/{id}") ?? new AlbumDto { Nome = string.Empty };
+        }
+        catch (Exception ex)
+        {
+            mensagem = $"Erro ao carregar álbum: {ex.Message}";
+        }
+
+        carregando = false;
+    }
+
+    private async Task Salvar()
+    {
+        try
+        {
+            var formContent = new MultipartFormDataContent();
+
+            // Serializa o DTO para JSON
+            var albumJson = JsonSerializer.Serialize(album);
+            var jsonContent = new StringContent(albumJson, Encoding.UTF8, "text/plain");
+            formContent.Add(jsonContent, "albumJson");
+
+
+            // Se uma nova imagem foi selecionada
+            if (imagemSelecionada is not null)
+            {
+                var streamContent = new StreamContent(imagemSelecionada.OpenReadStream(10_000_000));
+                streamContent.Headers.ContentType = new MediaTypeHeaderValue(imagemSelecionada.ContentType);
+                formContent.Add(streamContent, "file", imagemSelecionada.Name);
+            }
+
+            // PUT com formData
+            var resposta = await Http.PutAsync($"http://localhost:5200/api/album/{id}", formContent);
+
+            if (resposta.IsSuccessStatusCode)
+            {
+                NavigationManager.NavigateTo("/admin");
+            }
+            else
+            {
+                var erro = await resposta.Content.ReadAsStringAsync();
+                mensagem = $"Erro ao salvar: {resposta.StatusCode} - {erro}";
+            }
+        }
+        catch (Exception ex)
+        {
+            mensagem = $"Erro inesperado: {ex.Message}";
+        }
+    }
+
+    private async Task UploadImagem(InputFileChangeEventArgs e)
+    {
+        imagemSelecionada = e.File;
+
+        // Gera preview da imagem para exibir antes de salvar
+        var buffer = new byte[imagemSelecionada.Size];
+        await imagemSelecionada.OpenReadStream().ReadAsync(buffer);
+        previewUrl = $"data:{imagemSelecionada.ContentType};base64,{Convert.ToBase64String(buffer)}";
+    }
+}

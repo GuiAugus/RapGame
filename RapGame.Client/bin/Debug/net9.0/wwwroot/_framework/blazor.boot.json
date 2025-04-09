@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "RapGame.Client",
   "resources": {
-    "hash": "sha256-RQvdCTlKJGSbGJh6JMQqVH8rHZQS7g+hiN1JDp2fXOs=",
+    "hash": "sha256-hiStjZhiCiI6bzkoPPqicE1BbyhnLzrxBl+9ZYuq7Gk=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.da83xzpz5r.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.vmzb2angnn.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -201,10 +201,10 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "RapGame.Shared.e5si0cnmxr.wasm": "RapGame.Shared.wasm",
-      "RapGame.Shared.s2cwcuyujk.pdb": "RapGame.Shared.pdb",
-      "RapGame.Client.qtafw16cqs.wasm": "RapGame.Client.wasm",
-      "RapGame.Client.fppx4p2kdz.pdb": "RapGame.Client.pdb"
+      "RapGame.Shared.ghuajgjdhe.wasm": "RapGame.Shared.wasm",
+      "RapGame.Shared.sm4wfk42h8.pdb": "RapGame.Shared.pdb",
+      "RapGame.Client.s2xmpme0di.wasm": "RapGame.Client.wasm",
+      "RapGame.Client.psphc9801f.pdb": "RapGame.Client.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.1p93gcv9fh.js": "sha256-1UPiprzN3JhPftx3be7XEMaYlUN+chRF41CuttiWVtQ="
@@ -414,12 +414,12 @@
       "WindowsBase.ag32297siy.wasm": "sha256-BgyZxTgdU9rIYlNC9ZMiMjnvBAJSL0eQH8Y87o1M+q4=",
       "mscorlib.vt9pwshhot.wasm": "sha256-/aFxOaPc1iTNlJw0z4/RGEMD0nzl4qVE3SF4wMsLgp0=",
       "netstandard.or41gtprh3.wasm": "sha256-nD1KqAI5YYz+YohqHaZ5EmXi7Eq9Uy9sUknnI8sj1AM=",
-      "RapGame.Shared.e5si0cnmxr.wasm": "sha256-/gDCapt8CATM9Tsvv7I9A9F6hAMRxDoqISnr7ICxWO0=",
-      "RapGame.Client.qtafw16cqs.wasm": "sha256-cveWDE71iPuefBq1KEpo3qo5sYaJhDQGDGuhPxS+nDM="
+      "RapGame.Shared.ghuajgjdhe.wasm": "sha256-1FuJrdRbs2419PkbZYGnzPXW2eg0RUobUi9V2o2p3mU=",
+      "RapGame.Client.s2xmpme0di.wasm": "sha256-DP48v03zU3XNIT+2chzIAOEcZjVog2t8e5hFfyH6IL0="
     },
     "pdb": {
-      "RapGame.Shared.s2cwcuyujk.pdb": "sha256-JGkoXWkOqRUMCRmQecaYj0AJYOP8Pu+0/u3Cg98oFuI=",
-      "RapGame.Client.fppx4p2kdz.pdb": "sha256-Y6i8E+EjWBF5VqJeNmPvfcZH43sjbI0EcVeUDFMrv5k="
+      "RapGame.Shared.sm4wfk42h8.pdb": "sha256-dN5lR2hCiOF8xXumELG12vNEXLRaVCX0XCrLGbr2JFY=",
+      "RapGame.Client.psphc9801f.pdb": "sha256-2WyFNnyFbD9y7mlu8C1ayUQvnInST+kIW8X0zBvEu18="
     }
   },
   "cacheBootResources": true,

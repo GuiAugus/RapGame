@@ -6,6 +6,7 @@ using RapGame.Data;
 using RapGame.Models;
 using RapGame.Shared.DTOs;
 
+
 namespace RapGame.API.Controllers
 {
     [Route("api/[controller]")]
@@ -220,79 +221,44 @@ namespace RapGame.API.Controllers
 
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutAlbum(int id, AlbumDto albumDto)
+        public async Task<IActionResult> PutAlbum(int id, [FromForm] string albumJson, IFormFile? file)
         {
-            if (albumDto == null)
+            // Deserialize o JSON manualmente
+            var albumDto = JsonSerializer.Deserialize<AlbumDto>(albumJson);
+            if (albumDto is null)
             {
-                return BadRequest("O corpo da requisição não pode estar vazio.");
+                return BadRequest("Dados do álbum inválidos.");
             }
 
-            var albumExistente = await _context.Albuns
-                .Include(a => a.AlbumArtistas)
-                .Include(a => a.Participacoes)
-                .FirstOrDefaultAsync(a => a.Id == id);
-
+            var albumExistente = await _context.Albuns.FindAsync(id);
             if (albumExistente == null)
             {
                 return NotFound();
             }
 
-            // Atualiza campos básicos
+            // Atualiza os campos
             albumExistente.Nome = albumDto.Nome;
-            albumExistente.QuantidadeFaixas = albumDto.QuantidadeFaixas;
             albumExistente.AlbumDate = albumDto.AlbumDate;
+            albumExistente.QuantidadeFaixas = albumDto.QuantidadeFaixas;
             albumExistente.FaixaMaisPopular = albumDto.FaixaMaisPopular;
-            albumExistente.CapaUrl = albumDto.CapaUrl;
 
-            // Atualiza relacionamentos com artistas
-
-            // Remove os antigos
-            _context.AlbumArtistas.RemoveRange(albumExistente.AlbumArtistas);
-            _context.AlbumParticipacoes.RemoveRange(albumExistente.Participacoes);
-
-            // Verifica se os novos artistas existem
-            var artistaIds = albumDto.ArtistaIds.Concat(albumDto.ArtistaParticipacoesIds).Distinct().ToList();
-
-            var artistas = await _context.Artistas
-                .Where(a => artistaIds.Contains(a.Id))
-                .ToListAsync();
-
-            var artistasExistentesIds = artistas.Select(a => a.Id).ToHashSet();
-
-            if (!albumDto.ArtistaIds.All(id => artistasExistentesIds.Contains(id)) ||
-                !albumDto.ArtistaParticipacoesIds.All(id => artistasExistentesIds.Contains(id)))
+            // Se veio imagem, atualiza a capa
+            if (file is not null)
             {
-                return BadRequest("Um ou mais artistas fornecidos não existem.");
+                var fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
+                var savePath = Path.Combine("wwwroot", "capas", fileName);
+
+                using var stream = new FileStream(savePath, FileMode.Create);
+                await file.CopyToAsync(stream);
+
+                albumExistente.CapaUrl = $"capas/{fileName}";
             }
-
-            // Recria os relacionamentos com os artistas
-            var novosAlbumArtistas = artistas
-            .Where(a => albumDto.ArtistaIds.Contains(a.Id))
-            .Select(artista => new AlbumArtista
-            {
-                AlbumId = albumExistente.Id,
-                Album = albumExistente,
-                ArtistId = artista.Id,
-                Artista = artista
-            }).ToList();
-
-        var novasParticipacoes = artistas
-            .Where(a => albumDto.ArtistaParticipacoesIds.Contains(a.Id))
-            .Select(artista => new AlbumParticipacoes
-            {
-                AlbumId = albumExistente.Id,
-                Album = albumExistente,
-                ArtistaId = artista.Id,
-                Artista = artista
-            }).ToList();
-
-            _context.AlbumArtistas.AddRange(novosAlbumArtistas);
-            _context.AlbumParticipacoes.AddRange(novasParticipacoes);
 
             await _context.SaveChangesAsync();
 
             return NoContent();
         }
+
 
         [HttpPost]
         [Route("upload")]

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "SopoqsDeKwxe6T9EygeYK0oskYKYoG/Z7Xw9fPQexWs=",
+  "Hash": "dhmweK4u8rD45m0ATd6bvro/b1edl/5ytTk0AhNYhzQ=",
   "Source": "RapGame.API",
   "BasePath": "_content/RapGame.API",
   "Mode": "Default",
@@ -16,6 +16,48 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\capas\\995b9aef-8699-41e8-8fb9-4db2cf53f092.jfif",
+      "SourceId": "RapGame.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\",
+      "BasePath": "_content/RapGame.API",
+      "RelativePath": "capas/995b9aef-8699-41e8-8fb9-4db2cf53f092#[.{fingerprint}]?.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zxfo75co6x",
+      "Integrity": "t8He+JwSqc8QHmNT9JaaduIqT5wc9y+oQCAvSTs/Ow8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\capas\\995b9aef-8699-41e8-8fb9-4db2cf53f092.jfif"
+    },
+    {
+      "Identity": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\img\\capas\\ab67616d0000b273f8ba6944fc091041493bb00f.jfif",
+      "SourceId": "RapGame.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\",
+      "BasePath": "_content/RapGame.API",
+      "RelativePath": "img/capas/ab67616d0000b273f8ba6944fc091041493bb00f#[.{fingerprint}]?.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7u7h3cqfvy",
+      "Integrity": "EcsSsPvjeqzjbJ9y9uUboK8nii1masvPXFF1wKmV4LU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\capas\\ab67616d0000b273f8ba6944fc091041493bb00f.jfif"
+    },
     {
       "Identity": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\img\\capas\\nill-LogosCapa.jfif",
       "SourceId": "RapGame.API",
@@ -39,6 +81,170 @@
     }
   ],
   "Endpoints": [
+    {
+      "Route": "capas/995b9aef-8699-41e8-8fb9-4db2cf53f092.jfif",
+      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\capas\\995b9aef-8699-41e8-8fb9-4db2cf53f092.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19145"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t8He+JwSqc8QHmNT9JaaduIqT5wc9y+oQCAvSTs/Ow8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 22:38:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-t8He+JwSqc8QHmNT9JaaduIqT5wc9y+oQCAvSTs/Ow8="
+        }
+      ]
+    },
+    {
+      "Route": "capas/995b9aef-8699-41e8-8fb9-4db2cf53f092.zxfo75co6x.jfif",
+      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\capas\\995b9aef-8699-41e8-8fb9-4db2cf53f092.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19145"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"t8He+JwSqc8QHmNT9JaaduIqT5wc9y+oQCAvSTs/Ow8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 08 Apr 2025 22:38:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zxfo75co6x"
+        },
+        {
+          "Name": "label",
+          "Value": "capas/995b9aef-8699-41e8-8fb9-4db2cf53f092.jfif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-t8He+JwSqc8QHmNT9JaaduIqT5wc9y+oQCAvSTs/Ow8="
+        }
+      ]
+    },
+    {
+      "Route": "img/capas/ab67616d0000b273f8ba6944fc091041493bb00f.7u7h3cqfvy.jfif",
+      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\img\\capas\\ab67616d0000b273f8ba6944fc091041493bb00f.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "94018"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EcsSsPvjeqzjbJ9y9uUboK8nii1masvPXFF1wKmV4LU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 03:11:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7u7h3cqfvy"
+        },
+        {
+          "Name": "label",
+          "Value": "img/capas/ab67616d0000b273f8ba6944fc091041493bb00f.jfif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EcsSsPvjeqzjbJ9y9uUboK8nii1masvPXFF1wKmV4LU="
+        }
+      ]
+    },
+    {
+      "Route": "img/capas/ab67616d0000b273f8ba6944fc091041493bb00f.jfif",
+      "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\img\\capas\\ab67616d0000b273f8ba6944fc091041493bb00f.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "94018"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EcsSsPvjeqzjbJ9y9uUboK8nii1masvPXFF1wKmV4LU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 03:11:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-EcsSsPvjeqzjbJ9y9uUboK8nii1masvPXFF1wKmV4LU="
+        }
+      ]
+    },
     {
       "Route": "img/capas/nill-LogosCapa.jfif",
       "AssetFile": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\img\\capas\\nill-LogosCapa.jfif",
