@@ -1,0 +1,154 @@
+@page "/admin"
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JSRuntime
+@using RapGame.Shared.DTOs
+@inherits RapGame.Client.SharedLogic.BasePage
+
+
+<h3>Álbuns Cadastrados</h3>
+
+<button class="admin-button" @onclick="IrParaCadastro">
+    Cadastrar Álbum
+</button>
+
+@if (mensagemErro != null)
+{
+    <p>@mensagemErro</p>
+}
+
+<input type="text"
+       class="admin-input"
+       placeholder="Pesquisar álbuns..."
+       @bind="Tentativa"
+       @onkeydown="HandleKeyDown" />
+
+@if (sugestoes?.Any() == true)
+{
+    <ul class="sugestoes-list">
+        @foreach (var s in sugestoes)
+        {
+            <li @onclick="() => FiltrarPorAlbum(s)" class="sugestao-item">
+                @s.Nome
+            </li>
+        }
+    </ul>
+}
+
+@if (albuns is null)
+{
+    <p>Carregando álbuns...</p>
+}
+else if (albuns.Count == 0)
+{
+    <p>Nenhum álbum cadastrado ainda.</p>
+}
+else
+{
+    <table class="admin-table">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Artistas</th>
+                <th>Data</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var a in albuns)
+            {
+                <tr>
+                    <td class="admin-td">@a.Nome</td>
+                    <td class="admin-td">@string.Join(", ", a.ArtistaPrincipais)</td>
+                    <td class="admin-td">@a.AlbumDateFormatted</td>
+                    <td class="admin-td">
+                        <button class="admin-button" @onclick="() => IrParaEditar(a.Id)">
+                            Editar
+                        </button>
+                        <button class="admin-button" id="admin-button-excluir" @onclick="() => ConfirmarExclusao(a.Id)">
+                            Excluir
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {    
+    private string? mensagemErro;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await CarregarAlbuns();
+    }
+
+    private async Task CarregarAlbuns()
+    {
+        try
+        {
+            albuns = await Http.GetFromJsonAsync<List<AlbumDto>>("api/album") ?? new List<AlbumDto>();
+        }
+        catch (Exception ex)
+        {
+            mensagemErro = "Erro ao carregar álbuns: " + ex.Message;
+        }
+    }
+
+    private void IrParaCadastro()
+    {
+        NavigationManager.NavigateTo("/admin/cadastrar-album");
+    }
+
+    private void IrParaEditar(int albumId)
+    {
+        NavigationManager.NavigateTo($"/admin/editaralbum/{albumId}");
+    }
+
+    private async Task ConfirmarExclusao(int albumId)
+    {
+        bool confirmar = await JSRuntime.InvokeAsync<bool>("confirm", "Tem certeza que deseja excluir este álbum?");
+        if (confirmar)
+        {
+            await ExcluirAlbum(albumId);
+        }
+    }
+
+    private async Task ExcluirAlbum(int albumId)
+    {
+        try
+        {
+            var resposta = await Http.DeleteAsync($"api/album/{albumId}");
+            if (resposta.IsSuccessStatusCode)
+            {
+                await CarregarAlbuns(); // Atualiza lista
+            }
+            else
+            {
+                mensagemErro = $"Erro ao excluir álbum: {resposta.StatusCode}";
+            }
+        }
+        catch (Exception ex)
+        {
+            mensagemErro = $"Erro inesperado: {ex.Message}";
+        }
+    }
+
+    private string filtro = "";
+
+    private IEnumerable<AlbumDto> albunsFiltrados =>
+    string.IsNullOrWhiteSpace(filtro)
+        ? albuns
+        : albuns.Where(a =>
+            (!string.IsNullOrWhiteSpace(a.Nome) && a.Nome.Contains(filtro, StringComparison.OrdinalIgnoreCase)) ||
+            (a.ArtistaPrincipais != null && a.ArtistaPrincipais.Any(ap => ap.Contains(filtro, StringComparison.OrdinalIgnoreCase))) ||
+            (a.ArtistaParticipacoes != null && a.ArtistaParticipacoes.Any(p =>
+                p.Contains(filtro, StringComparison.OrdinalIgnoreCase)))
+        );
+
+        private void FiltrarPorAlbum(AlbumDto album)
+    {
+        albuns = albuns.Where(a => a.Id == album.Id).ToList();
+        sugestoes.Clear();
+        Tentativa = "";
+    }
+}
