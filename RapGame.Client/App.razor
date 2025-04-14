@@ -1,4 +1,7 @@
-﻿<Router AppAssembly="@typeof(App).Assembly">
+﻿@inject NavigationManager NavigationManager
+@inject Blazored.LocalStorage.ILocalStorageService localStorage
+
+<Router AppAssembly="@typeof(App).Assembly">
     <Found Context="routeData">
         <RouteView RouteData="@routeData" DefaultLayout="@typeof(RapGame.Client.Pages.Shared.MainLayout)" />
     </Found>
@@ -8,3 +11,18 @@
         </LayoutView>
     </NotFound>
 </Router>
+
+@code {
+    private bool IsAuthenticated = false;
+
+    protected override async Task OnInitializedAsync()
+    {
+        var authToken = await localStorage.GetItemAsync<string>("authToken");
+        IsAuthenticated = !string.IsNullOrEmpty(authToken);
+
+        if (!IsAuthenticated)
+        {
+            NavigationManager.NavigateTo("/login");
+        }
+    }
+}

@@ -17,11 +17,11 @@ namespace RapGame.API.Controllers
         }
 
         [HttpPost("login")]
-        public IActionResult Login([FromBody] LoginRequest login)
+        public ActionResult<object> Login([FromBody] LoginRequest login)
         {
             var token = _authService.Autenticar(login);
             if (token == null)
-                return Unauthorized();
+                return Unauthorized(new { message = "Credenciais inválidas" });
 
             return Ok(new { token });
         }

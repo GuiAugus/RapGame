@@ -1,0 +1,69 @@
+@page "/login"
+@using RapGame.Shared.Auth
+@using System.Text.Json
+@inject HttpClient Http
+@inject Blazored.LocalStorage.ILocalStorageService localStorage
+@inject NavigationManager NavigationManager
+
+<h3>Login</h3>
+
+<EditForm Model="loginRequest" OnValidSubmit="HandleLogin">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div>
+        <label for="username">Usuário</label>
+        <InputText id="username" @bind-Value="loginRequest.Username" />
+    </div>
+
+    <div>
+        <label for="password">Senha</label>
+        <InputText id="password" @bind-Value="loginRequest.Password" type="password" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Login</button>
+</EditForm>
+
+@code {
+    private LoginRequest loginRequest = new LoginRequest();
+
+    private async Task HandleLogin()
+    {
+        try
+        {
+            var loginResponse = await Http.PostAsJsonAsync("api/auth/login", loginRequest);
+
+            if (loginResponse.IsSuccessStatusCode)
+            {
+                var responseData = await loginResponse.Content.ReadFromJsonAsync<JsonElement>();
+
+                if (responseData.TryGetProperty("token", out var tokenProperty))
+                {
+                    var token = tokenProperty.GetString();
+
+                    if (!string.IsNullOrEmpty(token))
+                    {
+                        await localStorage.SetItemAsync("authToken", token);
+                        NavigationManager.NavigateTo("/admin");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Token vazio ou nulo.");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Token não encontrado na resposta.");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Erro ao tentar fazer login: " + loginResponse.ReasonPhrase);
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Erro durante o login: " + ex.Message);
+        }
+    }
+}

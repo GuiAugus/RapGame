@@ -2,7 +2,9 @@
 @inject NavigationManager NavigationManager
 @inject IJSRuntime JSRuntime
 @using RapGame.Shared.DTOs
+@using Microsoft.AspNetCore.Authorization
 @inherits RapGame.Client.SharedLogic.BasePage
+@attribute [Authorize]
 
 
 <h3>Álbuns Cadastrados</h3>
@@ -54,19 +56,15 @@ else
             </tr>
         </thead>
         <tbody>
-            @foreach (var a in albuns)
+             @foreach (var a in albunsFiltrados)
             {
                 <tr>
                     <td class="admin-td">@a.Nome</td>
                     <td class="admin-td">@string.Join(", ", a.ArtistaPrincipais)</td>
                     <td class="admin-td">@a.AlbumDateFormatted</td>
-                    <td class="admin-td">
-                        <button class="admin-button" @onclick="() => IrParaEditar(a.Id)">
-                            Editar
-                        </button>
-                        <button class="admin-button" id="admin-button-excluir" @onclick="() => ConfirmarExclusao(a.Id)">
-                            Excluir
-                        </button>
+                    <td>
+                        <button class="admin-button" @onclick="() => IrParaEditar(a.Id)">Editar</button>
+                        <button class="admin-button" @onclick="() => ConfirmarExclusao(a.Id)">Excluir</button>
                     </td>
                 </tr>
             }
