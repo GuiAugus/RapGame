@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EjvMFVLG07Ys3E6nmFh83o08g2q7pePT1/LN7n3MfpU=",
+  "Hash": "SCxfT1hUGKzfcaFSObHYubM6ne7S4xCLZCwvbXg5Ukk=",
   "Source": "RapGame.API",
   "BasePath": "_content/RapGame.API",
   "Mode": "Default",
@@ -125,7 +125,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 22:38:12 GMT"
+          "Value": "Mon, 14 Apr 2025 15:48:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -162,7 +162,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 22:38:12 GMT"
+          "Value": "Mon, 14 Apr 2025 15:48:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -207,7 +207,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 03:27:26 GMT"
+          "Value": "Mon, 14 Apr 2025 15:48:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -252,7 +252,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 03:27:26 GMT"
+          "Value": "Mon, 14 Apr 2025 15:48:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -289,7 +289,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 03:11:37 GMT"
+          "Value": "Mon, 14 Apr 2025 15:48:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -334,7 +334,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 09 Apr 2025 03:11:37 GMT"
+          "Value": "Mon, 14 Apr 2025 15:48:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -371,7 +371,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 04:12:52 GMT"
+          "Value": "Mon, 14 Apr 2025 15:48:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -408,7 +408,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 08 Apr 2025 04:12:52 GMT"
+          "Value": "Mon, 14 Apr 2025 15:48:05 GMT"
         },
         {
           "Name": "Cache-Control",
