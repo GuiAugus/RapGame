@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\css\\admin\\FormsAdmin.css"
     },
     {
+      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\wwwroot\\css\\auth\\login.css",
+      "PackagePath": "staticwebassets\\css\\auth\\login.css"
+    },
+    {
       "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\wwwroot\\css\\games\\rapdle.css",
       "PackagePath": "staticwebassets\\css\\games\\rapdle.css"
     },

@@ -1,31 +1,27 @@
+#########################################################
 # Diretórios de build
+#########################################################
 bin/
 obj/
 **/bin/
 **/obj/
+publish/
+out/
 
-# Visual Studio
+#########################################################
+# Visual Studio / Visual Studio Code
+#########################################################
+.vs/
+.vscode/
 *.user
 *.suo
 *.sln.docstates
-.vs/
 
-# VS Code
-.vscode/
-
-# Arquivos temporários
-*.log
-*.tmp
-
-# Blazor WebAssembly
+#########################################################
+# Blazor WebAssembly (artefatos gerados em tempo de build)
+#########################################################
 **/wwwroot/_framework/
-**/wwwroot/_framework/*.gz
-**/wwwroot/_framework/*.br
-**/wwwroot/_framework/*.wasm
-**/wwwroot/_framework/*.pdb
-**/wwwroot/_framework/*.json
-**/wwwroot/_framework/*.dll
-**/wwwroot/_framework/*.js
+**/wwwroot/_framework/*
 **/obj/**/compressed/
 **/obj/**/staticwebassets/
 **/obj/**/tmp-webcil/
@@ -33,20 +29,28 @@ obj/
 **/obj/**/ref/
 **/obj/**/refint/
 
-# CSS gerado
+#########################################################
+# Arquivos temporários e de log
+#########################################################
+*.log
+*.tmp
+
+#########################################################
+# Arquivos gerados (CSS, mapas de fonte)
+#########################################################
 **/wwwroot/css/*.css
 **/wwwroot/css/*.min.css
 **/wwwroot/css/*.map
 
-# Publicações
-publish/
-out/
+#########################################################
+# Banco de dados e arquivos locais
+#########################################################
 *.db
-
-# Configurações locais
 appsettings.Development.json
 secrets.json
 
-# Sistema operacional
+#########################################################
+# Arquivos do sistema operacional
+#########################################################
 .DS_Store
 Thumbs.db
