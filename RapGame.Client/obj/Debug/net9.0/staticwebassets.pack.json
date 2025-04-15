@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
+      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\wwwroot\\css\\about.css",
+      "PackagePath": "staticwebassets\\css\\about.css"
+    },
+    {
       "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\wwwroot\\css\\admin\\Admin.css",
       "PackagePath": "staticwebassets\\css\\admin\\Admin.css"
     },

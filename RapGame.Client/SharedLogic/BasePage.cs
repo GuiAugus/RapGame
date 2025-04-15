@@ -82,12 +82,12 @@ namespace RapGame.Client.SharedLogic
             {
                 tentativas.Add(tentativa);
             }
-            if (tentativas.Count == 2 && string.IsNullOrEmpty(DicaFeat))
+            if (tentativas.Count == 5 && string.IsNullOrEmpty(DicaFeat))
             {
                 DicaFeat = $"Dica:  {$"Esse album possui um feat de: {albumSelecionado?.ArtistaParticipacoes?.FirstOrDefault()}" ?? "Esse album nao possui feat."}";
             }
 
-            if (tentativas.Count == 4 && string.IsNullOrEmpty(DicaFaixaFamosa))
+            if (tentativas.Count == 10 && string.IsNullOrEmpty(DicaFaixaFamosa))
             {
                 DicaFaixaFamosa = $"Dica: {$"Faixa mais famosa do Album: {albumSelecionado?.FaixaMaisPopular}" ?? "Desconhecida"}";
             }

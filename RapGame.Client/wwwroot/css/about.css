@@ -1,6 +1,6 @@
 @import url(style.css);
 
-.div-home {
+.div-about, .div-link {
     max-width: 1200px;
     text-align: center;
     margin: 0 auto;
@@ -9,7 +9,7 @@
     box-shadow: 5px 10px #000000;
 }
 
-.div-home h1{
+.div-about h1, h2{
     font-size: 35px;
     width: 90%;
     padding: 30px 0px;
@@ -19,11 +19,34 @@
     box-shadow: 5px 10px #000000;
 }
 
-.div-home p, ul {
+.div-about h2{
+    font-size: 30px;
+    padding: 25px 0;
+}
+
+.div-about p {
     width: 90%;
     margin: 0 auto;
     font-size: 20px;
     padding: 40px 40px 60px 40px;
     background-color: var(--cor3);
     box-shadow: 5px 10px #000000;
+}
+
+.div-about ul{
+    width: 90%;
+    background-color: var(--cor1);
+    box-shadow: 5px 10px #000000;
+}
+
+.div-about li {
+    height: 45px;
+}
+
+.div-link {
+    background-color: var(--cor1);
+}
+
+a {
+    color: #000000;
 }
