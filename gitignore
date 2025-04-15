@@ -1,11 +1,10 @@
-
-# Compilação
+# Diretórios de build
 bin/
 obj/
 **/bin/
 **/obj/
 
-# Arquivos do Visual Studio
+# Visual Studio
 *.user
 *.suo
 *.sln.docstates
@@ -18,10 +17,26 @@ obj/
 *.log
 *.tmp
 
-# Build do Blazor
-wwwroot/dist/
-wwwroot/_framework/
-wwwroot/css/app.css
+# Blazor WebAssembly
+**/wwwroot/_framework/
+**/wwwroot/_framework/*.gz
+**/wwwroot/_framework/*.br
+**/wwwroot/_framework/*.wasm
+**/wwwroot/_framework/*.pdb
+**/wwwroot/_framework/*.json
+**/wwwroot/_framework/*.dll
+**/wwwroot/_framework/*.js
+**/obj/**/compressed/
+**/obj/**/staticwebassets/
+**/obj/**/tmp-webcil/
+**/obj/**/webcil/
+**/obj/**/ref/
+**/obj/**/refint/
+
+# CSS gerado
+**/wwwroot/css/*.css
+**/wwwroot/css/*.min.css
+**/wwwroot/css/*.map
 
 # Publicações
 publish/
@@ -32,6 +47,6 @@ out/
 appsettings.Development.json
 secrets.json
 
-# Sistema
+# Sistema operacional
 .DS_Store
 Thumbs.db
