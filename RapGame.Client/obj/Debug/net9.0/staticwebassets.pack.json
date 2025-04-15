@@ -13,20 +13,20 @@
       "PackagePath": "staticwebassets\\css\\admin\\CadastrarAlbum.css"
     },
     {
-      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\wwwroot\\css\\footer.css",
-      "PackagePath": "staticwebassets\\css\\footer.css"
-    },
-    {
-      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\wwwroot\\css\\navbar.css",
-      "PackagePath": "staticwebassets\\css\\navbar.css"
-    },
-    {
-      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\wwwroot\\css\\rapdle.css",
-      "PackagePath": "staticwebassets\\css\\rapdle.css"
+      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\wwwroot\\css\\games\\rapdle.css",
+      "PackagePath": "staticwebassets\\css\\games\\rapdle.css"
     },
     {
       "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\wwwroot\\css\\reset.css",
       "PackagePath": "staticwebassets\\css\\reset.css"
+    },
+    {
+      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\wwwroot\\css\\shared\\footer.css",
+      "PackagePath": "staticwebassets\\css\\shared\\footer.css"
+    },
+    {
+      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\wwwroot\\css\\shared\\navbar.css",
+      "PackagePath": "staticwebassets\\css\\shared\\navbar.css"
     },
     {
       "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\wwwroot\\css\\style.css",

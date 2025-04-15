@@ -4,49 +4,49 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\995b9aef-8699-41e8-8fb9-4db2cf53f092.jfif'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-t8He\u002BJwSqc8QHmNT9JaaduIqT5wc9y\u002BoQCAvSTs/Ow8="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"19145"},{"Name":"Content-Type","Value":"image/pjpeg"},{"Name":"ETag","Value":"\u0022t8He\u002BJwSqc8QHmNT9JaaduIqT5wc9y\u002BoQCAvSTs/Ow8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 14 Apr 2025 15:48:05 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"19145"},{"Name":"Content-Type","Value":"image/pjpeg"},{"Name":"ETag","Value":"\u0022t8He\u002BJwSqc8QHmNT9JaaduIqT5wc9y\u002BoQCAvSTs/Ow8=\u0022"},{"Name":"Last-Modified","Value":"Tue, 15 Apr 2025 02:27:44 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/RapGame.API/capas/995b9aef-8699-41e8-8fb9-4db2cf53f092.zxfo75co6x.jfif">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\995b9aef-8699-41e8-8fb9-4db2cf53f092.jfif'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zxfo75co6x"},{"Name":"integrity","Value":"sha256-t8He\u002BJwSqc8QHmNT9JaaduIqT5wc9y\u002BoQCAvSTs/Ow8="},{"Name":"label","Value":"_content/RapGame.API/capas/995b9aef-8699-41e8-8fb9-4db2cf53f092.jfif"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"19145"},{"Name":"Content-Type","Value":"image/pjpeg"},{"Name":"ETag","Value":"\u0022t8He\u002BJwSqc8QHmNT9JaaduIqT5wc9y\u002BoQCAvSTs/Ow8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 14 Apr 2025 15:48:05 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"19145"},{"Name":"Content-Type","Value":"image/pjpeg"},{"Name":"ETag","Value":"\u0022t8He\u002BJwSqc8QHmNT9JaaduIqT5wc9y\u002BoQCAvSTs/Ow8=\u0022"},{"Name":"Last-Modified","Value":"Tue, 15 Apr 2025 02:27:44 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/RapGame.API/capas/b4c4026c-a8df-4ae2-b50a-653af4ffbfa7.7u7h3cqfvy.jfif">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\b4c4026c-a8df-4ae2-b50a-653af4ffbfa7.jfif'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7u7h3cqfvy"},{"Name":"integrity","Value":"sha256-EcsSsPvjeqzjbJ9y9uUboK8nii1masvPXFF1wKmV4LU="},{"Name":"label","Value":"_content/RapGame.API/capas/b4c4026c-a8df-4ae2-b50a-653af4ffbfa7.jfif"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"94018"},{"Name":"Content-Type","Value":"image/pjpeg"},{"Name":"ETag","Value":"\u0022EcsSsPvjeqzjbJ9y9uUboK8nii1masvPXFF1wKmV4LU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 14 Apr 2025 15:48:05 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"94018"},{"Name":"Content-Type","Value":"image/pjpeg"},{"Name":"ETag","Value":"\u0022EcsSsPvjeqzjbJ9y9uUboK8nii1masvPXFF1wKmV4LU=\u0022"},{"Name":"Last-Modified","Value":"Tue, 15 Apr 2025 02:27:44 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/RapGame.API/capas/b4c4026c-a8df-4ae2-b50a-653af4ffbfa7.jfif">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\b4c4026c-a8df-4ae2-b50a-653af4ffbfa7.jfif'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-EcsSsPvjeqzjbJ9y9uUboK8nii1masvPXFF1wKmV4LU="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"94018"},{"Name":"Content-Type","Value":"image/pjpeg"},{"Name":"ETag","Value":"\u0022EcsSsPvjeqzjbJ9y9uUboK8nii1masvPXFF1wKmV4LU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 14 Apr 2025 15:48:05 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"94018"},{"Name":"Content-Type","Value":"image/pjpeg"},{"Name":"ETag","Value":"\u0022EcsSsPvjeqzjbJ9y9uUboK8nii1masvPXFF1wKmV4LU=\u0022"},{"Name":"Last-Modified","Value":"Tue, 15 Apr 2025 02:27:44 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/RapGame.API/img/capas/ab67616d0000b273f8ba6944fc091041493bb00f.7u7h3cqfvy.jfif">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\capas\ab67616d0000b273f8ba6944fc091041493bb00f.jfif'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7u7h3cqfvy"},{"Name":"integrity","Value":"sha256-EcsSsPvjeqzjbJ9y9uUboK8nii1masvPXFF1wKmV4LU="},{"Name":"label","Value":"_content/RapGame.API/img/capas/ab67616d0000b273f8ba6944fc091041493bb00f.jfif"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"94018"},{"Name":"Content-Type","Value":"image/pjpeg"},{"Name":"ETag","Value":"\u0022EcsSsPvjeqzjbJ9y9uUboK8nii1masvPXFF1wKmV4LU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 14 Apr 2025 15:48:05 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"94018"},{"Name":"Content-Type","Value":"image/pjpeg"},{"Name":"ETag","Value":"\u0022EcsSsPvjeqzjbJ9y9uUboK8nii1masvPXFF1wKmV4LU=\u0022"},{"Name":"Last-Modified","Value":"Tue, 15 Apr 2025 02:27:44 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/RapGame.API/img/capas/ab67616d0000b273f8ba6944fc091041493bb00f.jfif">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\capas\ab67616d0000b273f8ba6944fc091041493bb00f.jfif'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-EcsSsPvjeqzjbJ9y9uUboK8nii1masvPXFF1wKmV4LU="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"94018"},{"Name":"Content-Type","Value":"image/pjpeg"},{"Name":"ETag","Value":"\u0022EcsSsPvjeqzjbJ9y9uUboK8nii1masvPXFF1wKmV4LU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 14 Apr 2025 15:48:05 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"94018"},{"Name":"Content-Type","Value":"image/pjpeg"},{"Name":"ETag","Value":"\u0022EcsSsPvjeqzjbJ9y9uUboK8nii1masvPXFF1wKmV4LU=\u0022"},{"Name":"Last-Modified","Value":"Tue, 15 Apr 2025 02:27:44 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/RapGame.API/img/capas/nill-LogosCapa.jfif">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\capas\nill-LogosCapa.jfif'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-t8He\u002BJwSqc8QHmNT9JaaduIqT5wc9y\u002BoQCAvSTs/Ow8="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"19145"},{"Name":"Content-Type","Value":"image/pjpeg"},{"Name":"ETag","Value":"\u0022t8He\u002BJwSqc8QHmNT9JaaduIqT5wc9y\u002BoQCAvSTs/Ow8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 14 Apr 2025 15:48:05 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"19145"},{"Name":"Content-Type","Value":"image/pjpeg"},{"Name":"ETag","Value":"\u0022t8He\u002BJwSqc8QHmNT9JaaduIqT5wc9y\u002BoQCAvSTs/Ow8=\u0022"},{"Name":"Last-Modified","Value":"Tue, 15 Apr 2025 02:27:44 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/RapGame.API/img/capas/nill-LogosCapa.zxfo75co6x.jfif">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\capas\nill-LogosCapa.jfif'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zxfo75co6x"},{"Name":"integrity","Value":"sha256-t8He\u002BJwSqc8QHmNT9JaaduIqT5wc9y\u002BoQCAvSTs/Ow8="},{"Name":"label","Value":"_content/RapGame.API/img/capas/nill-LogosCapa.jfif"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"19145"},{"Name":"Content-Type","Value":"image/pjpeg"},{"Name":"ETag","Value":"\u0022t8He\u002BJwSqc8QHmNT9JaaduIqT5wc9y\u002BoQCAvSTs/Ow8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 14 Apr 2025 15:48:05 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"19145"},{"Name":"Content-Type","Value":"image/pjpeg"},{"Name":"ETag","Value":"\u0022t8He\u002BJwSqc8QHmNT9JaaduIqT5wc9y\u002BoQCAvSTs/Ow8=\u0022"},{"Name":"Last-Modified","Value":"Tue, 15 Apr 2025 02:27:44 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>
