@@ -20,3 +20,25 @@ body {
     line-height: 1.6;
 }
 
+
+/* CSS */
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* ocupa a tela inteira */
+}
+
+.spinner {
+    width: 50px;
+    height: 50px;
+    border: 6px solid #ccc;
+    border-top: 6px solid #000;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+/* Animação girando */
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
