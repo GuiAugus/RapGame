@@ -4,25 +4,29 @@
 @inject HttpClient Http
 @inject Blazored.LocalStorage.ILocalStorageService localStorage
 @inject NavigationManager NavigationManager
+<link href="css/auth/login.css" rel="stylesheet" />
 
-<h3>Login</h3>
 
-<EditForm Model="loginRequest" OnValidSubmit="HandleLogin">
-    <DataAnnotationsValidator />
-    <ValidationSummary />
+<div class="div-login">
+    <h1>Login</h1>
 
-    <div>
-        <label for="username">Usuário</label>
-        <InputText id="username" @bind-Value="loginRequest.Username" />
-    </div>
+    <EditForm Model="loginRequest" OnValidSubmit="HandleLogin" class="form-login">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
 
-    <div>
-        <label for="password">Senha</label>
-        <InputText id="password" @bind-Value="loginRequest.Password" type="password" />
-    </div>
+        <div class="input-login">
+            <label for="username">Usuário</label>
+            <InputText id="username" @bind-Value="loginRequest.Username" />
+        </div>
 
-    <button type="submit" class="btn btn-primary">Login</button>
-</EditForm>
+        <div class="input-login">
+            <label for="password">Senha</label>
+            <InputText id="password" @bind-Value="loginRequest.Password" type="password" />
+        </div>
+
+        <button type="submit" class="button-login">Login</button>
+    </EditForm>
+</div>
 
 @code {
     private LoginRequest loginRequest = new LoginRequest();
