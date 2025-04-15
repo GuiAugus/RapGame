@@ -2,10 +2,10 @@
 @inject NavigationManager NavigationManager
 @inject IJSRuntime JSRuntime
 @using RapGame.Shared.DTOs
-@using Microsoft.AspNetCore.Authorization
 @inherits RapGame.Client.SharedLogic.BasePage
+@using Microsoft.AspNetCore.Authorization
 @attribute [Authorize]
-
+@inject Blazored.LocalStorage.ILocalStorageService localStorage
 
 <h3>Álbuns Cadastrados</h3>
 
@@ -49,6 +49,7 @@ else
     <table class="admin-table">
         <thead>
             <tr>
+                <th>ID</th>
                 <th>Nome</th>
                 <th>Artistas</th>
                 <th>Data</th>
@@ -59,6 +60,7 @@ else
              @foreach (var a in albunsFiltrados)
             {
                 <tr>
+                    <td class="admin-td">@a.Id</td>
                     <td class="admin-td">@a.Nome</td>
                     <td class="admin-td">@string.Join(", ", a.ArtistaPrincipais)</td>
                     <td class="admin-td">@a.AlbumDateFormatted</td>
@@ -70,7 +72,18 @@ else
             }
         </tbody>
     </table>
+
+    <h4>Definir Álbum do Rapdle</h4>
+
+    <input type="number" @bind="albumSelecionadoId" placeholder="Digite o ID do álbum" />
+    <button class="btn btn-primary" @onclick="DefinirAlbumDoRapdle">Definir</button>
+
+    @if (!string.IsNullOrEmpty(mensagemStatus))
+    {
+        <p>@mensagemStatus</p>
+    }
 }
+
 
 @code {    
     private string? mensagemErro;
@@ -148,5 +161,14 @@ else
         albuns = albuns.Where(a => a.Id == album.Id).ToList();
         sugestoes.Clear();
         Tentativa = "";
+    }
+
+    private int albumSelecionadoId;
+    private string? mensagemStatus;
+
+    private async Task DefinirAlbumDoRapdle()
+    {
+        await localStorage.SetItemAsync("rapdle_album_id", albumSelecionadoId);
+        mensagemStatus = $"Álbum ID {albumSelecionadoId} definido com sucesso!";
     }
 }

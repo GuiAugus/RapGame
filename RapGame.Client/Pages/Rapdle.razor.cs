@@ -1,3 +1,4 @@
+using Blazored.LocalStorage.StorageOptions;
 using RapGame.Client.SharedLogic;
 using RapGame.Shared.DTOs;
 using System.Net.Http.Json;
@@ -11,7 +12,9 @@ namespace RapGame.Client.Pages
             try
             {
                 albuns = await Http.GetFromJsonAsync<List<AlbumDto>>("api/Album") ?? new();
-                await BuscarAlbumPorId(19); // Ou aleatório depois
+                
+                var idDoAlbum = await localStorage.GetItemAsync<int>("rapdle_album_id");
+                await BuscarAlbumPorId(idDoAlbum);
             }
             catch (Exception ex)
             {

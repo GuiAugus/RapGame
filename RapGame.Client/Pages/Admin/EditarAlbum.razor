@@ -6,6 +6,8 @@
 @using System.Net.Http.Headers
 @using System.Text
 @using System.Text.Json
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize]
 
 <div class="form-cadastro">
     <EditForm Model="album" OnValidSubmit="Salvar">
