@@ -1,0 +1,37 @@
+
+# Compilação
+bin/
+obj/
+**/bin/
+**/obj/
+
+# Arquivos do Visual Studio
+*.user
+*.suo
+*.sln.docstates
+.vs/
+
+# VS Code
+.vscode/
+
+# Arquivos temporários
+*.log
+*.tmp
+
+# Build do Blazor
+wwwroot/dist/
+wwwroot/_framework/
+wwwroot/css/app.css
+
+# Publicações
+publish/
+out/
+*.db
+
+# Configurações locais
+appsettings.Development.json
+secrets.json
+
+# Sistema
+.DS_Store
+Thumbs.db
