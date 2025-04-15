@@ -82,7 +82,7 @@ else
 <div class="definirAlbum">
     <h4>Definir Álbum do Rapdle</h4>
         <input type="number" @bind="albumSelecionadoId" placeholder="Digite o ID do álbum" />
-        <button @onclick="DefinirAlbumDoRapdle">Definir</button>
+        <button class="admin-button" @onclick="DefinirAlbumDoRapdle">Definir</button>
 
         @if (!string.IsNullOrEmpty(mensagemStatus))
         {
