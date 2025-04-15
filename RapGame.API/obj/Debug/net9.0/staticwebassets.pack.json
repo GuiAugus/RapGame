@@ -1,20 +1,124 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\capas\\995b9aef-8699-41e8-8fb9-4db2cf53f092.jfif",
-      "PackagePath": "staticwebassets\\capas\\995b9aef-8699-41e8-8fb9-4db2cf53f092.jfif"
+      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\capas\\028de22c-15e1-48de-975e-24e9eceece68.jfif",
+      "PackagePath": "staticwebassets\\capas\\028de22c-15e1-48de-975e-24e9eceece68.jfif"
     },
     {
-      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\capas\\b4c4026c-a8df-4ae2-b50a-653af4ffbfa7.jfif",
-      "PackagePath": "staticwebassets\\capas\\b4c4026c-a8df-4ae2-b50a-653af4ffbfa7.jfif"
+      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\capas\\0884e57b-5312-43e4-b5d6-73c611c34f1a.jfif",
+      "PackagePath": "staticwebassets\\capas\\0884e57b-5312-43e4-b5d6-73c611c34f1a.jfif"
     },
     {
-      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\img\\capas\\ab67616d0000b273f8ba6944fc091041493bb00f.jfif",
-      "PackagePath": "staticwebassets\\img\\capas\\ab67616d0000b273f8ba6944fc091041493bb00f.jfif"
+      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\capas\\15d2546a-199e-4593-b1db-87236ae31f0c.jfif",
+      "PackagePath": "staticwebassets\\capas\\15d2546a-199e-4593-b1db-87236ae31f0c.jfif"
     },
     {
-      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\img\\capas\\nill-LogosCapa.jfif",
-      "PackagePath": "staticwebassets\\img\\capas\\nill-LogosCapa.jfif"
+      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\capas\\1a98a43b-f349-473b-91e7-eeeb866c82f4.jfif",
+      "PackagePath": "staticwebassets\\capas\\1a98a43b-f349-473b-91e7-eeeb866c82f4.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\capas\\2cb442c4-0a43-4a75-b3f6-db4faeea3eda.jfif",
+      "PackagePath": "staticwebassets\\capas\\2cb442c4-0a43-4a75-b3f6-db4faeea3eda.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\capas\\2dbda21d-db47-4609-9bfc-874ffdc5b969.jfif",
+      "PackagePath": "staticwebassets\\capas\\2dbda21d-db47-4609-9bfc-874ffdc5b969.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\capas\\35992da1-d3d4-4f86-bc11-7f07b71e8359.jfif",
+      "PackagePath": "staticwebassets\\capas\\35992da1-d3d4-4f86-bc11-7f07b71e8359.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\capas\\4a96772f-76e0-4e07-8a2f-a388741f7922.jfif",
+      "PackagePath": "staticwebassets\\capas\\4a96772f-76e0-4e07-8a2f-a388741f7922.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\capas\\4c41ad3e-1c6a-40be-b9ba-c62765125270.jfif",
+      "PackagePath": "staticwebassets\\capas\\4c41ad3e-1c6a-40be-b9ba-c62765125270.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\capas\\4cb960dc-c709-45ac-86a3-7010c97a264a.jfif",
+      "PackagePath": "staticwebassets\\capas\\4cb960dc-c709-45ac-86a3-7010c97a264a.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\capas\\58ad3c43-28bb-48f5-81af-4dadda6b114f.jfif",
+      "PackagePath": "staticwebassets\\capas\\58ad3c43-28bb-48f5-81af-4dadda6b114f.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\capas\\5fe55aa9-e591-4aca-8867-7fd86ef3a4dc.jfif",
+      "PackagePath": "staticwebassets\\capas\\5fe55aa9-e591-4aca-8867-7fd86ef3a4dc.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\capas\\66898884-4e42-4e7b-956d-08c680d55481.jfif",
+      "PackagePath": "staticwebassets\\capas\\66898884-4e42-4e7b-956d-08c680d55481.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\capas\\89b3b3f1-4c47-4aa8-97b9-46ba87678b42.jfif",
+      "PackagePath": "staticwebassets\\capas\\89b3b3f1-4c47-4aa8-97b9-46ba87678b42.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\capas\\8b81b529-faba-4b74-883c-cd0709da5156.jfif",
+      "PackagePath": "staticwebassets\\capas\\8b81b529-faba-4b74-883c-cd0709da5156.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\capas\\977957c9-9b46-48cf-9605-10923b5c90f2.jfif",
+      "PackagePath": "staticwebassets\\capas\\977957c9-9b46-48cf-9605-10923b5c90f2.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\capas\\987c935b-1a55-49bd-bd18-b922b8ecb18a.jfif",
+      "PackagePath": "staticwebassets\\capas\\987c935b-1a55-49bd-bd18-b922b8ecb18a.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\capas\\9895259e-502f-434b-b22a-bf75f12a6f88.jfif",
+      "PackagePath": "staticwebassets\\capas\\9895259e-502f-434b-b22a-bf75f12a6f88.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\capas\\a0688997-b46b-4af0-8a17-e1ce561c3794.jfif",
+      "PackagePath": "staticwebassets\\capas\\a0688997-b46b-4af0-8a17-e1ce561c3794.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\capas\\a7b6afa3-27bd-4b3a-8520-bb6a85ae732c.jfif",
+      "PackagePath": "staticwebassets\\capas\\a7b6afa3-27bd-4b3a-8520-bb6a85ae732c.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\capas\\afeed9e0-20ce-45f1-9fda-071fea2915fe.jfif",
+      "PackagePath": "staticwebassets\\capas\\afeed9e0-20ce-45f1-9fda-071fea2915fe.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\capas\\b78cd7ac-b3ff-4e50-91b8-7426a4a0451a.jfif",
+      "PackagePath": "staticwebassets\\capas\\b78cd7ac-b3ff-4e50-91b8-7426a4a0451a.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\capas\\bb446445-6bdd-47a1-b7be-b04e911ff146.jfif",
+      "PackagePath": "staticwebassets\\capas\\bb446445-6bdd-47a1-b7be-b04e911ff146.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\capas\\bdaad21f-4fca-4257-9110-a8258de26a47.jfif",
+      "PackagePath": "staticwebassets\\capas\\bdaad21f-4fca-4257-9110-a8258de26a47.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\capas\\cea5302d-2b0d-4e48-8f91-12d81d466a0b.jfif",
+      "PackagePath": "staticwebassets\\capas\\cea5302d-2b0d-4e48-8f91-12d81d466a0b.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\capas\\dbda3588-4fca-44ad-9490-23b83a79a62e.jfif",
+      "PackagePath": "staticwebassets\\capas\\dbda3588-4fca-44ad-9490-23b83a79a62e.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\capas\\e098998e-0c91-4cf6-adbd-6345e3a49d3b.jfif",
+      "PackagePath": "staticwebassets\\capas\\e098998e-0c91-4cf6-adbd-6345e3a49d3b.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\capas\\e276a4bc-b220-4193-82d9-b9be66d43357.jfif",
+      "PackagePath": "staticwebassets\\capas\\e276a4bc-b220-4193-82d9-b9be66d43357.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\capas\\e3edc8b0-47dd-4e7d-a436-8239a2de1aa3.jfif",
+      "PackagePath": "staticwebassets\\capas\\e3edc8b0-47dd-4e7d-a436-8239a2de1aa3.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.API\\wwwroot\\capas\\e53cdd94-948c-40bf-9049-7b7988b17086.jfif",
+      "PackagePath": "staticwebassets\\capas\\e53cdd94-948c-40bf-9049-7b7988b17086.jfif"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.RapGame.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

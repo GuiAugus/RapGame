@@ -8645,8 +8645,8 @@
       ]
     },
     {
-      "Route": "_framework/RapGame.Client.74vxhana9k.wasm",
-      "AssetFile": "_framework/RapGame.Client.74vxhana9k.wasm",
+      "Route": "_framework/RapGame.Client.kjlec7kcmy.wasm",
+      "AssetFile": "_framework/RapGame.Client.kjlec7kcmy.wasm",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8667,21 +8667,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xyTYCUUzX+1qez4+YVkJ/B4vyzkX8959mO4vwIWSd+o=\""
+          "Value": "\"cFOxJcVXvcjeaNBPfKbW7u0Bpv31g3e2XAoOWTSdUlo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 17:04:46 GMT"
+          "Value": "Tue, 15 Apr 2025 21:01:58 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "74vxhana9k"
+          "Value": "kjlec7kcmy"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-xyTYCUUzX+1qez4+YVkJ/B4vyzkX8959mO4vwIWSd+o="
+          "Value": "sha256-cFOxJcVXvcjeaNBPfKbW7u0Bpv31g3e2XAoOWTSdUlo="
         },
         {
           "Name": "label",
@@ -8690,13 +8690,13 @@
       ]
     },
     {
-      "Route": "_framework/RapGame.Client.74vxhana9k.wasm",
-      "AssetFile": "_framework/RapGame.Client.74vxhana9k.wasm.gz",
+      "Route": "_framework/RapGame.Client.kjlec7kcmy.wasm",
+      "AssetFile": "_framework/RapGame.Client.kjlec7kcmy.wasm.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000035535340"
+          "Quality": "0.000035497497"
         }
       ],
       "ResponseHeaders": [
@@ -8714,7 +8714,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "28140"
+          "Value": "28170"
         },
         {
           "Name": "Content-Type",
@@ -8722,15 +8722,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"oPzgf0wRiIFAwhIIKb5lIVe5B1AZR3nzwaqWIA9J2U4=\""
+          "Value": "\"IkNxx1mGocRpshPukDNm8D57bnj5/RIdQIAlM3sw5go=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"xyTYCUUzX+1qez4+YVkJ/B4vyzkX8959mO4vwIWSd+o=\""
+          "Value": "W/\"cFOxJcVXvcjeaNBPfKbW7u0Bpv31g3e2XAoOWTSdUlo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 17:04:46 GMT"
+          "Value": "Tue, 15 Apr 2025 21:01:59 GMT"
         },
         {
           "Name": "Vary",
@@ -8740,11 +8740,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "74vxhana9k"
+          "Value": "kjlec7kcmy"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-xyTYCUUzX+1qez4+YVkJ/B4vyzkX8959mO4vwIWSd+o="
+          "Value": "sha256-cFOxJcVXvcjeaNBPfKbW7u0Bpv31g3e2XAoOWTSdUlo="
         },
         {
           "Name": "label",
@@ -8753,8 +8753,8 @@
       ]
     },
     {
-      "Route": "_framework/RapGame.Client.74vxhana9k.wasm.gz",
-      "AssetFile": "_framework/RapGame.Client.74vxhana9k.wasm.gz",
+      "Route": "_framework/RapGame.Client.kjlec7kcmy.wasm.gz",
+      "AssetFile": "_framework/RapGame.Client.kjlec7kcmy.wasm.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8771,7 +8771,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "28140"
+          "Value": "28170"
         },
         {
           "Name": "Content-Type",
@@ -8779,11 +8779,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"oPzgf0wRiIFAwhIIKb5lIVe5B1AZR3nzwaqWIA9J2U4=\""
+          "Value": "\"IkNxx1mGocRpshPukDNm8D57bnj5/RIdQIAlM3sw5go=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 17:04:46 GMT"
+          "Value": "Tue, 15 Apr 2025 21:01:59 GMT"
         },
         {
           "Name": "Vary",
@@ -8793,11 +8793,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "74vxhana9k"
+          "Value": "kjlec7kcmy"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-oPzgf0wRiIFAwhIIKb5lIVe5B1AZR3nzwaqWIA9J2U4="
+          "Value": "sha256-IkNxx1mGocRpshPukDNm8D57bnj5/RIdQIAlM3sw5go="
         },
         {
           "Name": "label",
@@ -8807,7 +8807,7 @@
     },
     {
       "Route": "_framework/RapGame.Client.pdb",
-      "AssetFile": "_framework/RapGame.Client.vn0k5fg9u9.pdb",
+      "AssetFile": "_framework/RapGame.Client.xjj7i1loga.pdb",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8820,7 +8820,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "51600"
+          "Value": "51616"
         },
         {
           "Name": "Content-Type",
@@ -8828,28 +8828,28 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"W0Gxolhm+INBhouj2ptuOXx9vw0pKH5tqLrqPfYb7pI=\""
+          "Value": "\"Q1uIXDUWVmusQv266ilmI0ogxicCNRMsDkT/1mUGuBg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 17:04:46 GMT"
+          "Value": "Tue, 15 Apr 2025 22:29:42 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-W0Gxolhm+INBhouj2ptuOXx9vw0pKH5tqLrqPfYb7pI="
+          "Value": "sha256-Q1uIXDUWVmusQv266ilmI0ogxicCNRMsDkT/1mUGuBg="
         }
       ]
     },
     {
       "Route": "_framework/RapGame.Client.pdb",
-      "AssetFile": "_framework/RapGame.Client.vn0k5fg9u9.pdb.gz",
+      "AssetFile": "_framework/RapGame.Client.xjj7i1loga.pdb.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000025342119"
+          "Quality": "0.000025340834"
         }
       ],
       "ResponseHeaders": [
@@ -8867,7 +8867,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "39459"
+          "Value": "39461"
         },
         {
           "Name": "Content-Type",
@@ -8875,15 +8875,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9M1zfNTZGVNo3AsNub7kkMUPmzfP6gl+hCMtknpIF+I=\""
+          "Value": "\"/4EBSZS3RojOiYleqNTMeQpnCgfsKXANEIXVUowGcaI=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"W0Gxolhm+INBhouj2ptuOXx9vw0pKH5tqLrqPfYb7pI=\""
+          "Value": "W/\"Q1uIXDUWVmusQv266ilmI0ogxicCNRMsDkT/1mUGuBg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 17:04:46 GMT"
+          "Value": "Tue, 15 Apr 2025 22:29:42 GMT"
         },
         {
           "Name": "Vary",
@@ -8893,13 +8893,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-W0Gxolhm+INBhouj2ptuOXx9vw0pKH5tqLrqPfYb7pI="
+          "Value": "sha256-Q1uIXDUWVmusQv266ilmI0ogxicCNRMsDkT/1mUGuBg="
         }
       ]
     },
     {
       "Route": "_framework/RapGame.Client.pdb.gz",
-      "AssetFile": "_framework/RapGame.Client.vn0k5fg9u9.pdb.gz",
+      "AssetFile": "_framework/RapGame.Client.xjj7i1loga.pdb.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8916,7 +8916,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "39459"
+          "Value": "39461"
         },
         {
           "Name": "Content-Type",
@@ -8924,11 +8924,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"9M1zfNTZGVNo3AsNub7kkMUPmzfP6gl+hCMtknpIF+I=\""
+          "Value": "\"/4EBSZS3RojOiYleqNTMeQpnCgfsKXANEIXVUowGcaI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 17:04:46 GMT"
+          "Value": "Tue, 15 Apr 2025 22:29:42 GMT"
         },
         {
           "Name": "Vary",
@@ -8938,174 +8938,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-9M1zfNTZGVNo3AsNub7kkMUPmzfP6gl+hCMtknpIF+I="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/RapGame.Client.vn0k5fg9u9.pdb",
-      "AssetFile": "_framework/RapGame.Client.vn0k5fg9u9.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "51600"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"W0Gxolhm+INBhouj2ptuOXx9vw0pKH5tqLrqPfYb7pI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 17:04:46 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "vn0k5fg9u9"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-W0Gxolhm+INBhouj2ptuOXx9vw0pKH5tqLrqPfYb7pI="
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/RapGame.Client.pdb"
-        }
-      ]
-    },
-    {
-      "Route": "_framework/RapGame.Client.vn0k5fg9u9.pdb",
-      "AssetFile": "_framework/RapGame.Client.vn0k5fg9u9.pdb.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000025342119"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "39459"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"9M1zfNTZGVNo3AsNub7kkMUPmzfP6gl+hCMtknpIF+I=\""
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"W0Gxolhm+INBhouj2ptuOXx9vw0pKH5tqLrqPfYb7pI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 17:04:46 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "vn0k5fg9u9"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-W0Gxolhm+INBhouj2ptuOXx9vw0pKH5tqLrqPfYb7pI="
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/RapGame.Client.pdb"
-        }
-      ]
-    },
-    {
-      "Route": "_framework/RapGame.Client.vn0k5fg9u9.pdb.gz",
-      "AssetFile": "_framework/RapGame.Client.vn0k5fg9u9.pdb.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "39459"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"9M1zfNTZGVNo3AsNub7kkMUPmzfP6gl+hCMtknpIF+I=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 17:04:46 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "vn0k5fg9u9"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-9M1zfNTZGVNo3AsNub7kkMUPmzfP6gl+hCMtknpIF+I="
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/RapGame.Client.pdb.gz"
+          "Value": "sha256-/4EBSZS3RojOiYleqNTMeQpnCgfsKXANEIXVUowGcaI="
         }
       ]
     },
     {
       "Route": "_framework/RapGame.Client.wasm",
-      "AssetFile": "_framework/RapGame.Client.74vxhana9k.wasm",
+      "AssetFile": "_framework/RapGame.Client.kjlec7kcmy.wasm",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9126,28 +8965,28 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xyTYCUUzX+1qez4+YVkJ/B4vyzkX8959mO4vwIWSd+o=\""
+          "Value": "\"cFOxJcVXvcjeaNBPfKbW7u0Bpv31g3e2XAoOWTSdUlo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 17:04:46 GMT"
+          "Value": "Tue, 15 Apr 2025 21:01:58 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-xyTYCUUzX+1qez4+YVkJ/B4vyzkX8959mO4vwIWSd+o="
+          "Value": "sha256-cFOxJcVXvcjeaNBPfKbW7u0Bpv31g3e2XAoOWTSdUlo="
         }
       ]
     },
     {
       "Route": "_framework/RapGame.Client.wasm",
-      "AssetFile": "_framework/RapGame.Client.74vxhana9k.wasm.gz",
+      "AssetFile": "_framework/RapGame.Client.kjlec7kcmy.wasm.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000035535340"
+          "Quality": "0.000035497497"
         }
       ],
       "ResponseHeaders": [
@@ -9165,7 +9004,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "28140"
+          "Value": "28170"
         },
         {
           "Name": "Content-Type",
@@ -9173,15 +9012,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"oPzgf0wRiIFAwhIIKb5lIVe5B1AZR3nzwaqWIA9J2U4=\""
+          "Value": "\"IkNxx1mGocRpshPukDNm8D57bnj5/RIdQIAlM3sw5go=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"xyTYCUUzX+1qez4+YVkJ/B4vyzkX8959mO4vwIWSd+o=\""
+          "Value": "W/\"cFOxJcVXvcjeaNBPfKbW7u0Bpv31g3e2XAoOWTSdUlo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 17:04:46 GMT"
+          "Value": "Tue, 15 Apr 2025 21:01:59 GMT"
         },
         {
           "Name": "Vary",
@@ -9191,13 +9030,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-xyTYCUUzX+1qez4+YVkJ/B4vyzkX8959mO4vwIWSd+o="
+          "Value": "sha256-cFOxJcVXvcjeaNBPfKbW7u0Bpv31g3e2XAoOWTSdUlo="
         }
       ]
     },
     {
       "Route": "_framework/RapGame.Client.wasm.gz",
-      "AssetFile": "_framework/RapGame.Client.74vxhana9k.wasm.gz",
+      "AssetFile": "_framework/RapGame.Client.kjlec7kcmy.wasm.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9214,7 +9053,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "28140"
+          "Value": "28170"
         },
         {
           "Name": "Content-Type",
@@ -9222,11 +9061,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"oPzgf0wRiIFAwhIIKb5lIVe5B1AZR3nzwaqWIA9J2U4=\""
+          "Value": "\"IkNxx1mGocRpshPukDNm8D57bnj5/RIdQIAlM3sw5go=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 17:04:46 GMT"
+          "Value": "Tue, 15 Apr 2025 21:01:59 GMT"
         },
         {
           "Name": "Vary",
@@ -9236,13 +9075,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-oPzgf0wRiIFAwhIIKb5lIVe5B1AZR3nzwaqWIA9J2U4="
+          "Value": "sha256-IkNxx1mGocRpshPukDNm8D57bnj5/RIdQIAlM3sw5go="
         }
       ]
     },
     {
-      "Route": "_framework/RapGame.Shared.5cgb36tj2u.pdb",
-      "AssetFile": "_framework/RapGame.Shared.5cgb36tj2u.pdb",
+      "Route": "_framework/RapGame.Client.xjj7i1loga.pdb",
+      "AssetFile": "_framework/RapGame.Client.xjj7i1loga.pdb",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9255,7 +9094,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "13932"
+          "Value": "51616"
         },
         {
           "Name": "Content-Type",
@@ -9263,36 +9102,36 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dXKSRN0EwHV53yZgz1lu0gWz2vxpivgB7+ZPUI07UZQ=\""
+          "Value": "\"Q1uIXDUWVmusQv266ilmI0ogxicCNRMsDkT/1mUGuBg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 17:04:38 GMT"
+          "Value": "Tue, 15 Apr 2025 22:29:42 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5cgb36tj2u"
+          "Value": "xjj7i1loga"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-dXKSRN0EwHV53yZgz1lu0gWz2vxpivgB7+ZPUI07UZQ="
+          "Value": "sha256-Q1uIXDUWVmusQv266ilmI0ogxicCNRMsDkT/1mUGuBg="
         },
         {
           "Name": "label",
-          "Value": "_framework/RapGame.Shared.pdb"
+          "Value": "_framework/RapGame.Client.pdb"
         }
       ]
     },
     {
-      "Route": "_framework/RapGame.Shared.5cgb36tj2u.pdb",
-      "AssetFile": "_framework/RapGame.Shared.5cgb36tj2u.pdb.gz",
+      "Route": "_framework/RapGame.Client.xjj7i1loga.pdb",
+      "AssetFile": "_framework/RapGame.Client.xjj7i1loga.pdb.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000128567755"
+          "Quality": "0.000025340834"
         }
       ],
       "ResponseHeaders": [
@@ -9310,7 +9149,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7777"
+          "Value": "39461"
         },
         {
           "Name": "Content-Type",
@@ -9318,15 +9157,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Zh4fZ5nXLQ6oOr7RXIZec4gTI7+henVHqzdQ6K9R8VE=\""
+          "Value": "\"/4EBSZS3RojOiYleqNTMeQpnCgfsKXANEIXVUowGcaI=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"dXKSRN0EwHV53yZgz1lu0gWz2vxpivgB7+ZPUI07UZQ=\""
+          "Value": "W/\"Q1uIXDUWVmusQv266ilmI0ogxicCNRMsDkT/1mUGuBg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 17:04:46 GMT"
+          "Value": "Tue, 15 Apr 2025 22:29:42 GMT"
         },
         {
           "Name": "Vary",
@@ -9336,21 +9175,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5cgb36tj2u"
+          "Value": "xjj7i1loga"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-dXKSRN0EwHV53yZgz1lu0gWz2vxpivgB7+ZPUI07UZQ="
+          "Value": "sha256-Q1uIXDUWVmusQv266ilmI0ogxicCNRMsDkT/1mUGuBg="
         },
         {
           "Name": "label",
-          "Value": "_framework/RapGame.Shared.pdb"
+          "Value": "_framework/RapGame.Client.pdb"
         }
       ]
     },
     {
-      "Route": "_framework/RapGame.Shared.5cgb36tj2u.pdb.gz",
-      "AssetFile": "_framework/RapGame.Shared.5cgb36tj2u.pdb.gz",
+      "Route": "_framework/RapGame.Client.xjj7i1loga.pdb.gz",
+      "AssetFile": "_framework/RapGame.Client.xjj7i1loga.pdb.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9367,7 +9206,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7777"
+          "Value": "39461"
         },
         {
           "Name": "Content-Type",
@@ -9375,11 +9214,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Zh4fZ5nXLQ6oOr7RXIZec4gTI7+henVHqzdQ6K9R8VE=\""
+          "Value": "\"/4EBSZS3RojOiYleqNTMeQpnCgfsKXANEIXVUowGcaI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 17:04:46 GMT"
+          "Value": "Tue, 15 Apr 2025 22:29:42 GMT"
         },
         {
           "Name": "Vary",
@@ -9389,21 +9228,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5cgb36tj2u"
+          "Value": "xjj7i1loga"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Zh4fZ5nXLQ6oOr7RXIZec4gTI7+henVHqzdQ6K9R8VE="
+          "Value": "sha256-/4EBSZS3RojOiYleqNTMeQpnCgfsKXANEIXVUowGcaI="
         },
         {
           "Name": "label",
-          "Value": "_framework/RapGame.Shared.pdb.gz"
+          "Value": "_framework/RapGame.Client.pdb.gz"
         }
       ]
     },
     {
-      "Route": "_framework/RapGame.Shared.b084nt61mw.wasm",
-      "AssetFile": "_framework/RapGame.Shared.b084nt61mw.wasm",
+      "Route": "_framework/RapGame.Shared.57hab2k3qy.wasm",
+      "AssetFile": "_framework/RapGame.Shared.57hab2k3qy.wasm",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9424,21 +9263,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dVN8lLrsLcu6QtUoi0PSLU/FlKNDr+GbRZ9FJ4U4nBs=\""
+          "Value": "\"b1cPWlsyopiHCFaPuZ3UBs81J533ziLFNqB8dicGVFI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 17:04:46 GMT"
+          "Value": "Tue, 15 Apr 2025 21:01:58 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b084nt61mw"
+          "Value": "57hab2k3qy"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-dVN8lLrsLcu6QtUoi0PSLU/FlKNDr+GbRZ9FJ4U4nBs="
+          "Value": "sha256-b1cPWlsyopiHCFaPuZ3UBs81J533ziLFNqB8dicGVFI="
         },
         {
           "Name": "label",
@@ -9447,13 +9286,13 @@
       ]
     },
     {
-      "Route": "_framework/RapGame.Shared.b084nt61mw.wasm",
-      "AssetFile": "_framework/RapGame.Shared.b084nt61mw.wasm.gz",
+      "Route": "_framework/RapGame.Shared.57hab2k3qy.wasm",
+      "AssetFile": "_framework/RapGame.Shared.57hab2k3qy.wasm.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000193274063"
+          "Quality": "0.000192975685"
         }
       ],
       "ResponseHeaders": [
@@ -9471,7 +9310,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5173"
+          "Value": "5181"
         },
         {
           "Name": "Content-Type",
@@ -9479,15 +9318,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"a1mnticJy9v09eDX/+c6UTFQELJNJGxrtV+BNHj/3PE=\""
+          "Value": "\"TAB9QXeKSNv6Zu+8KPi8W5N74zRNRn3CZuXlrDLweYs=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"dVN8lLrsLcu6QtUoi0PSLU/FlKNDr+GbRZ9FJ4U4nBs=\""
+          "Value": "W/\"b1cPWlsyopiHCFaPuZ3UBs81J533ziLFNqB8dicGVFI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 17:04:46 GMT"
+          "Value": "Tue, 15 Apr 2025 21:01:59 GMT"
         },
         {
           "Name": "Vary",
@@ -9497,11 +9336,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b084nt61mw"
+          "Value": "57hab2k3qy"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-dVN8lLrsLcu6QtUoi0PSLU/FlKNDr+GbRZ9FJ4U4nBs="
+          "Value": "sha256-b1cPWlsyopiHCFaPuZ3UBs81J533ziLFNqB8dicGVFI="
         },
         {
           "Name": "label",
@@ -9510,8 +9349,8 @@
       ]
     },
     {
-      "Route": "_framework/RapGame.Shared.b084nt61mw.wasm.gz",
-      "AssetFile": "_framework/RapGame.Shared.b084nt61mw.wasm.gz",
+      "Route": "_framework/RapGame.Shared.57hab2k3qy.wasm.gz",
+      "AssetFile": "_framework/RapGame.Shared.57hab2k3qy.wasm.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9528,7 +9367,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5173"
+          "Value": "5181"
         },
         {
           "Name": "Content-Type",
@@ -9536,11 +9375,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"a1mnticJy9v09eDX/+c6UTFQELJNJGxrtV+BNHj/3PE=\""
+          "Value": "\"TAB9QXeKSNv6Zu+8KPi8W5N74zRNRn3CZuXlrDLweYs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 17:04:46 GMT"
+          "Value": "Tue, 15 Apr 2025 21:01:59 GMT"
         },
         {
           "Name": "Vary",
@@ -9550,11 +9389,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "b084nt61mw"
+          "Value": "57hab2k3qy"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-a1mnticJy9v09eDX/+c6UTFQELJNJGxrtV+BNHj/3PE="
+          "Value": "sha256-TAB9QXeKSNv6Zu+8KPi8W5N74zRNRn3CZuXlrDLweYs="
         },
         {
           "Name": "label",
@@ -9563,8 +9402,169 @@
       ]
     },
     {
+      "Route": "_framework/RapGame.Shared.me210jlr6m.pdb",
+      "AssetFile": "_framework/RapGame.Shared.me210jlr6m.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13932"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kgFaQ4wQ50GlqNOxuft5oMdlv/H0RB0hUHUKGWnhERU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 22:29:30 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "me210jlr6m"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kgFaQ4wQ50GlqNOxuft5oMdlv/H0RB0hUHUKGWnhERU="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/RapGame.Shared.pdb"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/RapGame.Shared.me210jlr6m.pdb",
+      "AssetFile": "_framework/RapGame.Shared.me210jlr6m.pdb.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000128551228"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7778"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T7EKs+8Oe11ckW9V3qV+MFRk+K+pWU/kIc6R1SIT6pQ=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"kgFaQ4wQ50GlqNOxuft5oMdlv/H0RB0hUHUKGWnhERU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 22:29:42 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "me210jlr6m"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kgFaQ4wQ50GlqNOxuft5oMdlv/H0RB0hUHUKGWnhERU="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/RapGame.Shared.pdb"
+        }
+      ]
+    },
+    {
+      "Route": "_framework/RapGame.Shared.me210jlr6m.pdb.gz",
+      "AssetFile": "_framework/RapGame.Shared.me210jlr6m.pdb.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7778"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T7EKs+8Oe11ckW9V3qV+MFRk+K+pWU/kIc6R1SIT6pQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 22:29:42 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "me210jlr6m"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-T7EKs+8Oe11ckW9V3qV+MFRk+K+pWU/kIc6R1SIT6pQ="
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/RapGame.Shared.pdb.gz"
+        }
+      ]
+    },
+    {
       "Route": "_framework/RapGame.Shared.pdb",
-      "AssetFile": "_framework/RapGame.Shared.5cgb36tj2u.pdb",
+      "AssetFile": "_framework/RapGame.Shared.me210jlr6m.pdb",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9585,28 +9585,28 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dXKSRN0EwHV53yZgz1lu0gWz2vxpivgB7+ZPUI07UZQ=\""
+          "Value": "\"kgFaQ4wQ50GlqNOxuft5oMdlv/H0RB0hUHUKGWnhERU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 17:04:38 GMT"
+          "Value": "Tue, 15 Apr 2025 22:29:30 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-dXKSRN0EwHV53yZgz1lu0gWz2vxpivgB7+ZPUI07UZQ="
+          "Value": "sha256-kgFaQ4wQ50GlqNOxuft5oMdlv/H0RB0hUHUKGWnhERU="
         }
       ]
     },
     {
       "Route": "_framework/RapGame.Shared.pdb",
-      "AssetFile": "_framework/RapGame.Shared.5cgb36tj2u.pdb.gz",
+      "AssetFile": "_framework/RapGame.Shared.me210jlr6m.pdb.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000128567755"
+          "Quality": "0.000128551228"
         }
       ],
       "ResponseHeaders": [
@@ -9624,7 +9624,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7777"
+          "Value": "7778"
         },
         {
           "Name": "Content-Type",
@@ -9632,15 +9632,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Zh4fZ5nXLQ6oOr7RXIZec4gTI7+henVHqzdQ6K9R8VE=\""
+          "Value": "\"T7EKs+8Oe11ckW9V3qV+MFRk+K+pWU/kIc6R1SIT6pQ=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"dXKSRN0EwHV53yZgz1lu0gWz2vxpivgB7+ZPUI07UZQ=\""
+          "Value": "W/\"kgFaQ4wQ50GlqNOxuft5oMdlv/H0RB0hUHUKGWnhERU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 17:04:46 GMT"
+          "Value": "Tue, 15 Apr 2025 22:29:42 GMT"
         },
         {
           "Name": "Vary",
@@ -9650,13 +9650,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-dXKSRN0EwHV53yZgz1lu0gWz2vxpivgB7+ZPUI07UZQ="
+          "Value": "sha256-kgFaQ4wQ50GlqNOxuft5oMdlv/H0RB0hUHUKGWnhERU="
         }
       ]
     },
     {
       "Route": "_framework/RapGame.Shared.pdb.gz",
-      "AssetFile": "_framework/RapGame.Shared.5cgb36tj2u.pdb.gz",
+      "AssetFile": "_framework/RapGame.Shared.me210jlr6m.pdb.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9673,7 +9673,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7777"
+          "Value": "7778"
         },
         {
           "Name": "Content-Type",
@@ -9681,11 +9681,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Zh4fZ5nXLQ6oOr7RXIZec4gTI7+henVHqzdQ6K9R8VE=\""
+          "Value": "\"T7EKs+8Oe11ckW9V3qV+MFRk+K+pWU/kIc6R1SIT6pQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 17:04:46 GMT"
+          "Value": "Tue, 15 Apr 2025 22:29:42 GMT"
         },
         {
           "Name": "Vary",
@@ -9695,13 +9695,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Zh4fZ5nXLQ6oOr7RXIZec4gTI7+henVHqzdQ6K9R8VE="
+          "Value": "sha256-T7EKs+8Oe11ckW9V3qV+MFRk+K+pWU/kIc6R1SIT6pQ="
         }
       ]
     },
     {
       "Route": "_framework/RapGame.Shared.wasm",
-      "AssetFile": "_framework/RapGame.Shared.b084nt61mw.wasm",
+      "AssetFile": "_framework/RapGame.Shared.57hab2k3qy.wasm",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9722,28 +9722,28 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dVN8lLrsLcu6QtUoi0PSLU/FlKNDr+GbRZ9FJ4U4nBs=\""
+          "Value": "\"b1cPWlsyopiHCFaPuZ3UBs81J533ziLFNqB8dicGVFI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 17:04:46 GMT"
+          "Value": "Tue, 15 Apr 2025 21:01:58 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-dVN8lLrsLcu6QtUoi0PSLU/FlKNDr+GbRZ9FJ4U4nBs="
+          "Value": "sha256-b1cPWlsyopiHCFaPuZ3UBs81J533ziLFNqB8dicGVFI="
         }
       ]
     },
     {
       "Route": "_framework/RapGame.Shared.wasm",
-      "AssetFile": "_framework/RapGame.Shared.b084nt61mw.wasm.gz",
+      "AssetFile": "_framework/RapGame.Shared.57hab2k3qy.wasm.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000193274063"
+          "Quality": "0.000192975685"
         }
       ],
       "ResponseHeaders": [
@@ -9761,7 +9761,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5173"
+          "Value": "5181"
         },
         {
           "Name": "Content-Type",
@@ -9769,15 +9769,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"a1mnticJy9v09eDX/+c6UTFQELJNJGxrtV+BNHj/3PE=\""
+          "Value": "\"TAB9QXeKSNv6Zu+8KPi8W5N74zRNRn3CZuXlrDLweYs=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"dVN8lLrsLcu6QtUoi0PSLU/FlKNDr+GbRZ9FJ4U4nBs=\""
+          "Value": "W/\"b1cPWlsyopiHCFaPuZ3UBs81J533ziLFNqB8dicGVFI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 17:04:46 GMT"
+          "Value": "Tue, 15 Apr 2025 21:01:59 GMT"
         },
         {
           "Name": "Vary",
@@ -9787,13 +9787,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-dVN8lLrsLcu6QtUoi0PSLU/FlKNDr+GbRZ9FJ4U4nBs="
+          "Value": "sha256-b1cPWlsyopiHCFaPuZ3UBs81J533ziLFNqB8dicGVFI="
         }
       ]
     },
     {
       "Route": "_framework/RapGame.Shared.wasm.gz",
-      "AssetFile": "_framework/RapGame.Shared.b084nt61mw.wasm.gz",
+      "AssetFile": "_framework/RapGame.Shared.57hab2k3qy.wasm.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9810,7 +9810,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5173"
+          "Value": "5181"
         },
         {
           "Name": "Content-Type",
@@ -9818,11 +9818,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"a1mnticJy9v09eDX/+c6UTFQELJNJGxrtV+BNHj/3PE=\""
+          "Value": "\"TAB9QXeKSNv6Zu+8KPi8W5N74zRNRn3CZuXlrDLweYs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 17:04:46 GMT"
+          "Value": "Tue, 15 Apr 2025 21:01:59 GMT"
         },
         {
           "Name": "Vary",
@@ -9832,7 +9832,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-a1mnticJy9v09eDX/+c6UTFQELJNJGxrtV+BNHj/3PE="
+          "Value": "sha256-TAB9QXeKSNv6Zu+8KPi8W5N74zRNRn3CZuXlrDLweYs="
         }
       ]
     },
@@ -58135,17 +58135,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"PrGF9++JC1/1aGP1MpVZfwWeQ1VZeoGfckRGeVbmMdo=\""
+          "Value": "\"yI/xm7uCphB1u7sh4BOm+QOTtcVgnFJdHhfKPWDn1J0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 17:04:46 GMT"
+          "Value": "Tue, 15 Apr 2025 22:29:42 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-PrGF9++JC1/1aGP1MpVZfwWeQ1VZeoGfckRGeVbmMdo="
+          "Value": "sha256-yI/xm7uCphB1u7sh4BOm+QOTtcVgnFJdHhfKPWDn1J0="
         }
       ]
     },
@@ -58156,7 +58156,7 @@
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000079668579"
+          "Quality": "0.000079674926"
         }
       ],
       "ResponseHeaders": [
@@ -58174,7 +58174,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12551"
+          "Value": "12550"
         },
         {
           "Name": "Content-Type",
@@ -58182,15 +58182,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mXTGxQMvt9AHbeWjukQoN48sAfYg/JPe0wtzu7s1nb4=\""
+          "Value": "\"mTF7RsHUcuX0ypDOmf6GZRbtsjQvhNj193VY0Ebg2lg=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"PrGF9++JC1/1aGP1MpVZfwWeQ1VZeoGfckRGeVbmMdo=\""
+          "Value": "W/\"yI/xm7uCphB1u7sh4BOm+QOTtcVgnFJdHhfKPWDn1J0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 15:10:10 GMT"
+          "Value": "Tue, 15 Apr 2025 22:26:32 GMT"
         },
         {
           "Name": "Vary",
@@ -58200,7 +58200,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-PrGF9++JC1/1aGP1MpVZfwWeQ1VZeoGfckRGeVbmMdo="
+          "Value": "sha256-yI/xm7uCphB1u7sh4BOm+QOTtcVgnFJdHhfKPWDn1J0="
         }
       ]
     },
@@ -58223,7 +58223,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12551"
+          "Value": "12550"
         },
         {
           "Name": "Content-Type",
@@ -58231,11 +58231,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mXTGxQMvt9AHbeWjukQoN48sAfYg/JPe0wtzu7s1nb4=\""
+          "Value": "\"mTF7RsHUcuX0ypDOmf6GZRbtsjQvhNj193VY0Ebg2lg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 15:10:10 GMT"
+          "Value": "Tue, 15 Apr 2025 22:26:32 GMT"
         },
         {
           "Name": "Vary",
@@ -58245,7 +58245,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-mXTGxQMvt9AHbeWjukQoN48sAfYg/JPe0wtzu7s1nb4="
+          "Value": "sha256-mTF7RsHUcuX0ypDOmf6GZRbtsjQvhNj193VY0Ebg2lg="
         }
       ]
     },
@@ -62857,174 +62857,13 @@
       ]
     },
     {
-      "Route": "css/games/rapdle.0x5dshvufp.css",
-      "AssetFile": "css/games/rapdle.css.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001277139208"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "782"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"388Myvtu92UUl+rkN5KvpjsqFMlYRCRFg6QTS4v10xY=\""
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"NE/dLyUeVhhaFZarMVGR0R5dkQQ+uKk+ZBKVArjy7r0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 04:19:19 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "0x5dshvufp"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-NE/dLyUeVhhaFZarMVGR0R5dkQQ+uKk+ZBKVArjy7r0="
-        },
-        {
-          "Name": "label",
-          "Value": "css/games/rapdle.css"
-        }
-      ]
-    },
-    {
-      "Route": "css/games/rapdle.0x5dshvufp.css",
-      "AssetFile": "css/games/rapdle.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2410"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"NE/dLyUeVhhaFZarMVGR0R5dkQQ+uKk+ZBKVArjy7r0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 04:19:19 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "0x5dshvufp"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-NE/dLyUeVhhaFZarMVGR0R5dkQQ+uKk+ZBKVArjy7r0="
-        },
-        {
-          "Name": "label",
-          "Value": "css/games/rapdle.css"
-        }
-      ]
-    },
-    {
-      "Route": "css/games/rapdle.0x5dshvufp.css.gz",
-      "AssetFile": "css/games/rapdle.css.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "782"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"388Myvtu92UUl+rkN5KvpjsqFMlYRCRFg6QTS4v10xY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 04:19:19 GMT"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "0x5dshvufp"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-388Myvtu92UUl+rkN5KvpjsqFMlYRCRFg6QTS4v10xY="
-        },
-        {
-          "Name": "label",
-          "Value": "css/games/rapdle.css.gz"
-        }
-      ]
-    },
-    {
       "Route": "css/games/rapdle.css",
       "AssetFile": "css/games/rapdle.css.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001277139208"
+          "Quality": "0.001191895113"
         }
       ],
       "ResponseHeaders": [
@@ -63042,7 +62881,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "782"
+          "Value": "838"
         },
         {
           "Name": "Content-Type",
@@ -63050,15 +62889,15 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"388Myvtu92UUl+rkN5KvpjsqFMlYRCRFg6QTS4v10xY=\""
+          "Value": "\"/V0IV3NVRLFThWsO2RzYF8cWEilEHeZoAnpd5OV1h6I=\""
         },
         {
           "Name": "ETag",
-          "Value": "W/\"NE/dLyUeVhhaFZarMVGR0R5dkQQ+uKk+ZBKVArjy7r0=\""
+          "Value": "W/\"ufU8Eym1OkfgbY/0GmtAUWipq2fR2YcbXWNlSQPoFA0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 04:19:19 GMT"
+          "Value": "Tue, 15 Apr 2025 17:18:46 GMT"
         },
         {
           "Name": "Vary",
@@ -63068,7 +62907,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-NE/dLyUeVhhaFZarMVGR0R5dkQQ+uKk+ZBKVArjy7r0="
+          "Value": "sha256-ufU8Eym1OkfgbY/0GmtAUWipq2fR2YcbXWNlSQPoFA0="
         }
       ]
     },
@@ -63087,7 +62926,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2410"
+          "Value": "2612"
         },
         {
           "Name": "Content-Type",
@@ -63095,17 +62934,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"NE/dLyUeVhhaFZarMVGR0R5dkQQ+uKk+ZBKVArjy7r0=\""
+          "Value": "\"ufU8Eym1OkfgbY/0GmtAUWipq2fR2YcbXWNlSQPoFA0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 04:19:19 GMT"
+          "Value": "Tue, 15 Apr 2025 17:18:46 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-NE/dLyUeVhhaFZarMVGR0R5dkQQ+uKk+ZBKVArjy7r0="
+          "Value": "sha256-ufU8Eym1OkfgbY/0GmtAUWipq2fR2YcbXWNlSQPoFA0="
         }
       ]
     },
@@ -63128,7 +62967,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "782"
+          "Value": "838"
         },
         {
           "Name": "Content-Type",
@@ -63136,11 +62975,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"388Myvtu92UUl+rkN5KvpjsqFMlYRCRFg6QTS4v10xY=\""
+          "Value": "\"/V0IV3NVRLFThWsO2RzYF8cWEilEHeZoAnpd5OV1h6I=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 04:19:19 GMT"
+          "Value": "Tue, 15 Apr 2025 17:18:46 GMT"
         },
         {
           "Name": "Vary",
@@ -63150,7 +62989,168 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-388Myvtu92UUl+rkN5KvpjsqFMlYRCRFg6QTS4v10xY="
+          "Value": "sha256-/V0IV3NVRLFThWsO2RzYF8cWEilEHeZoAnpd5OV1h6I="
+        }
+      ]
+    },
+    {
+      "Route": "css/games/rapdle.f2v09po55n.css",
+      "AssetFile": "css/games/rapdle.css.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001191895113"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "838"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/V0IV3NVRLFThWsO2RzYF8cWEilEHeZoAnpd5OV1h6I=\""
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ufU8Eym1OkfgbY/0GmtAUWipq2fR2YcbXWNlSQPoFA0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 17:18:46 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f2v09po55n"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ufU8Eym1OkfgbY/0GmtAUWipq2fR2YcbXWNlSQPoFA0="
+        },
+        {
+          "Name": "label",
+          "Value": "css/games/rapdle.css"
+        }
+      ]
+    },
+    {
+      "Route": "css/games/rapdle.f2v09po55n.css",
+      "AssetFile": "css/games/rapdle.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2612"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ufU8Eym1OkfgbY/0GmtAUWipq2fR2YcbXWNlSQPoFA0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 17:18:46 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f2v09po55n"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ufU8Eym1OkfgbY/0GmtAUWipq2fR2YcbXWNlSQPoFA0="
+        },
+        {
+          "Name": "label",
+          "Value": "css/games/rapdle.css"
+        }
+      ]
+    },
+    {
+      "Route": "css/games/rapdle.f2v09po55n.css.gz",
+      "AssetFile": "css/games/rapdle.css.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "838"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/V0IV3NVRLFThWsO2RzYF8cWEilEHeZoAnpd5OV1h6I=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 15 Apr 2025 17:18:46 GMT"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f2v09po55n"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/V0IV3NVRLFThWsO2RzYF8cWEilEHeZoAnpd5OV1h6I="
+        },
+        {
+          "Name": "label",
+          "Value": "css/games/rapdle.css.gz"
         }
       ]
     },
@@ -65527,7 +65527,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 04:32:03 GMT"
+          "Value": "Tue, 15 Apr 2025 17:05:28 GMT"
         },
         {
           "Name": "Vary",
@@ -65576,7 +65576,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 04:32:03 GMT"
+          "Value": "Tue, 15 Apr 2025 17:05:28 GMT"
         }
       ],
       "EndpointProperties": [
@@ -65625,7 +65625,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 04:32:03 GMT"
+          "Value": "Tue, 15 Apr 2025 17:05:28 GMT"
         },
         {
           "Name": "Vary",
@@ -65688,7 +65688,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 04:32:03 GMT"
+          "Value": "Tue, 15 Apr 2025 17:05:28 GMT"
         },
         {
           "Name": "Vary",
@@ -65729,7 +65729,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 04:32:03 GMT"
+          "Value": "Tue, 15 Apr 2025 17:05:28 GMT"
         }
       ],
       "EndpointProperties": [
@@ -65770,7 +65770,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 15 Apr 2025 04:32:03 GMT"
+          "Value": "Tue, 15 Apr 2025 17:05:28 GMT"
         },
         {
           "Name": "Vary",

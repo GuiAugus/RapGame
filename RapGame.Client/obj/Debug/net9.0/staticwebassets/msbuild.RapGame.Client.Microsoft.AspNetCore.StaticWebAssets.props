@@ -84,8 +84,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>0x5dshvufp</Fingerprint>
-      <Integrity>NE/dLyUeVhhaFZarMVGR0R5dkQQ+uKk+ZBKVArjy7r0=</Integrity>
+      <Fingerprint>f2v09po55n</Fingerprint>
+      <Integrity>ufU8Eym1OkfgbY/0GmtAUWipq2fR2YcbXWNlSQPoFA0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\games\rapdle.css'))</OriginalItemSpec>

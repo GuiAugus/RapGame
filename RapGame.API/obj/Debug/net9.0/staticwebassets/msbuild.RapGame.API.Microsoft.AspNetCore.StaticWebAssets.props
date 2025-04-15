@@ -1,29 +1,371 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\995b9aef-8699-41e8-8fb9-4db2cf53f092.jfif'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\028de22c-15e1-48de-975e-24e9eceece68.jfif'))">
       <SourceType>Package</SourceType>
       <SourceId>RapGame.API</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/RapGame.API</BasePath>
-      <RelativePath>capas/995b9aef-8699-41e8-8fb9-4db2cf53f092.jfif</RelativePath>
+      <RelativePath>capas/028de22c-15e1-48de-975e-24e9eceece68.jfif</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>zxfo75co6x</Fingerprint>
-      <Integrity>t8He+JwSqc8QHmNT9JaaduIqT5wc9y+oQCAvSTs/Ow8=</Integrity>
+      <Fingerprint>n0kiu66a0u</Fingerprint>
+      <Integrity>18vuetYBU/948i740qxiGIzSVE5awmTIWvLho1V1VEk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\995b9aef-8699-41e8-8fb9-4db2cf53f092.jfif'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\028de22c-15e1-48de-975e-24e9eceece68.jfif'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\b4c4026c-a8df-4ae2-b50a-653af4ffbfa7.jfif'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\0884e57b-5312-43e4-b5d6-73c611c34f1a.jfif'))">
       <SourceType>Package</SourceType>
       <SourceId>RapGame.API</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/RapGame.API</BasePath>
-      <RelativePath>capas/b4c4026c-a8df-4ae2-b50a-653af4ffbfa7.jfif</RelativePath>
+      <RelativePath>capas/0884e57b-5312-43e4-b5d6-73c611c34f1a.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>j0obssksan</Fingerprint>
+      <Integrity>reV9YY6N7ar/HCRNReeQWvl+A50zFDqnnhb6NgjsJbo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\0884e57b-5312-43e4-b5d6-73c611c34f1a.jfif'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\15d2546a-199e-4593-b1db-87236ae31f0c.jfif'))">
+      <SourceType>Package</SourceType>
+      <SourceId>RapGame.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RapGame.API</BasePath>
+      <RelativePath>capas/15d2546a-199e-4593-b1db-87236ae31f0c.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>bmmbf6qedp</Fingerprint>
+      <Integrity>vVGnzkRNZMiZLv3RIRpFieU6d0Mk8wHP9aETuxJBi5g=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\15d2546a-199e-4593-b1db-87236ae31f0c.jfif'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\1a98a43b-f349-473b-91e7-eeeb866c82f4.jfif'))">
+      <SourceType>Package</SourceType>
+      <SourceId>RapGame.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RapGame.API</BasePath>
+      <RelativePath>capas/1a98a43b-f349-473b-91e7-eeeb866c82f4.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>jr270xxvbf</Fingerprint>
+      <Integrity>v/0l+tbFEDgOfcKJqJnqvS2QCMq18gDyB4pp+nz3kfw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\1a98a43b-f349-473b-91e7-eeeb866c82f4.jfif'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\2cb442c4-0a43-4a75-b3f6-db4faeea3eda.jfif'))">
+      <SourceType>Package</SourceType>
+      <SourceId>RapGame.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RapGame.API</BasePath>
+      <RelativePath>capas/2cb442c4-0a43-4a75-b3f6-db4faeea3eda.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qunsta5thp</Fingerprint>
+      <Integrity>wpxT8jC0qzRweyxn/88TN5wab84TMfMtnx/ovRMocG0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\2cb442c4-0a43-4a75-b3f6-db4faeea3eda.jfif'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\2dbda21d-db47-4609-9bfc-874ffdc5b969.jfif'))">
+      <SourceType>Package</SourceType>
+      <SourceId>RapGame.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RapGame.API</BasePath>
+      <RelativePath>capas/2dbda21d-db47-4609-9bfc-874ffdc5b969.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>b542zoo9bx</Fingerprint>
+      <Integrity>f6QKVyl3W78/Kety25EEk8z8nTfmTOktC6y7RH3swvY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\2dbda21d-db47-4609-9bfc-874ffdc5b969.jfif'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\35992da1-d3d4-4f86-bc11-7f07b71e8359.jfif'))">
+      <SourceType>Package</SourceType>
+      <SourceId>RapGame.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RapGame.API</BasePath>
+      <RelativePath>capas/35992da1-d3d4-4f86-bc11-7f07b71e8359.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>eh8c5ut4vk</Fingerprint>
+      <Integrity>Dh17YHKmSOPugcIiN/WGHXaBttFD9Oyf3bKHUrWK3RU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\35992da1-d3d4-4f86-bc11-7f07b71e8359.jfif'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\4a96772f-76e0-4e07-8a2f-a388741f7922.jfif'))">
+      <SourceType>Package</SourceType>
+      <SourceId>RapGame.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RapGame.API</BasePath>
+      <RelativePath>capas/4a96772f-76e0-4e07-8a2f-a388741f7922.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>bm1e1ec3s8</Fingerprint>
+      <Integrity>TeerA0+TOIjp5bLfVmR4W5xMpdOfiQOodvEJLci8d+s=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\4a96772f-76e0-4e07-8a2f-a388741f7922.jfif'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\4c41ad3e-1c6a-40be-b9ba-c62765125270.jfif'))">
+      <SourceType>Package</SourceType>
+      <SourceId>RapGame.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RapGame.API</BasePath>
+      <RelativePath>capas/4c41ad3e-1c6a-40be-b9ba-c62765125270.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>vvsyfvrwo1</Fingerprint>
+      <Integrity>u8Fd50TOmroG6iF3EaoGWuVhIPhYeesT1v7vubC18T0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\4c41ad3e-1c6a-40be-b9ba-c62765125270.jfif'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\4cb960dc-c709-45ac-86a3-7010c97a264a.jfif'))">
+      <SourceType>Package</SourceType>
+      <SourceId>RapGame.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RapGame.API</BasePath>
+      <RelativePath>capas/4cb960dc-c709-45ac-86a3-7010c97a264a.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ndbfwm43o1</Fingerprint>
+      <Integrity>peDjBivBtbSdWdpfcEugO+Bajvo/BY0AjWUhXt/pS7s=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\4cb960dc-c709-45ac-86a3-7010c97a264a.jfif'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\58ad3c43-28bb-48f5-81af-4dadda6b114f.jfif'))">
+      <SourceType>Package</SourceType>
+      <SourceId>RapGame.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RapGame.API</BasePath>
+      <RelativePath>capas/58ad3c43-28bb-48f5-81af-4dadda6b114f.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>iq4802d16g</Fingerprint>
+      <Integrity>Bt68/h0W1nSr1ulGSkhsg7jVJ3LwLR+u5XaYFL+2nQg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\58ad3c43-28bb-48f5-81af-4dadda6b114f.jfif'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\5fe55aa9-e591-4aca-8867-7fd86ef3a4dc.jfif'))">
+      <SourceType>Package</SourceType>
+      <SourceId>RapGame.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RapGame.API</BasePath>
+      <RelativePath>capas/5fe55aa9-e591-4aca-8867-7fd86ef3a4dc.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>sjymwy154m</Fingerprint>
+      <Integrity>mG8PWdK+1g2bkJIjUO34FNflZN1pq6MT2Oj3A8+QwCk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\5fe55aa9-e591-4aca-8867-7fd86ef3a4dc.jfif'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\66898884-4e42-4e7b-956d-08c680d55481.jfif'))">
+      <SourceType>Package</SourceType>
+      <SourceId>RapGame.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RapGame.API</BasePath>
+      <RelativePath>capas/66898884-4e42-4e7b-956d-08c680d55481.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>69e4pvchx0</Fingerprint>
+      <Integrity>KrYld25rc7YVjaaU8lyj7Vz83lRwezlNz11eyoCGiHI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\66898884-4e42-4e7b-956d-08c680d55481.jfif'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\89b3b3f1-4c47-4aa8-97b9-46ba87678b42.jfif'))">
+      <SourceType>Package</SourceType>
+      <SourceId>RapGame.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RapGame.API</BasePath>
+      <RelativePath>capas/89b3b3f1-4c47-4aa8-97b9-46ba87678b42.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>oba6ob790e</Fingerprint>
+      <Integrity>PLJt1ScPZZr1a0zeLTuDSn9z8lr8vDPZrod5J5Fd/1o=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\89b3b3f1-4c47-4aa8-97b9-46ba87678b42.jfif'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\8b81b529-faba-4b74-883c-cd0709da5156.jfif'))">
+      <SourceType>Package</SourceType>
+      <SourceId>RapGame.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RapGame.API</BasePath>
+      <RelativePath>capas/8b81b529-faba-4b74-883c-cd0709da5156.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qv1q4rr6dz</Fingerprint>
+      <Integrity>+nPy0hjUxYG0Wo6PuTjKWL/AbAJk9FNf6yl9yFHkPJM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\8b81b529-faba-4b74-883c-cd0709da5156.jfif'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\977957c9-9b46-48cf-9605-10923b5c90f2.jfif'))">
+      <SourceType>Package</SourceType>
+      <SourceId>RapGame.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RapGame.API</BasePath>
+      <RelativePath>capas/977957c9-9b46-48cf-9605-10923b5c90f2.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>rvq4d6fma0</Fingerprint>
+      <Integrity>6Snamdwa5ymkHqrwe8XtZsCCRq/EQWpThNbl3uwueo0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\977957c9-9b46-48cf-9605-10923b5c90f2.jfif'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\987c935b-1a55-49bd-bd18-b922b8ecb18a.jfif'))">
+      <SourceType>Package</SourceType>
+      <SourceId>RapGame.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RapGame.API</BasePath>
+      <RelativePath>capas/987c935b-1a55-49bd-bd18-b922b8ecb18a.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>3m5v4erlma</Fingerprint>
+      <Integrity>K5qR+0cA4GsQFk8jGMFIkwXvXWvj8PqyohKx0b06SoY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\987c935b-1a55-49bd-bd18-b922b8ecb18a.jfif'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\9895259e-502f-434b-b22a-bf75f12a6f88.jfif'))">
+      <SourceType>Package</SourceType>
+      <SourceId>RapGame.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RapGame.API</BasePath>
+      <RelativePath>capas/9895259e-502f-434b-b22a-bf75f12a6f88.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>19tl264o4h</Fingerprint>
+      <Integrity>qx4TaJ9jtQi9UOXFMulKWsQYS1iYN1PWO1RApLP4Bmw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\9895259e-502f-434b-b22a-bf75f12a6f88.jfif'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\a0688997-b46b-4af0-8a17-e1ce561c3794.jfif'))">
+      <SourceType>Package</SourceType>
+      <SourceId>RapGame.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RapGame.API</BasePath>
+      <RelativePath>capas/a0688997-b46b-4af0-8a17-e1ce561c3794.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>v0d9fbejqy</Fingerprint>
+      <Integrity>0TrQLvCesfXwlUUs2dduhjpRqmqv91ZFCL0ECwmtFjc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\a0688997-b46b-4af0-8a17-e1ce561c3794.jfif'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\a7b6afa3-27bd-4b3a-8520-bb6a85ae732c.jfif'))">
+      <SourceType>Package</SourceType>
+      <SourceId>RapGame.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RapGame.API</BasePath>
+      <RelativePath>capas/a7b6afa3-27bd-4b3a-8520-bb6a85ae732c.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>scvtr9xwmd</Fingerprint>
+      <Integrity>/BI8md5PhZ8OddhuXU1nWp4nJG1EnMROGC1COnady5k=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\a7b6afa3-27bd-4b3a-8520-bb6a85ae732c.jfif'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\afeed9e0-20ce-45f1-9fda-071fea2915fe.jfif'))">
+      <SourceType>Package</SourceType>
+      <SourceId>RapGame.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RapGame.API</BasePath>
+      <RelativePath>capas/afeed9e0-20ce-45f1-9fda-071fea2915fe.jfif</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -34,43 +376,169 @@
       <Integrity>EcsSsPvjeqzjbJ9y9uUboK8nii1masvPXFF1wKmV4LU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\b4c4026c-a8df-4ae2-b50a-653af4ffbfa7.jfif'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\afeed9e0-20ce-45f1-9fda-071fea2915fe.jfif'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\capas\ab67616d0000b273f8ba6944fc091041493bb00f.jfif'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\b78cd7ac-b3ff-4e50-91b8-7426a4a0451a.jfif'))">
       <SourceType>Package</SourceType>
       <SourceId>RapGame.API</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/RapGame.API</BasePath>
-      <RelativePath>img/capas/ab67616d0000b273f8ba6944fc091041493bb00f.jfif</RelativePath>
+      <RelativePath>capas/b78cd7ac-b3ff-4e50-91b8-7426a4a0451a.jfif</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>7u7h3cqfvy</Fingerprint>
-      <Integrity>EcsSsPvjeqzjbJ9y9uUboK8nii1masvPXFF1wKmV4LU=</Integrity>
+      <Fingerprint>a1lo93y132</Fingerprint>
+      <Integrity>goqOBqyIbu6MxEgmPwLalbboR49j0hoHsS11rerxiy4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\capas\ab67616d0000b273f8ba6944fc091041493bb00f.jfif'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\b78cd7ac-b3ff-4e50-91b8-7426a4a0451a.jfif'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\capas\nill-LogosCapa.jfif'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\bb446445-6bdd-47a1-b7be-b04e911ff146.jfif'))">
       <SourceType>Package</SourceType>
       <SourceId>RapGame.API</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/RapGame.API</BasePath>
-      <RelativePath>img/capas/nill-LogosCapa.jfif</RelativePath>
+      <RelativePath>capas/bb446445-6bdd-47a1-b7be-b04e911ff146.jfif</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>zxfo75co6x</Fingerprint>
-      <Integrity>t8He+JwSqc8QHmNT9JaaduIqT5wc9y+oQCAvSTs/Ow8=</Integrity>
+      <Fingerprint>6kbkt6ticf</Fingerprint>
+      <Integrity>eiNt95vI5un1HaXWpMxO75zHvk5XpFYwCKKaLnqoCtU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\capas\nill-LogosCapa.jfif'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\bb446445-6bdd-47a1-b7be-b04e911ff146.jfif'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\bdaad21f-4fca-4257-9110-a8258de26a47.jfif'))">
+      <SourceType>Package</SourceType>
+      <SourceId>RapGame.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RapGame.API</BasePath>
+      <RelativePath>capas/bdaad21f-4fca-4257-9110-a8258de26a47.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>bdj5sdstqc</Fingerprint>
+      <Integrity>T+G42Oht0bV2BFOBlwOnOwkfyafd4hL0UpddFbrVnNs=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\bdaad21f-4fca-4257-9110-a8258de26a47.jfif'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\cea5302d-2b0d-4e48-8f91-12d81d466a0b.jfif'))">
+      <SourceType>Package</SourceType>
+      <SourceId>RapGame.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RapGame.API</BasePath>
+      <RelativePath>capas/cea5302d-2b0d-4e48-8f91-12d81d466a0b.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>5snw1ci3eh</Fingerprint>
+      <Integrity>m46zVRHY5hzPwBjePXPJf/UtaKpcKezYSFV1ofJsOpE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\cea5302d-2b0d-4e48-8f91-12d81d466a0b.jfif'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\dbda3588-4fca-44ad-9490-23b83a79a62e.jfif'))">
+      <SourceType>Package</SourceType>
+      <SourceId>RapGame.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RapGame.API</BasePath>
+      <RelativePath>capas/dbda3588-4fca-44ad-9490-23b83a79a62e.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>kqne38q164</Fingerprint>
+      <Integrity>rFJIwzvR+yVWyeK5DMxYStCGw0rqutTcHnTIgoJNdK4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\dbda3588-4fca-44ad-9490-23b83a79a62e.jfif'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\e098998e-0c91-4cf6-adbd-6345e3a49d3b.jfif'))">
+      <SourceType>Package</SourceType>
+      <SourceId>RapGame.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RapGame.API</BasePath>
+      <RelativePath>capas/e098998e-0c91-4cf6-adbd-6345e3a49d3b.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ckr53oxjec</Fingerprint>
+      <Integrity>zC3e9v9LaiQ16u8hsqzxkJcauQoMy6aq03Lcx3UmF1A=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\e098998e-0c91-4cf6-adbd-6345e3a49d3b.jfif'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\e276a4bc-b220-4193-82d9-b9be66d43357.jfif'))">
+      <SourceType>Package</SourceType>
+      <SourceId>RapGame.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RapGame.API</BasePath>
+      <RelativePath>capas/e276a4bc-b220-4193-82d9-b9be66d43357.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>dypq0tfz7i</Fingerprint>
+      <Integrity>G7ZUjDQL3Fife+CLlkF9N4v6ccwpXWUTj6hjFHHrSyE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\e276a4bc-b220-4193-82d9-b9be66d43357.jfif'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\e3edc8b0-47dd-4e7d-a436-8239a2de1aa3.jfif'))">
+      <SourceType>Package</SourceType>
+      <SourceId>RapGame.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RapGame.API</BasePath>
+      <RelativePath>capas/e3edc8b0-47dd-4e7d-a436-8239a2de1aa3.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>6k76cxbj83</Fingerprint>
+      <Integrity>OnQgQV6kA+PH5eiSidkcOJ9kpAslxOC0PchPCJoya24=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\e3edc8b0-47dd-4e7d-a436-8239a2de1aa3.jfif'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\e53cdd94-948c-40bf-9049-7b7988b17086.jfif'))">
+      <SourceType>Package</SourceType>
+      <SourceId>RapGame.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RapGame.API</BasePath>
+      <RelativePath>capas/e53cdd94-948c-40bf-9049-7b7988b17086.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>b29ebh8qt4</Fingerprint>
+      <Integrity>Y/RAtpH+TAR3Bd60bQD/ZX4YB44J5haoPBVD0+MqiCw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\capas\e53cdd94-948c-40bf-9049-7b7988b17086.jfif'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>
