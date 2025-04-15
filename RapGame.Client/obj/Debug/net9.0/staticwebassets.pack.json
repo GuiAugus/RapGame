@@ -9,12 +9,16 @@
       "PackagePath": "staticwebassets\\css\\admin\\Admin.css"
     },
     {
-      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\wwwroot\\css\\admin\\CadastrarAlbum.css",
-      "PackagePath": "staticwebassets\\css\\admin\\CadastrarAlbum.css"
+      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\wwwroot\\css\\admin\\FormsAdmin.css",
+      "PackagePath": "staticwebassets\\css\\admin\\FormsAdmin.css"
     },
     {
       "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\wwwroot\\css\\games\\rapdle.css",
       "PackagePath": "staticwebassets\\css\\games\\rapdle.css"
+    },
+    {
+      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
     },
     {
       "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\wwwroot\\css\\reset.css",
@@ -35,6 +39,10 @@
     {
       "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\wwwroot\\fonts\\PressStart2P-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\PressStart2P-Regular.ttf"
     },
     {
       "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\wwwroot\\icon-192.png",

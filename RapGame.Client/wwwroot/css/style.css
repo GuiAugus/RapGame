@@ -6,15 +6,17 @@
 }
 
 :root {
+    --font-color: #000000;
     --cor1: #9c9c9c;
-    --cor2: #000000
+    --cor2: #e4e4e4;
+    --cor3: #c7c7c7;
 }
 
 body {
     font-family: "Press Start 2P", sans-serif;
     font-style: normal;
     background-color: var(--cor1);
-    color: var(--cor2);
+    color: var(--font-color);
     line-height: 1.6;
 }
 

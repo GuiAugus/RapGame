@@ -1,0 +1,29 @@
+@import url(style.css);
+
+.div-home {
+    max-width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: var(--cor2);
+    padding: 40px 40px 60px 40px;
+    box-shadow: 5px 10px #000000;
+}
+
+.div-home h1{
+    font-size: 35px;
+    width: 90%;
+    padding: 30px 0px;
+    margin: 0 auto;
+    background-color: var(--cor1);
+    size: 30px;
+    box-shadow: 5px 10px #000000;
+}
+
+.div-home p {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 40px 40px 60px 40px;
+    background-color: var(--cor3);
+    box-shadow: 5px 10px #000000;
+}
