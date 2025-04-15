@@ -7,13 +7,16 @@
 @attribute [Authorize]
 @inject Blazored.LocalStorage.ILocalStorageService localStorage
 <link href="css/admin/Admin.css" rel="stylesheet" />
+<PageTitle>Admin</PageTitle>
 
 
-<h3>Álbuns Cadastrados</h3>
+<h1>Álbuns Cadastrados</h1>
 
-<button class="admin-button" @onclick="IrParaCadastro">
-    Cadastrar Álbum
-</button>
+<div class="botao-cadastrarAlbum">
+    <button class="admin-button" @onclick="IrParaCadastro">
+        Cadastrar Álbum
+    </button>   
+</div>
 
 @if (mensagemErro != null)
 {
@@ -68,23 +71,24 @@ else
                     <td class="admin-td">@a.AlbumDateFormatted</td>
                     <td>
                         <button class="admin-button" @onclick="() => IrParaEditar(a.Id)">Editar</button>
-                        <button class="admin-button" @onclick="() => ConfirmarExclusao(a.Id)">Excluir</button>
+                        <button class="admin-button-excluir" @onclick="() => ConfirmarExclusao(a.Id)">Excluir</button>
                     </td>
                 </tr>
             }
         </tbody>
-    </table>
-
-    <h4>Definir Álbum do Rapdle</h4>
-
-    <input type="number" @bind="albumSelecionadoId" placeholder="Digite o ID do álbum" />
-    <button class="btn btn-primary" @onclick="DefinirAlbumDoRapdle">Definir</button>
-
-    @if (!string.IsNullOrEmpty(mensagemStatus))
-    {
-        <p>@mensagemStatus</p>
-    }
+    </table>    
 }
+
+<div class="definirAlbum">
+    <h4>Definir Álbum do Rapdle</h4>
+        <input type="number" @bind="albumSelecionadoId" placeholder="Digite o ID do álbum" />
+        <button @onclick="DefinirAlbumDoRapdle">Definir</button>
+
+        @if (!string.IsNullOrEmpty(mensagemStatus))
+        {
+            <p>@mensagemStatus</p>
+        }
+</div>
 
 
 @code {    
