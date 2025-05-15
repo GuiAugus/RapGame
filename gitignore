@@ -1,15 +1,17 @@
 #########################################################
-# Diretórios de build
+# Diretórios de build e publicação
 #########################################################
 bin/
 obj/
+out/
+publish/
 **/bin/
 **/obj/
-publish/
-out/
+**/out/
+**/publish/
 
 #########################################################
-# Visual Studio / Visual Studio Code
+# Configurações e arquivos de IDEs
 #########################################################
 .vs/
 .vscode/
@@ -21,7 +23,6 @@ out/
 # Blazor WebAssembly (artefatos gerados em tempo de build)
 #########################################################
 **/wwwroot/_framework/
-**/wwwroot/_framework/*
 **/obj/**/compressed/
 **/obj/**/staticwebassets/
 **/obj/**/tmp-webcil/
