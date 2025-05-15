@@ -10,6 +10,14 @@ publish/
 **/out/
 **/publish/
 
+# Ignorar pasta bin/ e obj/ dentro de RapGame.Api, RapGame.Client e RapGame.Shared explicitamente
+RapGame.Api/bin/
+RapGame.Api/obj/
+RapGame.Client/bin/
+RapGame.Client/obj/
+RapGame.Shared/bin/
+RapGame.Shared/obj/
+
 #########################################################
 # Configurações e arquivos de IDEs
 #########################################################

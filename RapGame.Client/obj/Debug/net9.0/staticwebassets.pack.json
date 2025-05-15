@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\css\\auth\\login.css"
     },
     {
+      "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\wwwroot\\css\\games\\capa.css",
+      "PackagePath": "staticwebassets\\css\\games\\capa.css"
+    },
+    {
       "Id": "C:\\Users\\Gui\\Desktop\\Projects\\RapGame\\RapGame.Client\\wwwroot\\css\\games\\rapdle.css",
       "PackagePath": "staticwebassets\\css\\games\\rapdle.css"
     },

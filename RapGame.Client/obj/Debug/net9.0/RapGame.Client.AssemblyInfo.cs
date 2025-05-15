@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RapGame.Client")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b172a77eca47d8ba1856e95087125c3993ffc3ba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+131005558e788af4aeb99dcf5a45fd8c5a3a4170")]
 [assembly: System.Reflection.AssemblyProductAttribute("RapGame.Client")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RapGame.Client")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

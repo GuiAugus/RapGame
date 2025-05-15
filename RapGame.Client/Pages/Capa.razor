@@ -1,0 +1,118 @@
+@page "/capa"
+@inherits RapGame.Client.SharedLogic.BasePage
+@inject Blazored.LocalStorage.ILocalStorageService localStorage
+@using RapGame.Shared.DTOs
+
+<link href="css/games/capa.css" rel="stylesheet" />
+
+<PageTitle>Capa</PageTitle>
+
+<h1 class="titulo">ADIVINHE A CAPA</h1>
+
+<div class="div-capa-geral">
+    <div class="div-alerta">
+        <p>Tente adivinhar o álbum com base na capa desfocada!</p>
+        @if (!string.IsNullOrWhiteSpace(Mensagem))
+        {
+            <h3 class="alert alert-info mensagem-acerto">@Mensagem</h3>
+        }
+    </div>
+
+    @if (albumSelecionado != null)
+    {
+        <div class="div-imagem-capa">
+            <img src="http://localhost:5200/@albumSelecionado.CapaUrl"
+                 class="capa-img"
+                 style="filter: blur(@ObterBlur())"
+                 alt="Capa do álbum" />
+        </div>
+    }
+
+    <div class="capa-input">
+        <input class="input-capa"
+               placeholder="Digite o nome do álbum"
+               @bind="Tentativa"
+               @bind:event="oninput"
+               @onkeydown="HandleKeyDown"
+               disabled="@jogoEncerrado" />
+
+        @if (!string.IsNullOrWhiteSpace(Tentativa) && sugestoes.Any())
+        {
+            <ul class="input-sugestoes">
+                @foreach (var sugestao in sugestoes)
+                {
+                    <li class="list-group-item list-group-item-action"
+                        @onclick="async () => await SelecionarSugestao(sugestao)">
+                        @sugestao.Nome
+                    </li>
+                }
+            </ul>
+        }
+    </div>
+
+    <div class="tentativas-realizadas">
+        <ul>
+            @foreach (var tentativa in tentativas.AsEnumerable().Reverse())
+            {
+                <li class="@(tentativa.Nome.Equals(albumSelecionado?.Nome, StringComparison.OrdinalIgnoreCase) ? "acertou" : "")">
+                    @tentativa.Nome
+                </li>
+            }
+        </ul>
+    </div>
+</div>
+
+@inject Blazored.LocalStorage.ILocalStorageService localStorage
+
+@code {
+    private int albumSelecionadoId;
+    private string? mensagemStatus;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            albuns = await Http.GetFromJsonAsync<List<AlbumDto>>("api/Album") ?? new();
+
+            albumSelecionadoId = await localStorage.GetItemAsync<int>("capa_album_id");
+            if (albumSelecionadoId <= 0)
+            {
+                albumSelecionadoId = 22;
+            }
+
+            await BuscarAlbumPorId(albumSelecionadoId);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Erro ao buscar álbuns: {ex.Message}");
+            albuns = new();
+        }
+    }
+
+    private async Task DefinirAlbumDaCapa()
+    {
+        if (albumSelecionadoId <= 0)
+        {
+            mensagemStatus = "Por favor, informe um ID válido.";
+            return;
+        }
+
+        await localStorage.SetItemAsync("capa_album_id", albumSelecionadoId);
+        mensagemStatus = $"Álbum ID {albumSelecionadoId} definido com sucesso para a Capa!";
+
+        await BuscarAlbumPorId(albumSelecionadoId);
+    }
+
+    private string ObterBlur()
+    {
+        if (jogoEncerrado)
+        {
+            return "0px";
+        }
+
+        int blur = Math.Max(0, 25 - tentativas.Count * 1);
+        return $"{blur}px";
+    }
+}
+
+

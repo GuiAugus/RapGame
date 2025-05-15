@@ -9,7 +9,6 @@
 <link href="css/admin/Admin.css" rel="stylesheet" />
 <PageTitle>Admin</PageTitle>
 
-
 <h1>Álbuns Cadastrados</h1>
 
 <div class="botao-cadastrarAlbum">
@@ -81,17 +80,30 @@ else
 
 <div class="definirAlbum">
     <h4>Definir Álbum do Rapdle</h4>
-        <input type="number" @bind="albumSelecionadoId" placeholder="Digite o ID do álbum" />
-        <button class="admin-button" @onclick="DefinirAlbumDoRapdle">Definir</button>
+    <input type="number" @bind="albumSelecionadoIdRapdle" placeholder="Digite o ID do álbum" />
+    <button class="admin-button" @onclick="DefinirAlbumDoRapdle">Definir</button>
 
-        @if (!string.IsNullOrEmpty(mensagemStatus))
-        {
-            <p>@mensagemStatus</p>
-        }
+    @if (!string.IsNullOrEmpty(mensagemStatusRapdle))
+    {
+        <p>@mensagemStatusRapdle</p>
+    }
+
+    <h4>Definir Álbum da Capa</h4>
+    <input type="number" @bind="albumSelecionadoIdCapa" placeholder="Digite o ID do álbum" />
+    <button class="admin-button" @onclick="DefinirAlbumDaCapa">Definir</button>
+
+    @if (!string.IsNullOrEmpty(mensagemStatusCapa))
+    {
+        <p class="mensagem-status">@mensagemStatusCapa</p>
+    }
 </div>
 
+@code { 
+    private int albumSelecionadoIdRapdle;
+    private string? mensagemStatusRapdle;
 
-@code {    
+    private int albumSelecionadoIdCapa;
+    private string? mensagemStatusCapa;   
     private string? mensagemErro;
 
     protected override async Task OnInitializedAsync()
@@ -137,7 +149,7 @@ else
             var resposta = await Http.DeleteAsync($"api/album/{albumId}");
             if (resposta.IsSuccessStatusCode)
             {
-                await CarregarAlbuns(); // Atualiza lista
+                await CarregarAlbuns(); 
             }
             else
             {
@@ -162,19 +174,26 @@ else
                 p.Contains(filtro, StringComparison.OrdinalIgnoreCase)))
         );
 
-        private void FiltrarPorAlbum(AlbumDto album)
+    private void FiltrarPorAlbum(AlbumDto album)
     {
         albuns = albuns.Where(a => a.Id == album.Id).ToList();
         sugestoes.Clear();
         Tentativa = "";
     }
 
-    private int albumSelecionadoId;
-    private string? mensagemStatus;
+    private string Tentativa = "";
+    private List<AlbumDto> albuns = new();
+    private List<AlbumDto> sugestoes = new();
 
     private async Task DefinirAlbumDoRapdle()
     {
-        await localStorage.SetItemAsync("rapdle_album_id", albumSelecionadoId);
-        mensagemStatus = $"Álbum ID {albumSelecionadoId} definido com sucesso!";
+        await localStorage.SetItemAsync("rapdle_album_id", albumSelecionadoIdRapdle);
+        mensagemStatusRapdle = $"Álbum ID {albumSelecionadoIdRapdle} definido para Rapdle!";
+    }
+
+    private async Task DefinirAlbumDaCapa()
+    {
+        await localStorage.SetItemAsync("capa_album_id", albumSelecionadoIdCapa);
+        mensagemStatusCapa = $"Álbum ID {albumSelecionadoIdCapa} definido para Capa!";
     }
 }

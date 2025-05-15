@@ -1,0 +1,144 @@
+@import url(../style.css);
+
+.titulo {
+    margin: auto;
+    font-weight: bold;
+    max-width: 1000px;
+    width: 80%;
+    text-align: center;
+    padding: 20px 0 0 0;
+    background-color: var(--cor3);
+    font-size: 50px;
+    box-shadow: 5px 10px #000000;
+}
+
+.div-capa-geral {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: var(--cor2);
+    padding: 20px;
+    box-shadow: 5px 10px #000000;
+}
+
+.div-alerta p {
+    padding: 40px 0;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.mensagem-acerto {
+    text-align: center;
+    font-weight: bold;
+    color: #28a745; 
+    font-size: 1.5rem;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.div-imagem-capa {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.capa-img {
+    max-width: 500px;
+    max-height: 500px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: filter 0.5s ease-in-out;
+}
+
+
+.capa-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input-capa {
+    width: 100%;
+    max-width: 500px;
+    padding: 12px 15px;
+    font-size: 18px;
+    border: 2px solid #ccc;
+    outline: none;
+    transition: border-color 0.3s ease;
+    border-radius: 12px;   
+    margin-top: 30px;  
+}
+
+
+.input-capa:focus {
+    border-color: var(--cor3);
+    box-shadow: 0 0 5px var(--cor3);
+}
+
+.input-sugestoes {
+    width: 100%;
+    max-width: 500px;
+    background-color: white;
+    border: 2px solid #ccc;
+    border-top: none;
+    max-height: 180px;
+    overflow-y: auto;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    z-index: 10;
+    position: relative;
+}
+
+.input-sugestoes li {
+    padding: 10px 15px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.2s ease;
+}
+
+.input-sugestoes li:hover {
+    background-color: var(--cor3);
+    color: white;
+}
+
+.tentativas-realizadas {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.tentativas-realizadas h5 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.tentativas-realizadas ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.tentativas-realizadas li {
+    background-color: white;
+    padding: 8px 12px;
+    margin-bottom: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+    font-weight: 600;
+    text-align: center;
+}
+
+.alert {
+    max-width: 600px;
+    margin: 0 auto 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.acertou {
+    background-color: #28a745 !important; 
+    color: white !important;
+    font-weight: bold;
+    padding: 8px 12px;
+}
